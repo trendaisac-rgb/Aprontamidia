@@ -1,0 +1,117 @@
+name: Vídeo do Maná
+
+# Gera o vídeo calmo do Maná (voz, foto de fundo, trilha e texto no ritmo da voz) a partir de uma peça em
+# mana/video/pecas/V-00N.json. O vídeo sai em mana/videos/V-00N.mp4 e fica público pelo raw do GitHub,
+# que é de onde o Metricool busca para publicar.
+#
+# Roda sozinho quando uma peça nova entra em mana/video/pecas/, ou à mão: Actions > "Vídeo do Maná" > Run workflow.
+#
+# Segredo (Settings > Secrets and variables > Actions), colocado pelo Doug:
+#   OPENAI_API_KEY   voz (gpt-4o-mini-tts), conferência da leitura (whisper-1) e foto de fundo (gpt-image)
+# A chave do Supabase abaixo é a pública (anon) do app: só lê o texto da Bíblia, o mesmo que o app já lê.
+
+on:
+  push:
+    branches: [main]
+    paths: ['mana/video/pecas/**']
+  workflow_dispatch:
+    inputs:
+      peca:
+        description: "Peça a gerar (ex.: pecas/V-001.json)"
+        required: true
+      vozes_teste:
+        description: "Vozes para comparar de ouvido, separadas por vírgula (opcional)"
+        required: false
+        default: ""
+      refazer:
+        description: "Gerar de novo mesmo se o vídeo já existir"
+        type: boolean
+        default: false
+      so_vozes:
+        description: "Só gerar as vozes de teste, sem vídeo"
+        type: boolean
+        default: false
+
+concurrency:
+  group: mana-video
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  video:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: mana/video
+    env:
+      SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InprbmFiZ29zcW54cXphdHRvbmNnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyMjE0NzQsImV4cCI6MjEwODc5NzQ3NH0.c6l_DUhrEZ40SsGgeuKeotF5WPlD8F8_3TCketJskX8
+      MANA_VOZES_TESTE: ${{ inputs.vozes_teste }}
+      MANA_SO_VOZES: ${{ inputs.so_vozes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: A chave da OpenAI existe
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: test -n "$OPENAI_API_KEY" || { echo "::error::Falta o segredo OPENAI_API_KEY"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mana/video/package-lock.json
+
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Dependências
+        run: npm ci --no-audit --no-fund
+
+      - name: Quais peças gerar
+        id: pecas
+        env:
+          PECA: ${{ inputs.peca }}
+          REFAZER: ${{ inputs.refazer || inputs.so_vozes }}
+        run: |
+          if [ -n "$PECA" ]; then
+            lista="$PECA"
+          else
+            lista=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- pecas/ | sed 's#^mana/video/##' | grep '\.json$' || true)
+          fi
+          gerar=""
+          for p in $lista; do
+            nome=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$p','utf8')).nome)")
+            if [ -f "../videos/$nome.mp4" ] && [ "$REFAZER" != "true" ]; then echo "$nome já existe, pulando"; continue; fi
+            gerar="$gerar $p"
+          done
+          echo "lista=$gerar" >> "$GITHUB_OUTPUT"
+          echo "Peças: $gerar"
+
+      - name: Gerar
+        if: steps.pecas.outputs.lista != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          for p in ${{ steps.pecas.outputs.lista }}; do node scripts/gerar.mjs "$p"; done
+
+      - name: Publicar no repositório
+        if: steps.pecas.outputs.lista != ''
+        working-directory: .
+        run: |
+          git config user.name "mana-video"
+          git config user.email "mana-video@users.noreply.github.com"
+          [ -d mana/videos ] || { echo "nada gerado"; exit 0; }
+          git add mana/videos
+          git diff --cached --quiet && { echo "nada novo"; exit 0; }
+          git commit -q -m "Vídeo do Maná: ${{ steps.pecas.outputs.lista }}"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          {
+            echo "### Vídeos prontos"
+            for f in mana/videos/V-*.mp4; do [ -f "$f" ] && echo "- https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$f"; done
+            for f in mana/videos/vozes/*.mp3; do [ -f "$f" ] && echo "- voz: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$f"; done
+          } >> "$GITHUB_STEP_SUMMARY"

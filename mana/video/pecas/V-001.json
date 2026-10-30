@@ -1,0 +1,23 @@
+{
+  "nome": "V-001",
+  "ref": "ISA.41.10",
+  "gancho": {
+    "tela": "Se o medo *apertou* hoje",
+    "fala": "Se o medo apertou hoje... respira."
+  },
+  "ponte": {
+    "fala": "E ouve o que Deus diz pra você."
+  },
+  "referencia": {
+    "tela": "Isaías 41:10",
+    "fala": "Isaías, capítulo quarenta e um, versículo dez."
+  },
+  "fecho": {
+    "tela": "Salva pra ouvir de novo *amanhã*.",
+    "fala": "Salva pra ouvir de novo amanhã."
+  },
+  "imagem": "Campo de trigo dourado ao amanhecer, com névoa leve sobre as espigas e o sol nascendo baixo no horizonte, céu limpo em tons de pêssego",
+  "trilha": 148,
+  "voz": "ash",
+  "vozesTeste": "onyx,sage,coral,cedar,marin"
+}
