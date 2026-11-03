@@ -1,0 +1,44 @@
+name: Reel do Maná
+# Uma peça em mana/reels/pecas/<nome>.json (os slides 9:16 do carrossel) vira mana/reels/out/<nome>.mp4,
+# com zoom lento, fade entre slides e trilha calma do Mixkit. Quem empurra a peça é a rotina de publicação.
+on:
+  push:
+    paths: ['mana/reels/pecas/*.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mana-reel
+  cancel-in-progress: false
+jobs:
+  reel:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Montar os reels que ainda não existem
+        run: |
+          set -e
+          feitos=""
+          for p in mana/reels/pecas/*.json; do
+            nome=$(basename "$p" .json)
+            if [ ! -f "mana/reels/out/$nome.mp4" ]; then
+              python3 -I mana/reels/montar.py "$p" mana/reels/out
+              feitos="$feitos $nome"
+            fi
+          done
+          echo "FEITOS=$feitos" >> "$GITHUB_ENV"
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add mana/reels/out
+          git commit -m "Maná: reel${FEITOS}" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+      - name: Endereços
+        run: |
+          for n in $FEITOS; do
+            echo "https://raw.githubusercontent.com/trendaisac-rgb/Aprontamidia/main/mana/reels/out/$n.mp4" >> "$GITHUB_STEP_SUMMARY"
+            echo "https://raw.githubusercontent.com/trendaisac-rgb/Aprontamidia/main/mana/reels/out/$n-capa.jpg" >> "$GITHUB_STEP_SUMMARY"
+          done
