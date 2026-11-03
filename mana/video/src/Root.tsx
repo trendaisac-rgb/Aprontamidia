@@ -1,6 +1,7 @@
 import React from 'react';
 import { Composition } from 'remotion';
 import { Versiculo, type PropsVersiculo } from './Versiculo';
+import { Historia, duracaoTotal, type PropsHistoria } from './Historia';
 
 export const FPS = 30;
 
@@ -26,7 +27,27 @@ const exemplo: PropsVersiculo = {
   arroba: '@mana.biblia.app',
 };
 
+const exemploHistoria: PropsHistoria = {
+  trilha: null,
+  arroba: '@mana.biblia.app',
+  cenas: [
+    { tipo: 'imagem', dur: 4, texto: 'Os discípulos acharam que *iam morrer*.', ref: 'Marcos 4:35-41', imagem: 'exemplo.jpg', clima: 'tempestade' },
+    { tipo: 'final', dur: 4, texto: 'Manda pra quem está no meio de uma tempestade.', sub: 'A Bíblia no seu feed. Grátis no Google Play.' },
+  ],
+};
+
 export const Root: React.FC = () => (
+  <>
+  <Composition
+    id="Historia"
+    component={Historia}
+    width={1080}
+    height={1920}
+    fps={FPS}
+    durationInFrames={Math.round(duracaoTotal(exemploHistoria.cenas) * FPS)}
+    defaultProps={exemploHistoria}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(duracaoTotal(props.cenas) * FPS) })}
+  />
   <Composition
     id="Versiculo"
     component={Versiculo}
@@ -37,4 +58,5 @@ export const Root: React.FC = () => (
     defaultProps={exemplo}
     calculateMetadata={({ props }) => ({ durationInFrames: Math.round(props.duracao * FPS) })}
   />
+  </>
 );

@@ -1,0 +1,84 @@
+name: História do Maná
+
+# Uma passagem da Bíblia contada em ~30 s, no visual claro dos carrosséis, a partir de
+# mana/video/historias/H-00N.json. Sai em mana/videos/H-00N.mp4 (público pelo raw do GitHub).
+# Antes de gerar qualquer imagem, o script confere toda citação contra a Bíblia Livre no banco:
+# se uma vírgula não bater, o vídeo não sai.
+
+on:
+  push:
+    branches: [main]
+    paths: ['mana/video/historias/**']
+  workflow_dispatch:
+    inputs:
+      peca:
+        description: "Peça (ex.: historias/H-001.json)"
+        required: true
+      refazer:
+        description: "Gerar de novo mesmo se o vídeo já existir (as imagens já feitas são reaproveitadas)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: mana-historia
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  historia:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: mana/video
+    env:
+      SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InprbmFiZ29zcW54cXphdHRvbmNnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyMjE0NzQsImV4cCI6MjEwODc5NzQ3NH0.c6l_DUhrEZ40SsGgeuKeotF5WPlD8F8_3TCketJskX8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mana/video/package-lock.json
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Dependências
+        run: npm ci --no-audit --no-fund
+      - name: Quais peças
+        id: pecas
+        env:
+          PECA: ${{ inputs.peca }}
+          REFAZER: ${{ inputs.refazer }}
+        run: |
+          if [ -n "$PECA" ]; then lista="$PECA"; else
+            lista=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- historias/ | sed 's#^mana/video/##' | grep '\.json$' || true)
+          fi
+          gerar=""
+          for p in $lista; do
+            nome=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$p','utf8')).nome)")
+            if [ -f "../videos/$nome.mp4" ] && [ "$REFAZER" != "true" ]; then echo "$nome já existe"; continue; fi
+            # reaproveita as imagens que já saíram (não gasta de novo)
+            for img in ../videos/$nome-*.jpg; do [ -f "$img" ] && [ "$(basename $img)" != "$nome-capa.jpg" ] && cp "$img" public/; done
+            gerar="$gerar $p"
+          done
+          echo "lista=$gerar" >> "$GITHUB_OUTPUT"
+      - name: Gerar
+        if: steps.pecas.outputs.lista != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: for p in ${{ steps.pecas.outputs.lista }}; do node scripts/historia.mjs "$p"; done
+      - name: Publicar no repositório
+        if: steps.pecas.outputs.lista != ''
+        working-directory: .
+        run: |
+          git config user.name "mana-video"
+          git config user.email "mana-video@users.noreply.github.com"
+          git add mana/videos
+          git diff --cached --quiet && { echo "nada novo"; exit 0; }
+          git commit -q -m "História do Maná:${{ steps.pecas.outputs.lista }}"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          for f in mana/videos/H-*.mp4; do echo "- https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$f" >> "$GITHUB_STEP_SUMMARY"; done

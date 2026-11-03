@@ -1,0 +1,32 @@
+{
+  "nome": "H-001",
+  "titulo": "Jesus acalma a tempestade",
+  "passagem": "MRK.4.35-41",
+  "trilha": 148,
+  "estilo": "Cinematic documentary photograph set on the Sea of Galilee in the first century, an old hand-built wooden fishing boat with a simple mast. Calm, minimal and clean composition with generous negative space. Muted, soft, slightly desaturated palette of slate blue, cool gray, warm sand and soft cream, matte film look, fine natural grain, gentle natural light. Vertical frame. Absolutely no people, no faces, no hands, no figures, no silhouettes of people, no text, no letters, no logos, no frames, no modern objects",
+  "cenas": [
+    { "tipo": "imagem", "dur": 3.4, "imagemId": "tempestade", "clima": "tempestade", "ref": "MRK.4.35-41",
+      "texto": "Os discípulos acharam que *iam morrer*.",
+      "imagem": "A small wooden fishing boat tossed by large dark waves on a lake at night, heavy rain and wind-blown spray, storm clouds, seen from slightly above and at a distance" },
+    { "tipo": "imagem", "dur": 3.8, "imagemId": "entardecer", "clima": "neutro", "ref": "MRK.4.35", "cita": "Passemos para o outro lado.",
+      "texto": "Era fim de tarde. Jesus disse: *Passemos para o outro lado.*",
+      "imagem": "A calm lake at dusk, a single empty wooden fishing boat with a furled sail resting at a pebble shore, soft peach and gray sky, low hills in the distance, still water" },
+    { "tipo": "imagem", "dur": 4.0, "imagemId": "onda", "clima": "tempestade", "ref": "MRK.4.37",
+      "texto": "Então veio uma *grande tempestade* de vento. As ondas já enchiam o barco.",
+      "imagem": "A large wave breaking over the bow of an empty wooden fishing boat, water pouring onto the wooden deck, dark stormy sky, rain, cold blue tones" },
+    { "tipo": "imagem", "dur": 3.6, "imagemId": "almofada", "clima": "tempestade", "ref": "MRK.4.38",
+      "texto": "E Jesus? Estava na popa, *dormindo* sobre uma almofada.",
+      "imagem": "The empty stern of a wooden fishing boat at night during a storm, a simple worn linen cushion resting on the wooden bench, rain drops on the wood, dim blue light, quiet and still in the middle of the storm" },
+    { "tipo": "imagem", "dur": 4.2, "imagemId": "corda", "clima": "tempestade", "ref": "MRK.4.38", "cita": "Mestre, não te importas que pereçamos?",
+      "texto": "Eles o acordaram: *Mestre, não te importas que pereçamos?*",
+      "imagem": "Close-up of a wet, strained rope tied to the wooden mast of a fishing boat in a storm, spray and rain flying, dark blue tones, sense of urgency" },
+    { "tipo": "imagem", "dur": 4.8, "imagemId": "bonanca", "clima": "calma", "ref": "MRK.4.39", "cita": ["Cala-te, aquieta-te!", "fez-se grande bonança."],
+      "texto": "Ele se levantou e disse ao mar: *Cala-te, aquieta-te!* E fez-se grande bonança.",
+      "imagem": "The same lake perfectly calm at dawn, mirror-like water, storm clouds parting with soft golden light breaking through, an empty wooden fishing boat floating still in the center, peaceful" },
+    { "tipo": "versiculo", "dur": 6.0, "ref": "MRK.4.41",
+      "texto": "E eles se perguntaram:" },
+    { "tipo": "final", "dur": 3.8,
+      "texto": "Manda pra quem está no meio de uma tempestade.",
+      "sub": "A Bíblia no seu feed. Grátis no Google Play." }
+  ]
+}
