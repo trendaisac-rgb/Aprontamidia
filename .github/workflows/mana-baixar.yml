@@ -1,0 +1,31 @@
+name: Baixar mídia do Maná
+on:
+  push:
+    paths: ['mana/baixar/*.txt']
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixa as URLs de cada lista
+        run: |
+          for lista in mana/baixar/*.txt; do
+            nome=$(basename "$lista" .txt)
+            mkdir -p "mana/baixados/$nome"
+            i=1
+            while read -r url; do
+              [ -z "$url" ] && continue
+              curl -sSfL -o "mana/baixados/$nome/slide$i.jpg" "$url"
+              i=$((i+1))
+            done < "$lista"
+          done
+          ls -la mana/baixados/*
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add mana/baixados
+          git commit -m "Maná: mídia baixada" || exit 0
+          git push
