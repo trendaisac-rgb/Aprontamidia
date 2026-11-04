@@ -1,0 +1,142 @@
+{
+  "nome": "N-JOSE-01",
+  "serie": "José, o sonhador",
+  "capitulo": 1,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.37.3",
+      "cita": "uma roupa de diversas cores"
+    },
+    {
+      "ref": "GEN.37.4",
+      "cita": "odiavam-lhe, e não lhe podiam falar pacificamente"
+    },
+    {
+      "ref": "GEN.37.7",
+      "cita": "vossos feixes estavam ao redor, e se inclinavam ao meu."
+    },
+    {
+      "ref": "GEN.37.8",
+      "cita": "Reinarás tu sobre nós, ou serás tu senhor sobre nós?"
+    },
+    {
+      "ref": "GEN.37.9",
+      "cita": "o sol e a lua e onze estrelas se inclinavam a mim."
+    },
+    {
+      "ref": "GEN.37.11",
+      "cita": "seu pai guardava isso em mente."
+    },
+    {
+      "ref": "GEN.37.14",
+      "cita": "Vai agora, olha como estão teus irmãos"
+    },
+    {
+      "ref": "GEN.37.19",
+      "cita": "Eis que vem o sonhador"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "grande": true,
+      "texto": "Aos 17 anos, José teve um sonho. E esse sonho *quase custou a vida dele.*",
+      "ref": "Gênesis 37",
+      "midia": "novela/jose01/v01-estrelas.mp4",
+      "video": true,
+      "videoDur": 7.85,
+      "desloca": -230
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "O pai, Jacó, amava José mais do que todos os outros filhos.",
+      "ref": "Gênesis 37:3",
+      "midia": "novela/jose01/c02-pai.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.6,
+      "texto": "E deu a ele *uma roupa de diversas cores.*",
+      "ref": "Gênesis 37:3",
+      "midia": "novela/jose01/c03-roupa.jpg",
+      "mov": "sobe"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.6,
+      "texto": "Os irmãos viram. E *odiavam-lhe, e não lhe podiam falar pacificamente.*",
+      "ref": "Gênesis 37:4",
+      "midia": "novela/jose01/c04-irmaos.jpg",
+      "mov": "esq"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "Então José contou um sonho: *vossos feixes estavam ao redor, e se inclinavam ao meu.*",
+      "ref": "Gênesis 37:7",
+      "midia": "novela/jose01/v05-feixes.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "*Reinarás tu sobre nós, ou serás tu senhor sobre nós?*",
+      "ref": "Gênesis 37:8",
+      "midia": "novela/jose01/c06-fogueira.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "E sonhou outro: *o sol e a lua e onze estrelas se inclinavam a mim.*",
+      "ref": "Gênesis 37:9",
+      "midia": "novela/jose01/c07-sol-lua.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "O pai o repreendeu. Mas *seu pai guardava isso em mente.*",
+      "ref": "Gênesis 37:10-11",
+      "midia": "novela/jose01/c08-jaco.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "Então Jacó disse: *Vai agora, olha como estão teus irmãos...*",
+      "ref": "Gênesis 37:14",
+      "midia": "novela/jose01/v09-caminho.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 3.2,
+      "texto": "E José foi. Sozinho."
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.4,
+      "texto": "*Eis que vem o sonhador*",
+      "ref": "Gênesis 37:19",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose01/v11-cume.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis no Google Play."
+    }
+  ]
+}

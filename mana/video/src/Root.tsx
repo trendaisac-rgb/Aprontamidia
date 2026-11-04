@@ -2,6 +2,7 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { Versiculo, type PropsVersiculo } from './Versiculo';
 import { Historia, duracaoTotal, type PropsHistoria } from './Historia';
+import { Novela, duracaoNovela, type PropsNovela } from './Novela';
 
 export const FPS = 30;
 
@@ -36,8 +37,30 @@ const exemploHistoria: PropsHistoria = {
   ],
 };
 
+const exemploNovela: PropsNovela = {
+  serie: 'José, o sonhador',
+  capitulo: 1,
+  total: 12,
+  trilha: null,
+  arroba: '@mana.biblia.app',
+  cenas: [
+    { tipo: 'cena', dur: 5, texto: 'Aos 17 anos, José teve um sonho.', ref: 'Gênesis 37', midia: 'exemplo.jpg', grande: true },
+    { tipo: 'final', dur: 3.5, texto: 'Capítulo 2 amanhã, 12h.', sub: 'A Bíblia no seu feed. Grátis no Google Play.' },
+  ],
+};
+
 export const Root: React.FC = () => (
   <>
+  <Composition
+    id="Novela"
+    component={Novela}
+    width={1080}
+    height={1920}
+    fps={FPS}
+    durationInFrames={Math.round(duracaoNovela(exemploNovela.cenas) * FPS)}
+    defaultProps={exemploNovela}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(duracaoNovela(props.cenas) * FPS) })}
+  />
   <Composition
     id="Historia"
     component={Historia}
