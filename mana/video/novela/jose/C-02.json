@@ -1,0 +1,154 @@
+{
+  "nome": "N-JOSE-02",
+  "serie": "José, o sonhador",
+  "capitulo": 2,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.37.18",
+      "cita": "tramaram contra ele para matar-lhe."
+    },
+    {
+      "ref": "GEN.37.8",
+      "cita": "o odiaram ainda mais"
+    },
+    {
+      "ref": "GEN.37.19",
+      "cita": "Eis que vem o sonhador"
+    },
+    {
+      "ref": "GEN.37.20",
+      "cita": "veremos que serão seus sonhos."
+    },
+    {
+      "ref": "GEN.37.22",
+      "cita": "Não derrameis sangue; lançai-o nesta cisterna"
+    },
+    {
+      "ref": "GEN.37.23",
+      "cita": "a roupa de cores que tinha sobre si"
+    },
+    {
+      "ref": "GEN.37.24",
+      "cita": "a cisterna estava vazia, não havia nela água."
+    },
+    {
+      "ref": "GEN.37.25",
+      "cita": "E sentaram-se a comer pão"
+    },
+    {
+      "ref": "GEN.37.25",
+      "cita": "uma companhia de ismaelitas"
+    },
+    {
+      "ref": "GEN.37.28",
+      "cita": "vinte peças de prata"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 5.2,
+      "grande": true,
+      "texto": "Os irmãos viram José de longe. E *tramaram contra ele para matar-lhe.*",
+      "ref": "Gênesis 37:18",
+      "midia": "novela/jose02/v01-longe.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "anterior": true,
+      "texto": "Por causa dos sonhos, os irmãos *o odiaram ainda mais*.",
+      "ref": "Gênesis 37:8",
+      "midia": "novela/jose01/c04-irmaos.jpg",
+      "mov": "esq"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.4,
+      "texto": "E disseram um ao outro: *Eis que vem o sonhador*",
+      "ref": "Gênesis 37:19",
+      "midia": "novela/jose01/v11-cume.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "O plano: matar José, jogá-lo numa cisterna e dizer que uma fera o devorou.",
+      "ref": "Gênesis 37:20",
+      "midia": "novela/jose02/c04-plano.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.0,
+      "texto": "E completaram: *veremos que serão seus sonhos.*",
+      "ref": "Gênesis 37:20"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "texto": "Rúben quis salvar José: *Não derrameis sangue; lançai-o nesta cisterna*",
+      "ref": "Gênesis 37:21-22",
+      "midia": "novela/jose02/c06-ruben.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.6,
+      "texto": "Quando José chegou, tiraram dele *a roupa de cores que tinha sobre si*",
+      "ref": "Gênesis 37:23",
+      "midia": "novela/jose02/v07-roupa.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "E o lançaram na cisterna. Mas *a cisterna estava vazia, não havia nela água.*",
+      "ref": "Gênesis 37:24",
+      "midia": "novela/jose02/v08-cisterna.mp4",
+      "video": true,
+      "videoDur": 7.85,
+      "desloca": -220
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "texto": "Lá embaixo, José. Lá em cima, os irmãos. *E sentaram-se a comer pão*",
+      "ref": "Gênesis 37:25",
+      "midia": "novela/jose02/c09-pao.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "Até que viram *uma companhia de ismaelitas* a caminho do Egito.",
+      "ref": "Gênesis 37:25",
+      "midia": "novela/jose02/v10-caravana.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.4,
+      "texto": "*vinte peças de prata*",
+      "ref": "Gênesis 37:28",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose02/v11-prata.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}

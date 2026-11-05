@@ -26,6 +26,7 @@ export type CenaNovela = {
   mov?: Movimento;
   desloca?: number; // px para subir (negativo) ou descer a mídia, para o rosto não ficar atrás do texto
   grande?: boolean; // o gancho
+  anterior?: boolean; // "No capítulo anterior" em cima do texto (do capítulo 2 em diante)
   sub?: string; // final: linha de baixo
 };
 export type PropsNovela = {
@@ -247,15 +248,15 @@ export const Novela: React.FC<PropsNovela> = ({ serie, capitulo, total, cenas, t
             position: 'absolute', left: 76, width: 840, bottom: 360, opacity: sai,
             display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
           }}>
-            {proximo && (
+            {(proximo || c.anterior) && (
               <div style={{
                 marginBottom: 26, fontFamily: SERIF, fontStyle: 'italic', fontWeight: 500, fontSize: 38, color: OURO,
                 opacity: interpolate(t, [ini, ini + 0.6], [0, 1], clamp), textShadow: '0 2px 14px rgba(0,0,0,0.6)',
-              }}>Cenas do próximo capítulo</div>
+              }}>{proximo ? 'Cenas do próximo capítulo' : 'No capítulo anterior'}</div>
             )}
             <div style={{ textWrap: 'balance', textShadow: '0 2px 20px rgba(0,0,0,0.55)' } as React.CSSProperties}>
               <Palavras
-                texto={c.texto} t={t} t0={ini + (proximo ? 0.5 : 0.2)}
+                texto={c.texto} t={t} t0={ini + (proximo || c.anterior ? 0.5 : 0.2)}
                 base={{ fontFamily: SERIF, fontWeight: 600, fontSize: tam, lineHeight: 1.14, color: '#FFFFFF', letterSpacing: -0.4 }}
                 destaque={{ fontStyle: 'italic', fontWeight: 500, color: OURO }}
               />

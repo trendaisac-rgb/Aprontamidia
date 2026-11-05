@@ -8,11 +8,11 @@
   "conferir": [
     {
       "ref": "GEN.37.3",
-      "cita": "uma roupa de diversas cores"
+      "cita": "uma roupa de diversas cores."
     },
     {
       "ref": "GEN.37.4",
-      "cita": "odiavam-lhe, e não lhe podiam falar pacificamente"
+      "cita": "odiavam-lhe, e não lhe podiam falar pacificamente."
     },
     {
       "ref": "GEN.37.7",
@@ -53,7 +53,8 @@
       "midia": "novela/jose01/v01-estrelas.mp4",
       "video": true,
       "videoDur": 7.85,
-      "desloca": -230
+      "desloca": -230,
+      "destaqueLivre": true
     },
     {
       "tipo": "cena",
@@ -73,7 +74,7 @@
     },
     {
       "tipo": "cena",
-      "dur": 6.6,
+      "dur": 6.8,
       "texto": "Os irmãos viram que o pai o amava mais. E *odiavam-lhe, e não lhe podiam falar pacificamente.*",
       "ref": "Gênesis 37:4",
       "midia": "novela/jose01/c04-irmaos.jpg",
@@ -98,7 +99,7 @@
     },
     {
       "tipo": "cena",
-      "dur": 7.0,
+      "dur": 8.0,
       "texto": "E contou outro sonho ao pai e aos irmãos: *o sol e a lua e onze estrelas se inclinavam a mim.*",
       "ref": "Gênesis 37:9-10",
       "midia": "novela/jose01/c07-sol-lua.jpg",
