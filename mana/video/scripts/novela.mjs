@@ -104,10 +104,19 @@ async function principal() {
   if (process.env.REMOTION_BROWSER) args.push(`--browser-executable=${process.env.REMOTION_BROWSER}`);
   execFileSync('npx', args, { cwd: RAIZ, stdio: 'inherit' });
 
+  finalizar(bruto);
+}
+
+// Som em -14 LUFS em duas passadas (a de uma passada só erra em vídeo curto com fade) e vídeo em CRF 20.
+function finalizar(bruto) {
   const final = path.join(SAIDA, `${base}.mp4`);
-  sh('ffmpeg', ['-y', '-loglevel', 'error', '-i', bruto, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
+  const txt = String(execFileSync('sh', ['-c', `ffmpeg -hide_banner -i "${bruto}" -af loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json -f null - 2>&1 | tail -14`]));
+  const m = JSON.parse(/\{[\s\S]*\}/.exec(txt)[0]);
+  const af = `loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=${m.input_i}:measured_TP=${m.input_tp}:measured_LRA=${m.input_lra}:measured_thresh=${m.input_thresh}:offset=${m.target_offset}:linear=true`;
+  sh('ffmpeg', ['-y', '-loglevel', 'error', '-i', bruto, '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-af', af, '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
   sh('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(Math.min(2.6, cap.cenas[0].dur - 0.4)), '-i', final, '-frames:v', '1', '-q:v', '3', path.join(SAIDA, `${base}-capa.jpg`)]);
   console.log(`pronto: ${final}`);
 }
 
-principal().catch((e) => { console.error(e); process.exit(1); });
+if (process.env.MANA_SO_FINALIZAR === 'true') finalizar(path.join(TMP, 'bruto.mp4'));
+else principal().catch((e) => { console.error(e); process.exit(1); });
