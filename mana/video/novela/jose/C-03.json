@@ -1,0 +1,159 @@
+{
+  "nome": "N-JOSE-03",
+  "serie": "José, o sonhador",
+  "capitulo": 3,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.37.28",
+      "cita": "vinte peças de prata"
+    },
+    {
+      "ref": "GEN.37.25",
+      "cita": "uma companhia de ismaelitas"
+    },
+    {
+      "ref": "GEN.37.26",
+      "cita": "Que proveito há em que matemos a nosso irmão e encubramos sua morte?"
+    },
+    {
+      "ref": "GEN.37.27",
+      "cita": "Vinde, e o vendamos aos ismaelitas"
+    },
+    {
+      "ref": "GEN.37.29",
+      "cita": "e não achou a José dentro"
+    },
+    {
+      "ref": "GEN.37.28",
+      "cita": "E levaram a José ao Egito."
+    },
+    {
+      "ref": "GEN.37.31",
+      "cita": "tingiram a roupa com o sangue"
+    },
+    {
+      "ref": "GEN.37.33",
+      "cita": "alguma fera selvagem o devorou"
+    },
+    {
+      "ref": "GEN.37.35",
+      "cita": "mas ele não quis receber consolação"
+    },
+    {
+      "ref": "GEN.37.36",
+      "cita": "a Potifar, oficial de Faraó, capitão dos da guarda."
+    },
+    {
+      "ref": "GEN.39.2",
+      "cita": "Mas o SENHOR foi com José"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 5.2,
+      "grande": true,
+      "texto": "José foi vendido pelos próprios irmãos. Por *vinte peças de prata*.",
+      "ref": "Gênesis 37:27-28",
+      "midia": "novela/jose03/v01-levado.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.2,
+      "anterior": true,
+      "texto": "Jogaram José numa cisterna vazia. Então viram *uma companhia de ismaelitas*.",
+      "ref": "Gênesis 37:24-25",
+      "midia": "novela/jose02/v08-cisterna.mp4",
+      "video": true,
+      "videoDur": 7.85,
+      "desloca": -220
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.2,
+      "texto": "Judá perguntou: *Que proveito há em que matemos a nosso irmão e encubramos sua morte?*",
+      "ref": "Gênesis 37:26",
+      "midia": "novela/jose03/c03-juda.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.4,
+      "texto": "E propôs: *Vinde, e o vendamos aos ismaelitas*",
+      "ref": "Gênesis 37:27"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "Venderam José aos ismaelitas. *E levaram a José ao Egito.*",
+      "ref": "Gênesis 37:28",
+      "midia": "novela/jose02/v11-prata.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.6,
+      "texto": "Rúben voltou à cisterna, *e não achou a José dentro*",
+      "ref": "Gênesis 37:29",
+      "midia": "novela/jose03/v06-ruben.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "texto": "Mataram um cabrito e *tingiram a roupa com o sangue*",
+      "ref": "Gênesis 37:31",
+      "midia": "novela/jose03/c07-roupa.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "texto": "Jacó reconheceu a roupa: *alguma fera selvagem o devorou*",
+      "ref": "Gênesis 37:33",
+      "midia": "novela/jose03/v08-jaco.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "Filhos e filhas tentaram consolá-lo, *mas ele não quis receber consolação*",
+      "ref": "Gênesis 37:35",
+      "midia": "novela/jose03/c09-consolo.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.6,
+      "texto": "No Egito, José foi vendido de novo *a Potifar, oficial de Faraó, capitão dos da guarda.*",
+      "ref": "Gênesis 37:36",
+      "midia": "novela/jose03/v10-potifar.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.4,
+      "texto": "*Mas o SENHOR foi com José*",
+      "ref": "Gênesis 39:2",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose03/v11-egito.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
