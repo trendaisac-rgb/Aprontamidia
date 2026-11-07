@@ -1,0 +1,147 @@
+{
+  "nome": "N-JOSE-04",
+  "serie": "José, o sonhador",
+  "capitulo": 4,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.39.2",
+      "cita": "foi homem próspero"
+    },
+    {
+      "ref": "GEN.37.36",
+      "cita": "a Potifar, oficial de Faraó"
+    },
+    {
+      "ref": "GEN.39.2",
+      "cita": "Mas o SENHOR foi com José"
+    },
+    {
+      "ref": "GEN.39.3",
+      "cita": "o SENHOR era com ele"
+    },
+    {
+      "ref": "GEN.39.4",
+      "cita": "lhe fez mordomo de sua casa, e entregou em seu poder tudo o que tinha."
+    },
+    {
+      "ref": "GEN.39.7",
+      "cita": "a mulher de seu senhor pôs seus olhos em José"
+    },
+    {
+      "ref": "GEN.39.9",
+      "cita": "tu és sua mulher; como, pois, faria eu este grande mal e pecaria contra Deus?"
+    },
+    {
+      "ref": "GEN.39.11",
+      "cita": "não havia ninguém dos da casa ali em casa."
+    },
+    {
+      "ref": "GEN.39.12",
+      "cita": "Então ele deixou sua roupa nas mãos dela, e fugiu"
+    },
+    {
+      "ref": "GEN.39.16",
+      "cita": "ela pôs junto a si a roupa dele, até que veio seu senhor"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "grande": true,
+      "texto": "José, escravo numa terra estrangeira. E mesmo assim, *foi homem próspero*.",
+      "ref": "Gênesis 39:1-2",
+      "midia": "novela/jose04/v01-escravo.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "anterior": true,
+      "texto": "Vendido pelos irmãos, José foi revendido no Egito *a Potifar, oficial de Faraó*.",
+      "ref": "Gênesis 37:36",
+      "midia": "novela/jose03/v10-potifar.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "*Mas o SENHOR foi com José*. E Potifar viu que *o SENHOR era com ele*.",
+      "ref": "Gênesis 39:2-3",
+      "midia": "novela/jose04/c03-casa.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "Potifar *lhe fez mordomo de sua casa, e entregou em seu poder tudo o que tinha.*",
+      "ref": "Gênesis 39:4",
+      "midia": "novela/jose04/v04-mordomo.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "Até que *a mulher de seu senhor pôs seus olhos em José*.",
+      "ref": "Gênesis 39:7",
+      "midia": "novela/jose04/c06-olhar.jpg",
+      "mov": "esq"
+    },
+    {
+      "tipo": "cena",
+      "dur": 7.0,
+      "texto": "José recusou: *tu és sua mulher; como, pois, faria eu este grande mal e pecaria contra Deus?*",
+      "ref": "Gênesis 39:8-9",
+      "midia": "novela/jose04/v07-recusa.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "texto": "Ela insistia todos os dias. E José não lhe dava ouvidos.",
+      "ref": "Gênesis 39:10",
+      "midia": "novela/jose04/c08-insistia.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "Um dia, José entrou para trabalhar, e *não havia ninguém dos da casa ali em casa.*",
+      "ref": "Gênesis 39:11",
+      "midia": "novela/jose04/c09-vazia.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.6,
+      "texto": "Ela segurou a roupa de José. *Então ele deixou sua roupa nas mãos dela, e fugiu*.",
+      "ref": "Gênesis 39:12",
+      "midia": "novela/jose04/v10-fuga.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "proximo",
+      "dur": 5.4,
+      "texto": "*ela pôs junto a si a roupa dele, até que veio seu senhor*",
+      "ref": "Gênesis 39:16",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose04/v11-roupa.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
