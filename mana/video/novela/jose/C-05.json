@@ -1,0 +1,129 @@
+{
+  "nome": "N-JOSE-05",
+  "serie": "José, o sonhador",
+  "capitulo": 5,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.39.12",
+      "cita": "nas mãos dela"
+    },
+    {
+      "ref": "GEN.39.17",
+      "cita": "O servo hebreu que nos trouxeste, veio a mim para desonrar-me"
+    },
+    {
+      "ref": "GEN.39.19",
+      "cita": "acendeu-se seu furor."
+    },
+    {
+      "ref": "GEN.39.20",
+      "cita": "na casa do cárcere, onde estavam os presos do rei"
+    },
+    {
+      "ref": "GEN.39.21",
+      "cita": "o SENHOR foi com José"
+    },
+    {
+      "ref": "GEN.39.22",
+      "cita": "entregou em mão de José todos os presos que havia naquela prisão"
+    },
+    {
+      "ref": "GEN.40.3",
+      "cita": "onde José estava preso."
+    },
+    {
+      "ref": "GEN.40.5",
+      "cita": "viram um sonho, cada um seu sonho em uma mesma noite"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "grande": true,
+      "texto": "Pela segunda vez, uma roupa de José ia servir para contar uma mentira.",
+      "ref": "Gênesis 39:16-18",
+      "midia": "novela/jose05/v01-manto.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "anterior": true,
+      "texto": "José recusou e fugiu. Mas deixou a roupa *nas mãos dela*.",
+      "ref": "Gênesis 39:12",
+      "midia": "novela/jose04/v10-fuga.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.6,
+      "texto": "Quando Potifar chegou, ela mentiu: *O servo hebreu que nos trouxeste, veio a mim para desonrar-me*.",
+      "ref": "Gênesis 39:17",
+      "midia": "novela/jose05/c03-acusa.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.4,
+      "texto": "Potifar ouviu a esposa, e *acendeu-se seu furor.*",
+      "ref": "Gênesis 39:19",
+      "midia": "novela/jose05/c04-furor.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.6,
+      "texto": "José foi posto *na casa do cárcere, onde estavam os presos do rei*.",
+      "ref": "Gênesis 39:20",
+      "midia": "novela/jose05/v05-carcere.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.4,
+      "texto": "Mesmo na prisão, *o SENHOR foi com José*.",
+      "ref": "Gênesis 39:21",
+      "midia": "novela/jose05/c06-luz.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.6,
+      "texto": "O chefe do cárcere *entregou em mão de José todos os presos que havia naquela prisão*.",
+      "ref": "Gênesis 39:22",
+      "midia": "novela/jose05/c07-chefe.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.2,
+      "texto": "Até que o copeiro e o padeiro de Faraó foram parar *onde José estava preso.*",
+      "ref": "Gênesis 40:1-3",
+      "midia": "novela/jose05/v09-presos.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "proximo",
+      "dur": 5.0,
+      "texto": "*viram um sonho, cada um seu sonho em uma mesma noite*",
+      "ref": "Gênesis 40:5",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose05/c10-sonho.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
