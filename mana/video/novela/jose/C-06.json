@@ -1,0 +1,138 @@
+{
+  "nome": "N-JOSE-06",
+  "serie": "José, o sonhador",
+  "capitulo": 6,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.40.7",
+      "cita": "Por que parecem hoje mal vossos semblantes?"
+    },
+    {
+      "ref": "GEN.40.8",
+      "cita": "Não são de Deus as interpretações?"
+    },
+    {
+      "ref": "GEN.40.13",
+      "cita": "Ao fim de três dias Faraó te fará levantar a cabeça, e te restituirá a teu posto"
+    },
+    {
+      "ref": "GEN.40.14",
+      "cita": "Lembra-te, pois, de mim"
+    },
+    {
+      "ref": "GEN.40.19",
+      "cita": "Ao fim de três dias tirará Faraó tua cabeça de sobre ti"
+    },
+    {
+      "ref": "GEN.40.22",
+      "cita": "como lhe havia declarado José."
+    },
+    {
+      "ref": "GEN.40.23",
+      "cita": "E o chefe dos copeiros não se lembrou de José, ao invés disso lhe esqueceu."
+    },
+    {
+      "ref": "GEN.41.1",
+      "cita": "passados dois anos teve Faraó um sonho"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "grande": true,
+      "texto": "Dois presos. Dois sonhos na mesma noite. Um ia viver. O outro não.",
+      "ref": "Gênesis 40:5-22",
+      "midia": "novela/jose06/v01-acordam.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "anterior": true,
+      "texto": "Faraó prendeu seu copeiro e seu padeiro na prisão onde estava José.",
+      "ref": "Gênesis 40:1-3",
+      "midia": "novela/jose05/v09-presos.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "De manhã, José os viu tristes e perguntou: *Por que parecem hoje mal vossos semblantes?*",
+      "ref": "Gênesis 40:6-7",
+      "midia": "novela/jose06/c03-tristes.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "Eles tinham sonhado, e não havia quem explicasse. José disse: *Não são de Deus as interpretações?*",
+      "ref": "Gênesis 40:8",
+      "midia": "novela/jose06/c04-deus.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 8.0,
+      "texto": "Ao copeiro, José disse: *Ao fim de três dias Faraó te fará levantar a cabeça, e te restituirá a teu posto*.",
+      "ref": "Gênesis 40:9-13",
+      "midia": "novela/jose06/v05-vide.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.0,
+      "texto": "E pediu ao copeiro: *Lembra-te, pois, de mim*.",
+      "ref": "Gênesis 40:14",
+      "midia": "novela/jose06/c06-lembra.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.8,
+      "texto": "Ao padeiro, José disse: *Ao fim de três dias tirará Faraó tua cabeça de sobre ti*.",
+      "ref": "Gênesis 40:16-19",
+      "midia": "novela/jose06/v07-cestos.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.8,
+      "texto": "No terceiro dia, o copeiro voltou ao posto. Com o padeiro, aconteceu *como lhe havia declarado José.*",
+      "ref": "Gênesis 40:20-22",
+      "midia": "novela/jose06/v08-copo.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.2,
+      "texto": "*E o chefe dos copeiros não se lembrou de José, ao invés disso lhe esqueceu.*",
+      "ref": "Gênesis 40:23",
+      "midia": "novela/jose06/c09-esquecido.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.6,
+      "texto": "*passados dois anos teve Faraó um sonho*",
+      "ref": "Gênesis 41:1",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose06/c10-rio.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
