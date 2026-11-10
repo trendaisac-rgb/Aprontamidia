@@ -1,0 +1,142 @@
+{
+  "nome": "N-JOSE-07",
+  "serie": "José, o sonhador",
+  "capitulo": 7,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.41.4",
+      "cita": "devoravam as sete vacas belas e muito gordas."
+    },
+    {
+      "ref": "GEN.41.8",
+      "cita": "mas não havia quem a Faraó os interpretasse."
+    },
+    {
+      "ref": "GEN.41.12",
+      "cita": "ele nos interpretou nossos sonhos"
+    },
+    {
+      "ref": "GEN.41.14",
+      "cita": "fizeram-lhe sair correndo do cárcere"
+    },
+    {
+      "ref": "GEN.41.16",
+      "cita": "Não está em mim; Deus será o que responda paz a Faraó."
+    },
+    {
+      "ref": "GEN.41.29",
+      "cita": "Eis que vêm sete anos de grande fartura"
+    },
+    {
+      "ref": "GEN.41.30",
+      "cita": "sete anos de fome"
+    },
+    {
+      "ref": "GEN.41.38",
+      "cita": "Acharemos outro homem como este, em quem haja espírito de Deus?"
+    },
+    {
+      "ref": "GEN.41.42",
+      "cita": "Então Faraó tirou seu anel de sua mão"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 4.6,
+      "grande": true,
+      "texto": "O homem mais poderoso do Egito acordou perturbado.",
+      "ref": "Gênesis 41:1-8",
+      "midia": "novela/jose07/v01-acorda.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "anterior": true,
+      "texto": "O chefe dos copeiros voltou ao posto. E José ficou esquecido na prisão.",
+      "ref": "Gênesis 40:21-23",
+      "midia": "novela/jose06/v08-copo.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 7.4,
+      "texto": "Dois anos depois, Faraó sonhou: vacas magras subiam do rio e *devoravam as sete vacas belas e muito gordas.*",
+      "ref": "Gênesis 41:1-4",
+      "midia": "novela/jose07/v03-vacas.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.8,
+      "texto": "Faraó contou os sonhos aos magos, *mas não havia quem a Faraó os interpretasse.*",
+      "ref": "Gênesis 41:5-8",
+      "midia": "novela/jose07/c04-magos.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "Então o chefe dos copeiros falou de José a Faraó: *ele nos interpretou nossos sonhos*.",
+      "ref": "Gênesis 41:9-13",
+      "midia": "novela/jose07/c05-copeiro.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.6,
+      "texto": "Faraó mandou chamar José, e *fizeram-lhe sair correndo do cárcere*.",
+      "ref": "Gênesis 41:14",
+      "midia": "novela/jose07/c06-corre.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "José respondeu a Faraó: *Não está em mim; Deus será o que responda paz a Faraó.*",
+      "ref": "Gênesis 41:15-16",
+      "midia": "novela/jose07/v07-diante.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "E explicou: *Eis que vêm sete anos de grande fartura*. Depois, *sete anos de fome*.",
+      "ref": "Gênesis 41:29-30",
+      "midia": "novela/jose07/v08-trigo.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.4,
+      "texto": "Faraó disse a seus servos: *Acharemos outro homem como este, em quem haja espírito de Deus?*",
+      "ref": "Gênesis 41:38",
+      "midia": "novela/jose07/c09-servos.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.6,
+      "texto": "*Então Faraó tirou seu anel de sua mão*",
+      "ref": "Gênesis 41:42",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose07/c10-anel.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
