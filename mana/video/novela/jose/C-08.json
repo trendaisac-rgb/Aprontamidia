@@ -1,0 +1,146 @@
+{
+  "nome": "N-JOSE-08",
+  "serie": "José, o sonhador",
+  "capitulo": 8,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.41.41",
+      "cita": "Eis que te pus sobre toda a terra do Egito."
+    },
+    {
+      "ref": "GEN.41.42",
+      "cita": "Então Faraó tirou seu anel de sua mão, e o pôs na mão de José"
+    },
+    {
+      "ref": "GEN.41.43",
+      "cita": "Dobrai os joelhos"
+    },
+    {
+      "ref": "GEN.41.46",
+      "cita": "E era José de idade de trinta anos"
+    },
+    {
+      "ref": "GEN.41.49",
+      "cita": "como areia do mar"
+    },
+    {
+      "ref": "GEN.41.51",
+      "cita": "porque disse: Deus me fez esquecer todo o meu sofrimento"
+    },
+    {
+      "ref": "GEN.41.54",
+      "cita": "houve fome em todos os países, mas em toda a terra do Egito havia pão."
+    },
+    {
+      "ref": "GEN.41.57",
+      "cita": "E toda a terra vinha ao Egito para comprar de José"
+    },
+    {
+      "ref": "GEN.42.3",
+      "cita": "os dez irmãos de José"
+    },
+    {
+      "ref": "GEN.42.6",
+      "cita": "inclinaram-se a ele rosto por terra."
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "grande": true,
+      "texto": "Ele chegou a Faraó como preso. E saiu governando o Egito.",
+      "ref": "Gênesis 41:14-46",
+      "midia": "novela/jose08/v01-governador.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "anterior": true,
+      "texto": "José explicou o sonho de Faraó: sete anos de fartura, sete de fome.",
+      "ref": "Gênesis 41:25-30",
+      "midia": "novela/jose07/v07-diante.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.8,
+      "texto": "Faraó disse a José: *Eis que te pus sobre toda a terra do Egito.*",
+      "ref": "Gênesis 41:39-41",
+      "midia": "novela/jose08/c03-pus.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "*Então Faraó tirou seu anel de sua mão, e o pôs na mão de José*.",
+      "ref": "Gênesis 41:42",
+      "midia": "novela/jose08/v04-anel.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.8,
+      "texto": "Com José no segundo carro de Faraó, proclamaram: *Dobrai os joelhos*.",
+      "ref": "Gênesis 41:43",
+      "midia": "novela/jose08/c05-carro.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "*E era José de idade de trinta anos*. E ajuntou trigo *como areia do mar*.",
+      "ref": "Gênesis 41:46-49",
+      "midia": "novela/jose08/c06-trigo.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "José chamou o primogênito Manassés, *porque disse: Deus me fez esquecer todo o meu sofrimento*.",
+      "ref": "Gênesis 41:51",
+      "midia": "novela/jose08/c07-filho.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "*houve fome em todos os países, mas em toda a terra do Egito havia pão.*",
+      "ref": "Gênesis 41:54",
+      "midia": "novela/jose08/v08-fome.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 8.0,
+      "texto": "*E toda a terra vinha ao Egito para comprar de José*. Até *os dez irmãos de José*, que o tinham vendido.",
+      "ref": "Gênesis 41:57 e 42:3",
+      "midia": "novela/jose08/v09-irmaos.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.6,
+      "texto": "*inclinaram-se a ele rosto por terra.*",
+      "ref": "Gênesis 42:6",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose08/c10-inclinam.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
