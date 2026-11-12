@@ -1,0 +1,142 @@
+{
+  "nome": "N-JOSE-09",
+  "serie": "José, o sonhador",
+  "capitulo": 9,
+  "total": 12,
+  "trilha": "novela/jose01/trilha.mp3",
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "GEN.42.3",
+      "cita": "os dez irmãos de José"
+    },
+    {
+      "ref": "GEN.42.8",
+      "cita": "José, pois, reconheceu a seus irmãos; mas eles não o reconheceram."
+    },
+    {
+      "ref": "GEN.42.9",
+      "cita": "Então se lembrou José dos sonhos que havia tido deles"
+    },
+    {
+      "ref": "GEN.42.9",
+      "cita": "Sois espias"
+    },
+    {
+      "ref": "GEN.42.13",
+      "cita": "o menor está hoje com nosso pai, e outro desapareceu."
+    },
+    {
+      "ref": "GEN.42.20",
+      "cita": "haveis de trazer-me a vosso irmão mais novo"
+    },
+    {
+      "ref": "GEN.42.21",
+      "cita": "Verdadeiramente pecamos contra nosso irmão, que vimos a angústia de sua alma quando nos rogava, e não o ouvimos"
+    },
+    {
+      "ref": "GEN.42.24",
+      "cita": "E apartou-se ele deles, e chorou"
+    },
+    {
+      "ref": "GEN.42.24",
+      "cita": "tomou dentre eles a Simeão, e aprisionou-lhe à vista deles."
+    },
+    {
+      "ref": "GEN.42.28",
+      "cita": "Que é isto que Deus nos fez?"
+    }
+  ],
+  "cenas": [
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "grande": true,
+      "texto": "Os irmãos que venderam José estavam prostrados diante dele. E não sabiam quem ele era.",
+      "ref": "Gênesis 42:6-8",
+      "midia": "novela/jose09/c01-prostrados.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.8,
+      "anterior": true,
+      "texto": "A fome chegou a Canaã. E *os dez irmãos de José* desceram ao Egito.",
+      "ref": "Gênesis 42:3-5",
+      "midia": "novela/jose08/v09-irmaos.mp4",
+      "video": true,
+      "videoDur": 7.85
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.0,
+      "texto": "*José, pois, reconheceu a seus irmãos; mas eles não o reconheceram.*",
+      "ref": "Gênesis 42:8",
+      "midia": "novela/jose09/c03-reconheceu.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.0,
+      "texto": "*Então se lembrou José dos sonhos que havia tido deles* e os acusou: *Sois espias*.",
+      "ref": "Gênesis 42:9",
+      "midia": "novela/jose09/c04-espias.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 6.8,
+      "texto": "Eles disseram que eram doze irmãos: *o menor está hoje com nosso pai, e outro desapareceu.*",
+      "ref": "Gênesis 42:13",
+      "midia": "novela/jose09/c05-doze.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 7.0,
+      "texto": "José os prendeu por três dias. Ao terceiro dia, exigiu: *haveis de trazer-me a vosso irmão mais novo*.",
+      "ref": "Gênesis 42:17-20",
+      "midia": "novela/jose09/c06-carcere.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "cena",
+      "dur": 9.4,
+      "texto": "Os irmãos diziam um ao outro: *Verdadeiramente pecamos contra nosso irmão, que vimos a angústia de sua alma quando nos rogava, e não o ouvimos*.",
+      "ref": "Gênesis 42:21",
+      "midia": "novela/jose09/c07-pecamos.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 4.2,
+      "texto": "José entendia tudo. *E apartou-se ele deles, e chorou*.",
+      "ref": "Gênesis 42:23-24",
+      "midia": "novela/jose09/c08-chorou.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "cena",
+      "dur": 5.4,
+      "texto": "Depois voltou e *tomou dentre eles a Simeão, e aprisionou-lhe à vista deles.*",
+      "ref": "Gênesis 42:24",
+      "midia": "novela/jose09/c09-simeao.jpg",
+      "mov": "out"
+    },
+    {
+      "tipo": "proximo",
+      "dur": 4.6,
+      "texto": "*Que é isto que Deus nos fez?*",
+      "ref": "Gênesis 42:28",
+      "sub": "Amanhã, 12h",
+      "midia": "novela/jose09/c10-dinheiro.jpg",
+      "mov": "in"
+    },
+    {
+      "tipo": "final",
+      "dur": 3.6,
+      "texto": "Um capítulo por dia, *às 12h.*",
+      "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."
+    }
+  ]
+}
