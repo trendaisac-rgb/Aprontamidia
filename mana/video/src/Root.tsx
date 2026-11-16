@@ -3,6 +3,7 @@ import { Composition } from 'remotion';
 import { Versiculo, type PropsVersiculo } from './Versiculo';
 import { Historia, duracaoTotal, type PropsHistoria } from './Historia';
 import { Novela, duracaoNovela, type PropsNovela } from './Novela';
+import { BomDia, type PropsBomDia } from './BomDia';
 
 export const FPS = 30;
 
@@ -49,8 +50,29 @@ const exemploNovela: PropsNovela = {
   ],
 };
 
+const exemploBomDia: PropsBomDia = {
+  fundo: 'exemplo.mp4',
+  trilha: null,
+  duracao: 18,
+  dia: 'Terça-feira, 17 de novembro',
+  mensagem: [{ texto: 'Que hoje você não carregue o peso de ontem.', inicio: 0.9, fim: 4.3 }],
+  versiculo: { texto: 'Elas são novas a cada manhã; grande é a tua fidelidade.', referencia: 'Lamentações 3:23', inicio: 5, fim: 13 },
+  fecho: { tela: 'Manda esse *bom dia* pra alguém.', sub: 'A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.', inicio: 14 },
+  arroba: '@mana.biblia.app',
+};
+
 export const Root: React.FC = () => (
   <>
+  <Composition
+    id="BomDia"
+    component={BomDia}
+    width={1080}
+    height={1920}
+    fps={FPS}
+    durationInFrames={Math.round(exemploBomDia.duracao * FPS)}
+    defaultProps={exemploBomDia}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(props.duracao * FPS) })}
+  />
   <Composition
     id="Novela"
     component={Novela}

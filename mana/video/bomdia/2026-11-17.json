@@ -1,0 +1,36 @@
+{
+  "fundo": "bomdia/2026-11-17.mp4",
+  "trilha": "novela/jose01/trilha.mp3",
+  "duracao": 21,
+  "dia": "Terça-feira, 17 de novembro",
+  "mensagem": [
+    {
+      "texto": "Que hoje você não carregue o peso de ontem.",
+      "inicio": 0.8,
+      "fim": 4.8
+    },
+    {
+      "texto": "O dia chegou novo.\nE com ele, as *misericórdias do Senhor*.",
+      "inicio": 5.4,
+      "fim": 9.8
+    }
+  ],
+  "versiculo": {
+    "texto": "Elas são novas a cada manhã; grande é a tua fidelidade.",
+    "referencia": "Lamentações 3:23",
+    "inicio": 10.4,
+    "fim": 16.6
+  },
+  "fecho": {
+    "tela": "Manda esse *bom dia*\npra alguém.",
+    "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+    "inicio": 17.2
+  },
+  "arroba": "@mana.biblia.app",
+  "conferir": [
+    {
+      "ref": "LAM.3.23",
+      "cita": "Elas são novas a cada manhã; grande é a tua fidelidade."
+    }
+  ]
+}
