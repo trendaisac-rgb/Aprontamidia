@@ -1,0 +1,428 @@
+{
+ "voz": "oracao/2026-11-17-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 6,
+ "duracao": 40.3,
+ "clipes": [
+  "oracao/banco-noite/6173759.mp4",
+  "oracao/banco-noite/17119564.mp4",
+  "oracao/banco-noite/15634329.mp4",
+  "oracao/banco-noite/10879862.mp4",
+  "oracao/banco-noite/19095583.mp4",
+  "oracao/banco-noite/12191404.mp4",
+  "oracao/banco-noite/10489477.mp4",
+  "oracao/banco-noite/854739.mp4"
+ ],
+ "trocas": [
+  0,
+  4.0,
+  9.0,
+  12.1,
+  18.4,
+  24.2,
+  28.6,
+  32.3
+ ],
+ "filtro": "brightness(1.04) saturate(1.12) contrast(1.02)",
+ "abertura": {
+  "titulo": "Se o seu dia\nfoi pesado...",
+  "dia": "Boa noite · 17 de novembro",
+  "ate": 1.92,
+  "tamanho": 132
+ },
+ "etiqueta": "Boa noite · Terça-feira, 17 de novembro",
+ "palavras": [
+  {
+   "p": "Se",
+   "i": 0.331,
+   "f": 0.538
+  },
+  {
+   "p": "o",
+   "i": 0.538,
+   "f": 0.746
+  },
+  {
+   "p": "seu",
+   "i": 0.746,
+   "f": 0.954
+  },
+  {
+   "p": "dia",
+   "i": 0.954,
+   "f": 1.161
+  },
+  {
+   "p": "foi",
+   "i": 1.161,
+   "f": 1.369
+  },
+  {
+   "p": "pesado...",
+   "i": 1.369,
+   "f": 1.884
+  },
+  {
+   "p": "fica",
+   "i": 2.436,
+   "f": 2.7
+  },
+  {
+   "p": "aqui",
+   "i": 2.7,
+   "f": 2.964
+  },
+  {
+   "p": "um",
+   "i": 2.964,
+   "f": 3.116,
+   "q": true
+  },
+  {
+   "p": "minuto.",
+   "i": 3.116,
+   "f": 3.492
+  },
+  {
+   "p": "Você",
+   "i": 4.23,
+   "f": 4.555
+  },
+  {
+   "p": "não",
+   "i": 4.555,
+   "f": 4.742
+  },
+  {
+   "p": "precisa",
+   "i": 4.742,
+   "f": 5.205
+  },
+  {
+   "p": "resolver",
+   "i": 5.205,
+   "f": 5.668
+  },
+  {
+   "p": "tudo",
+   "i": 5.917,
+   "f": 6.313
+  },
+  {
+   "p": "hoje.",
+   "i": 6.313,
+   "f": 6.709
+  },
+  {
+   "p": "Você",
+   "i": 7.465,
+   "f": 7.745
+  },
+  {
+   "p": "fez",
+   "i": 7.745,
+   "f": 7.906
+  },
+  {
+   "p": "o",
+   "i": 7.906,
+   "f": 8.067,
+   "q": true
+  },
+  {
+   "p": "que",
+   "i": 8.067,
+   "f": 8.229
+  },
+  {
+   "p": "deu.",
+   "i": 8.229,
+   "f": 8.39
+  },
+  {
+   "p": "O",
+   "i": 9.071,
+   "f": 9.315
+  },
+  {
+   "p": "resto",
+   "i": 9.315,
+   "f": 9.741
+  },
+  {
+   "p": "não",
+   "i": 10.009,
+   "f": 10.242,
+   "q": true
+  },
+  {
+   "p": "está",
+   "i": 10.242,
+   "f": 10.648
+  },
+  {
+   "p": "só",
+   "i": 10.648,
+   "f": 10.881
+  },
+  {
+   "p": "nas",
+   "i": 10.881,
+   "f": 11.114,
+   "q": true
+  },
+  {
+   "p": "suas",
+   "i": 11.114,
+   "f": 11.347
+  },
+  {
+   "p": "mãos.",
+   "i": 11.347,
+   "f": 11.58
+  },
+  {
+   "p": "A",
+   "i": 12.27,
+   "f": 12.509
+  },
+  {
+   "p": "Bíblia",
+   "i": 12.509,
+   "f": 12.925
+  },
+  {
+   "p": "diz:",
+   "i": 12.925,
+   "f": 13.163
+  },
+  {
+   "p": "Entrega",
+   "i": 13.636,
+   "f": 14.265
+  },
+  {
+   "p": "tuas",
+   "i": 14.265,
+   "f": 14.519
+  },
+  {
+   "p": "preocupações",
+   "i": 14.519,
+   "f": 15.336
+  },
+  {
+   "p": "ao",
+   "i": 15.336,
+   "f": 15.59
+  },
+  {
+   "p": "Senhor,",
+   "i": 15.59,
+   "f": 16.031,
+   "t": "SENHOR,"
+  },
+  {
+   "p": "e",
+   "i": 16.277,
+   "f": 16.496
+  },
+  {
+   "p": "ele",
+   "i": 16.496,
+   "f": 16.875
+  },
+  {
+   "p": "te",
+   "i": 16.875,
+   "f": 17.093
+  },
+  {
+   "p": "sustentará.",
+   "i": 17.093,
+   "f": 17.796,
+   "t": "sustentará"
+  },
+  {
+   "p": "Então",
+   "i": 18.764,
+   "f": 19.195
+  },
+  {
+   "p": "solta",
+   "i": 19.195,
+   "f": 19.625
+  },
+  {
+   "p": "o",
+   "i": 19.625,
+   "f": 19.873,
+   "q": true
+  },
+  {
+   "p": "peso.",
+   "i": 19.873,
+   "f": 20.303
+  },
+  {
+   "p": "Desliga",
+   "i": 21.078,
+   "f": 21.502
+  },
+  {
+   "p": "a",
+   "i": 21.502,
+   "f": 21.673
+  },
+  {
+   "p": "cabeça.",
+   "i": 21.673,
+   "f": 22.098
+  },
+  {
+   "p": "Descansa.",
+   "i": 22.934,
+   "f": 23.584
+  },
+  {
+   "p": "Enquanto",
+   "i": 24.475,
+   "f": 24.966
+  },
+  {
+   "p": "você",
+   "i": 24.966,
+   "f": 25.311
+  },
+  {
+   "p": "dorme,",
+   "i": 25.311,
+   "f": 25.656
+  },
+  {
+   "p": "Deus",
+   "i": 26.104,
+   "f": 26.339
+  },
+  {
+   "p": "continua",
+   "i": 26.339,
+   "f": 26.922
+  },
+  {
+   "p": "cuidando",
+   "i": 26.922,
+   "f": 27.505,
+   "q": true
+  },
+  {
+   "p": "de",
+   "i": 27.505,
+   "f": 27.74
+  },
+  {
+   "p": "tudo.",
+   "i": 27.74,
+   "f": 28.149
+  },
+  {
+   "p": "E",
+   "i": 29.002,
+   "f": 29.169
+  },
+  {
+   "p": "amanhã...",
+   "i": 29.169,
+   "f": 29.584
+  },
+  {
+   "p": "tem",
+   "i": 30.153,
+   "f": 30.318
+  },
+  {
+   "p": "misericórdia",
+   "i": 30.318,
+   "f": 30.972
+  },
+  {
+   "p": "nova",
+   "i": 30.972,
+   "f": 31.26
+  },
+  {
+   "p": "te",
+   "i": 31.26,
+   "f": 31.425
+  },
+  {
+   "p": "esperando.",
+   "i": 31.425,
+   "f": 31.956
+  },
+  {
+   "p": "Boa",
+   "i": 32.672,
+   "f": 32.928
+  },
+  {
+   "p": "noite.",
+   "i": 32.928,
+   "f": 33.375
+  },
+  {
+   "p": "Manda",
+   "i": 34.19,
+   "f": 34.488
+  },
+  {
+   "p": "pra",
+   "i": 34.488,
+   "f": 34.66
+  },
+  {
+   "p": "alguém",
+   "i": 34.66,
+   "f": 34.958
+  },
+  {
+   "p": "que",
+   "i": 34.958,
+   "f": 35.13
+  },
+  {
+   "p": "precisa",
+   "i": 35.13,
+   "f": 35.556
+  },
+  {
+   "p": "descansar",
+   "i": 35.556,
+   "f": 35.981,
+   "q": true
+  },
+  {
+   "p": "hoje.",
+   "i": 35.981,
+   "f": 36.28
+  }
+ ],
+ "versiculo": {
+  "de": 32,
+  "ate": 41,
+  "referencia": "Salmos 55:22"
+ },
+ "fecho": {
+  "inicio": 36.9,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "ref": "PSA.55.22",
+   "cita": "Entrega tuas preocupações ao SENHOR, e ele te sustentará"
+  }
+ ],
+ "roteiro": "Se o seu dia foi pesado... fica aqui um minuto. Você não precisa resolver tudo hoje. Você fez o que deu. O resto não está só nas suas mãos. A Bíblia diz: Entrega tuas preocupações ao Senhor, e ele te sustentará. Então solta o peso. Desliga a cabeça. Descansa. Enquanto você dorme, Deus continua cuidando de tudo. E amanhã... tem misericórdia nova te esperando. Boa noite. Manda pra alguém que precisa descansar hoje."
+}

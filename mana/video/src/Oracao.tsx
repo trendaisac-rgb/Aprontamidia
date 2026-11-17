@@ -14,14 +14,19 @@ import {
 // Oração narrada do Maná (manhã e noite): imagem de arquivo trocando devagar, a voz no centro de tudo
 // e o texto montando na tela palavra por palavra, no tempo em que é falado. Termina com a marca.
 
-export type Palavra = { p: string; i: number; f: number };
+// p: a palavra como é falada. t: como aparece na tela, quando difere da fala (ex.: "SENHOR," no versículo).
+// q: força começar um bloco novo nesta palavra, para a frase quebrar no lugar certo.
+export type Palavra = { p: string; i: number; f: number; t?: string; q?: boolean };
 export type PropsOracao = {
   voz: string;
   trilha: string | null;
   volumeTrilha?: number;
+  trilhaInicio?: number; // segundo da trilha em que a música começa
   duracao: number; // total, com o fecho
   clipes: string[]; // vídeos em public/, na ordem
-  abertura: { titulo: string; dia: string; ate: number }; // "Bom dia!" + data, até esse segundo
+  trocas?: number[]; // segundo em que cada clipe entra (o primeiro é 0). Sem isso, dividem o tempo por igual
+  filtro?: string; // ajuste de cor dos clipes (CSS filter)
+  abertura: { titulo: string; dia: string; ate: number; tamanho?: number }; // "Bom dia!" + data, até esse segundo
   etiqueta: string; // fica pequena no topo depois da abertura
   palavras: Palavra[];
   versiculo: { de: number; ate: number; referencia: string } | null; // índices em palavras (ate exclusivo)
@@ -75,6 +80,7 @@ export const agrupar = (p: PropsOracao): Grupo[] => {
       const w = p.palavras[j].p; letras += w.length + 1; j++;
       if (/(\.\.\.|[.!?;:,])$/.test(w)) break;
       if (j - i >= 3 || letras >= 17) break;
+      if (j < limite && p.palavras[j].q) break;
       if (j < limite && p.palavras[j].i - p.palavras[j - 1].f > 0.3) break;
     }
     g.push({ de: i, ate: j, verso: false }); i = j;
@@ -94,8 +100,9 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
 
   // fundo: os clipes dividem o tempo por igual, com fusão entre um e outro
   const n = p.clipes.length;
-  const passo = total / n;
   const fusao = 0.7;
+  const entradas = p.trocas && p.trocas.length === n ? p.trocas : p.clipes.map((_, k) => (k * total) / n);
+  const FILTRO = p.filtro ?? 'brightness(1.1) saturate(1.22) contrast(1.03)';
 
   // legenda atual
   let atual: Grupo | null = null;
@@ -124,13 +131,14 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
   return (
     <AbsoluteFill style={{ backgroundColor: '#120c06' }}>
       {p.clipes.map((src, k) => {
-        const de = Math.max(0, Math.round((k * passo - (k ? fusao : 0)) * fps));
+        const passo = (k + 1 < n ? entradas[k + 1] : total) - entradas[k];
+        const de = Math.max(0, Math.round((entradas[k] - (k ? fusao : 0)) * fps));
         const dur = Math.round((passo + (k ? fusao : 0) + 0.1) * fps);
         const tl = t - de / fps;
         return (
           <Sequence key={k} from={de} durationInFrames={dur}>
             <AbsoluteFill style={{ opacity: k ? rampa(tl, 0, fusao) : 1, transform: `scale(${1.02 + 0.05 * Math.min(1, Math.max(0, tl / (passo + fusao)))})` }}>
-              <OffthreadVideo src={staticFile(src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(1.1) saturate(1.22) contrast(1.03)' }} />
+              <OffthreadVideo src={staticFile(src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', filter: FILTRO }} />
             </AbsoluteFill>
           </Sequence>
         );
@@ -142,7 +150,8 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
       {emAbertura && (
         <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', opacity: abreOpac, paddingBottom: 120 }}>
           <div style={{
-            fontFamily: SERIF, fontWeight: 500, fontSize: 190, lineHeight: 1, color: BRANCO, textShadow: SOMBRA,
+            fontFamily: SERIF, fontWeight: 500, fontSize: p.abertura.tamanho ?? 190, lineHeight: 1.06, color: BRANCO, textShadow: SOMBRA,
+            textAlign: 'center', whiteSpace: 'pre-line', padding: '0 70px',
             transform: `scale(${interpolate(t, [0, 0.6], [1.05, 1], { extrapolateRight: 'clamp', easing: suave })})`,
           }}>
             {p.abertura.titulo}
@@ -182,7 +191,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
               const op = atual!.verso ? entra * (0.72 + 0.28 * lida) : entra;
               return (
                 <span key={k} style={{ opacity: op, display: 'inline-block', transform: `translateY(${(1 - entra) * 12}px)` }}>
-                  {atual!.verso ? w.p : limpa(w.p)}
+                  {atual!.verso ? (w.t ?? w.p) : limpa(w.t ?? w.p)}
                 </span>
               );
             })}
@@ -215,7 +224,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
       )}
 
       <Audio src={staticFile(p.voz)} />
-      {p.trilha && <Audio src={staticFile(p.trilha)} volume={volumeTrilha} loop />}
+      {p.trilha && <Audio src={staticFile(p.trilha)} volume={volumeTrilha} startFrom={Math.round((p.trilhaInicio ?? 0) * fps)} loop />}
     </AbsoluteFill>
   );
 };
