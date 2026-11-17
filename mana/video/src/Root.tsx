@@ -4,6 +4,7 @@ import { Versiculo, type PropsVersiculo } from './Versiculo';
 import { Historia, duracaoTotal, type PropsHistoria } from './Historia';
 import { Novela, duracaoNovela, type PropsNovela } from './Novela';
 import { BomDia, type PropsBomDia } from './BomDia';
+import { Oracao, type PropsOracao } from './Oracao';
 
 export const FPS = 30;
 
@@ -61,8 +62,27 @@ const exemploBomDia: PropsBomDia = {
   arroba: '@mana.biblia.app',
 };
 
+const exemploOracao: PropsOracao = {
+  voz: 'exemplo.wav', trilha: null, duracao: 8, clipes: ['exemplo.mp4'],
+  abertura: { titulo: 'Bom dia!', dia: 'Terça-feira, 17 de novembro', ate: 2 },
+  etiqueta: 'Bom dia · Terça-feira, 17 de novembro',
+  palavras: [{ p: 'Respira.', i: 2.4, f: 3.2 }],
+  versiculo: null,
+  fecho: { inicio: 5, sub: 'A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.', arroba: '@mana.biblia.app' },
+};
+
 export const Root: React.FC = () => (
   <>
+  <Composition
+    id="Oracao"
+    component={Oracao}
+    width={1080}
+    height={1920}
+    fps={FPS}
+    durationInFrames={Math.round(exemploOracao.duracao * FPS)}
+    defaultProps={exemploOracao}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.round(props.duracao * FPS) })}
+  />
   <Composition
     id="BomDia"
     component={BomDia}
