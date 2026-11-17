@@ -26,7 +26,7 @@ export type PropsOracao = {
   clipes: string[]; // vídeos em public/, na ordem
   trocas?: number[]; // segundo em que cada clipe entra (o primeiro é 0). Sem isso, dividem o tempo por igual
   filtro?: string; // ajuste de cor dos clipes (CSS filter)
-  abertura: { titulo: string; dia: string; ate: number; tamanho?: number }; // "Bom dia!" + data, até esse segundo
+  abertura: { titulo: string; dia: string; ate: number; tamanho?: number; subir?: number }; // "Bom dia!" + data, até esse segundo. subir: px para erguer o cartão
   etiqueta: string; // fica pequena no topo depois da abertura
   palavras: Palavra[];
   versiculo: { de: number; ate: number; referencia: string } | null; // índices em palavras (ate exclusivo)
@@ -148,7 +148,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
 
       {/* abertura: no quadro 0 o cumprimento e a data já estão na tela */}
       {emAbertura && (
-        <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', opacity: abreOpac, paddingBottom: 120 }}>
+        <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', opacity: abreOpac, paddingBottom: 120 + 2 * (p.abertura.subir ?? 0) }}>
           <div style={{
             fontFamily: SERIF, fontWeight: 500, fontSize: p.abertura.tamanho ?? 190, lineHeight: 1.06, color: BRANCO, textShadow: SOMBRA,
             textAlign: 'center', whiteSpace: 'pre-line', padding: '0 70px',
