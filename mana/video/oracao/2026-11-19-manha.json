@@ -1,0 +1,609 @@
+{
+ "voz": "oracao/2026-11-19-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 12,
+ "duracao": 57.06,
+ "clipes": [
+  "oracao/banco-manha/7597968.mp4",
+  "oracao/banco-manha/13265115.mp4",
+  "oracao/banco-manha/12157798.mp4",
+  "oracao/banco-manha/17062436.mp4",
+  "oracao/banco-manha/7218286.mp4",
+  "oracao/banco-manha/14280154.mp4",
+  "oracao/banco-manha/15725823.mp4",
+  "oracao/banco-manha/16399682.mp4",
+  "oracao/banco-manha/14453759.mp4"
+ ],
+ "trocas": [
+  0,
+  5.5,
+  9.0,
+  12.4,
+  22.4,
+  32.8,
+  39.1,
+  45.4,
+  51.5
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Quinta-feira, 19 de novembro",
+ "palavras": [
+  {
+   "p": "Bom",
+   "i": 0.0,
+   "f": 0.393
+  },
+  {
+   "p": "dia.",
+   "i": 0.393,
+   "f": 0.786
+  },
+  {
+   "p": "Se",
+   "i": 1.612,
+   "f": 1.834,
+   "q": true
+  },
+  {
+   "p": "você",
+   "i": 1.834,
+   "f": 2.219
+  },
+  {
+   "p": "acabou",
+   "i": 2.219,
+   "f": 2.769
+  },
+  {
+   "p": "de",
+   "i": 2.769,
+   "f": 2.99,
+   "q": true
+  },
+  {
+   "p": "acordar",
+   "i": 2.99,
+   "f": 3.54
+  },
+  {
+   "p": "e",
+   "i": 3.54,
+   "f": 3.762,
+   "q": true
+  },
+  {
+   "p": "já",
+   "i": 3.762,
+   "f": 3.983
+  },
+  {
+   "p": "pegou",
+   "i": 3.983,
+   "f": 4.369,
+   "q": true
+  },
+  {
+   "p": "o",
+   "i": 4.369,
+   "f": 4.59
+  },
+  {
+   "p": "celular...",
+   "i": 4.59,
+   "f": 5.14
+  },
+  {
+   "p": "para",
+   "i": 5.722,
+   "f": 6.003
+  },
+  {
+   "p": "um",
+   "i": 6.003,
+   "f": 6.165
+  },
+  {
+   "p": "minuto",
+   "i": 6.165,
+   "f": 6.566
+  },
+  {
+   "p": "antes",
+   "i": 6.843,
+   "f": 7.208
+  },
+  {
+   "p": "de",
+   "i": 7.208,
+   "f": 7.418
+  },
+  {
+   "p": "tudo.",
+   "i": 7.418,
+   "f": 7.783
+  },
+  {
+   "p": "Hoje",
+   "i": 9.053,
+   "f": 9.383
+  },
+  {
+   "p": "é",
+   "i": 9.383,
+   "f": 9.573
+  },
+  {
+   "p": "quinta-feira,",
+   "i": 9.573,
+   "f": 10.186
+  },
+  {
+   "p": "dezenove",
+   "i": 10.637,
+   "f": 11.226
+  },
+  {
+   "p": "de",
+   "i": 11.226,
+   "f": 11.409
+  },
+  {
+   "p": "novembro.",
+   "i": 11.409,
+   "f": 11.862
+  },
+  {
+   "p": "A",
+   "i": 13.13,
+   "f": 13.369
+  },
+  {
+   "p": "Bíblia",
+   "i": 13.369,
+   "f": 13.786
+  },
+  {
+   "p": "diz:",
+   "i": 13.786,
+   "f": 14.025
+  },
+  {
+   "p": "Senhor,",
+   "i": 14.525,
+   "f": 15.132,
+   "t": "SENHOR,"
+  },
+  {
+   "p": "pela",
+   "i": 15.564,
+   "f": 15.947
+  },
+  {
+   "p": "manhã",
+   "i": 15.947,
+   "f": 16.331
+  },
+  {
+   "p": "ouvirás",
+   "i": 16.331,
+   "f": 16.877
+  },
+  {
+   "p": "minha",
+   "i": 16.877,
+   "f": 17.261
+  },
+  {
+   "p": "voz;",
+   "i": 17.261,
+   "f": 17.481
+  },
+  {
+   "p": "pela",
+   "i": 17.861,
+   "f": 18.17
+  },
+  {
+   "p": "manhã",
+   "i": 18.17,
+   "f": 18.479
+  },
+  {
+   "p": "apresentarei",
+   "i": 18.479,
+   "f": 19.183
+  },
+  {
+   "p": "meu",
+   "i": 19.183,
+   "f": 19.36
+  },
+  {
+   "p": "clamor",
+   "i": 19.36,
+   "f": 19.669
+  },
+  {
+   "p": "a",
+   "i": 19.669,
+   "f": 19.847
+  },
+  {
+   "p": "ti,",
+   "i": 19.847,
+   "f": 20.025
+  },
+  {
+   "p": "e",
+   "i": 20.595,
+   "f": 20.756
+  },
+  {
+   "p": "ficarei",
+   "i": 20.756,
+   "f": 21.156
+  },
+  {
+   "p": "esperando.",
+   "i": 21.156,
+   "f": 21.675
+  },
+  {
+   "p": "Então",
+   "i": 22.682,
+   "f": 23.019
+  },
+  {
+   "p": "ora",
+   "i": 23.019,
+   "f": 23.356
+  },
+  {
+   "p": "comigo.",
+   "i": 23.356,
+   "f": 23.836
+  },
+  {
+   "p": "Senhor,",
+   "i": 25.208,
+   "f": 25.666
+  },
+  {
+   "p": "antes",
+   "i": 26.535,
+   "f": 26.963
+  },
+  {
+   "p": "de",
+   "i": 26.963,
+   "f": 27.21
+  },
+  {
+   "p": "qualquer",
+   "i": 27.21,
+   "f": 27.638,
+   "q": true
+  },
+  {
+   "p": "mensagem,",
+   "i": 27.638,
+   "f": 28.25
+  },
+  {
+   "p": "antes",
+   "i": 28.77,
+   "f": 29.106
+  },
+  {
+   "p": "de",
+   "i": 29.106,
+   "f": 29.299
+  },
+  {
+   "p": "qualquer",
+   "i": 29.299,
+   "f": 29.635,
+   "q": true
+  },
+  {
+   "p": "problema...",
+   "i": 29.883,
+   "f": 30.486
+  },
+  {
+   "p": "eu",
+   "i": 31.178,
+   "f": 31.331
+  },
+  {
+   "p": "falo",
+   "i": 31.331,
+   "f": 31.598
+  },
+  {
+   "p": "com",
+   "i": 31.598,
+   "f": 31.752,
+   "q": true
+  },
+  {
+   "p": "o",
+   "i": 31.752,
+   "f": 31.905
+  },
+  {
+   "p": "Senhor.",
+   "i": 31.905,
+   "f": 32.172
+  },
+  {
+   "p": "Toma",
+   "i": 33.076,
+   "f": 33.411
+  },
+  {
+   "p": "conta",
+   "i": 33.411,
+   "f": 33.746
+  },
+  {
+   "p": "do",
+   "i": 33.746,
+   "f": 33.939,
+   "q": true
+  },
+  {
+   "p": "meu",
+   "i": 33.939,
+   "f": 34.131
+  },
+  {
+   "p": "dia.",
+   "i": 34.131,
+   "f": 34.324
+  },
+  {
+   "p": "Me",
+   "i": 35.111,
+   "f": 35.321
+  },
+  {
+   "p": "dá",
+   "i": 35.321,
+   "f": 35.53
+  },
+  {
+   "p": "calma",
+   "i": 35.53,
+   "f": 35.894
+  },
+  {
+   "p": "pra",
+   "i": 35.894,
+   "f": 36.103
+  },
+  {
+   "p": "responder,",
+   "i": 36.103,
+   "f": 36.621
+  },
+  {
+   "p": "paciência",
+   "i": 37.197,
+   "f": 37.757
+  },
+  {
+   "p": "com",
+   "i": 37.757,
+   "f": 37.983
+  },
+  {
+   "p": "quem",
+   "i": 37.983,
+   "f": 38.209,
+   "q": true
+  },
+  {
+   "p": "eu",
+   "i": 38.209,
+   "f": 38.435
+  },
+  {
+   "p": "amo,",
+   "i": 38.435,
+   "f": 38.828
+  },
+  {
+   "p": "e",
+   "i": 39.3,
+   "f": 39.508
+  },
+  {
+   "p": "força",
+   "i": 39.508,
+   "f": 39.872
+  },
+  {
+   "p": "pra",
+   "i": 39.872,
+   "f": 40.08
+  },
+  {
+   "p": "fazer",
+   "i": 40.08,
+   "f": 40.444
+  },
+  {
+   "p": "o",
+   "i": 40.444,
+   "f": 40.652
+  },
+  {
+   "p": "que",
+   "i": 40.652,
+   "f": 40.861
+  },
+  {
+   "p": "precisa",
+   "i": 40.861,
+   "f": 41.379
+  },
+  {
+   "p": "ser",
+   "i": 41.379,
+   "f": 41.588
+  },
+  {
+   "p": "feito.",
+   "i": 41.588,
+   "f": 41.951
+  },
+  {
+   "p": "Eu",
+   "i": 42.702,
+   "f": 42.934
+  },
+  {
+   "p": "entrego",
+   "i": 42.934,
+   "f": 43.51
+  },
+  {
+   "p": "este",
+   "i": 43.51,
+   "f": 43.914,
+   "q": true
+  },
+  {
+   "p": "dia",
+   "i": 43.914,
+   "f": 44.146
+  },
+  {
+   "p": "nas",
+   "i": 44.146,
+   "f": 44.379,
+   "q": true
+  },
+  {
+   "p": "tuas",
+   "i": 44.379,
+   "f": 44.611
+  },
+  {
+   "p": "mãos.",
+   "i": 44.611,
+   "f": 44.843
+  },
+  {
+   "p": "Em",
+   "i": 45.544,
+   "f": 45.768
+  },
+  {
+   "p": "nome",
+   "i": 45.768,
+   "f": 46.158
+  },
+  {
+   "p": "de",
+   "i": 46.158,
+   "f": 46.382,
+   "q": true
+  },
+  {
+   "p": "Jesus...",
+   "i": 46.382,
+   "f": 46.772
+  },
+  {
+   "p": "amém.",
+   "i": 47.385,
+   "f": 47.661
+  },
+  {
+   "p": "Se",
+   "i": 48.64,
+   "f": 48.802
+  },
+  {
+   "p": "você",
+   "i": 48.802,
+   "f": 49.085
+  },
+  {
+   "p": "recebe,",
+   "i": 49.085,
+   "f": 49.487
+  },
+  {
+   "p": "escreve",
+   "i": 50.015,
+   "f": 50.575
+  },
+  {
+   "p": "amém.",
+   "i": 50.575,
+   "f": 50.968
+  },
+  {
+   "p": "E",
+   "i": 51.683,
+   "f": 51.83
+  },
+  {
+   "p": "manda",
+   "i": 51.83,
+   "f": 52.087
+  },
+  {
+   "p": "esse",
+   "i": 52.087,
+   "f": 52.344,
+   "q": true
+  },
+  {
+   "p": "bom",
+   "i": 52.344,
+   "f": 52.492
+  },
+  {
+   "p": "dia",
+   "i": 52.492,
+   "f": 52.639
+  },
+  {
+   "p": "pra",
+   "i": 52.639,
+   "f": 52.787,
+   "q": true
+  },
+  {
+   "p": "alguém.",
+   "i": 52.787,
+   "f": 53.044
+  }
+ ],
+ "versiculo": {
+  "de": 27,
+  "ate": 43,
+  "referencia": "Salmos 5:3"
+ },
+ "fecho": {
+  "inicio": 53.66,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "ref": "PSA.5.3",
+   "cita": "SENHOR, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando."
+  }
+ ],
+ "roteiro": "Bom dia. Se você acabou de acordar e já pegou o celular... para um minuto antes de tudo. Hoje é quinta-feira, dezenove de novembro. A Bíblia diz: Senhor, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando. Então ora comigo. Senhor, antes de qualquer mensagem, antes de qualquer problema... eu falo com o Senhor. Toma conta do meu dia. Me dá calma pra responder, paciência com quem eu amo, e força pra fazer o que precisa ser feito. Eu entrego este dia nas tuas mãos. Em nome de Jesus... amém. Se você recebe, escreve amém. E manda esse bom dia pra alguém."
+}

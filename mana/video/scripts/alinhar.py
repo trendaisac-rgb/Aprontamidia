@@ -19,6 +19,16 @@ def pausas(wav, db=-38, d=0.20):
         if a - t > 0.16: fala.append((t, a))  # menos que isso é respiro ou estalo, não palavra
         t = b
     if dur - t > 0.08: fala.append((t, dur))
+    # respiro longo passa pelo filtro de duração: tira o trecho muito mais baixo que a fala (15 dB abaixo da mediana)
+    try:
+        import soundfile as sf, numpy as np
+        x, sr = sf.read(wav)
+        if x.ndim > 1: x = x.mean(axis=1)
+        nivel = [10 * np.log10(np.mean(x[int(a * sr):int(b * sr)] ** 2) + 1e-12) for a, b in fala]
+        med = float(np.median(nivel))
+        fala = [ab for ab, n in zip(fala, nivel) if n > med - 15]
+    except ImportError:
+        pass
     return fala, dur
 
 def silabas(p):

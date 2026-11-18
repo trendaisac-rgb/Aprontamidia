@@ -1,0 +1,474 @@
+{
+ "voz": "oracao/2026-11-18-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 40,
+ "duracao": 48.17,
+ "clipes": [
+  "oracao/banco-noite/16998437.mp4",
+  "oracao/banco-noite/13203979.mp4",
+  "oracao/banco-noite/10879862.mp4",
+  "oracao/banco-noite/14813142.mp4",
+  "oracao/banco-noite/12191404.mp4",
+  "oracao/banco-noite/19095583.mp4",
+  "oracao/banco-noite/7131684.mp4",
+  "oracao/banco-noite/854739.mp4",
+  "oracao/banco-noite/17119564.mp4"
+ ],
+ "trocas": [
+  0,
+  4.1,
+  9.2,
+  15.6,
+  19.9,
+  24.0,
+  27.7,
+  33.9,
+  42.4
+ ],
+ "filtro": "brightness(1.04) saturate(1.12) contrast(1.02)",
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Quarta-feira, 18 de novembro",
+ "palavras": [
+  {
+   "p": "Ninguém",
+   "i": 0.0,
+   "f": 0.482
+  },
+  {
+   "p": "viu",
+   "i": 0.482,
+   "f": 0.759
+  },
+  {
+   "p": "o",
+   "i": 0.759,
+   "f": 1.036,
+   "q": true
+  },
+  {
+   "p": "quanto",
+   "i": 1.242,
+   "f": 1.677
+  },
+  {
+   "p": "você",
+   "i": 1.677,
+   "f": 2.112
+  },
+  {
+   "p": "se",
+   "i": 2.112,
+   "f": 2.362,
+   "q": true
+  },
+  {
+   "p": "esforçou",
+   "i": 2.362,
+   "f": 2.983
+  },
+  {
+   "p": "hoje.",
+   "i": 2.983,
+   "f": 3.418
+  },
+  {
+   "p": "Mas",
+   "i": 4.196,
+   "f": 4.456
+  },
+  {
+   "p": "Deus",
+   "i": 4.456,
+   "f": 4.716
+  },
+  {
+   "p": "viu.",
+   "i": 4.716,
+   "f": 4.975
+  },
+  {
+   "p": "Cada",
+   "i": 6.102,
+   "f": 6.436
+  },
+  {
+   "p": "coisa",
+   "i": 6.436,
+   "f": 6.77
+  },
+  {
+   "p": "que",
+   "i": 6.77,
+   "f": 6.962
+  },
+  {
+   "p": "você",
+   "i": 6.962,
+   "f": 7.295,
+   "q": true
+  },
+  {
+   "p": "aguentou",
+   "i": 7.295,
+   "f": 7.771
+  },
+  {
+   "p": "em",
+   "i": 7.771,
+   "f": 7.963,
+   "q": true
+  },
+  {
+   "p": "silêncio...",
+   "i": 7.963,
+   "f": 8.439
+  },
+  {
+   "p": "cada",
+   "i": 9.268,
+   "f": 9.643
+  },
+  {
+   "p": "vez",
+   "i": 9.643,
+   "f": 9.859
+  },
+  {
+   "p": "que",
+   "i": 9.859,
+   "f": 10.074
+  },
+  {
+   "p": "pensou",
+   "i": 10.074,
+   "f": 10.449
+  },
+  {
+   "p": "em",
+   "i": 10.449,
+   "f": 10.664
+  },
+  {
+   "p": "desistir",
+   "i": 10.664,
+   "f": 11.198
+  },
+  {
+   "p": "e",
+   "i": 11.634,
+   "f": 11.854
+  },
+  {
+   "p": "continuou.",
+   "i": 11.854,
+   "f": 12.398
+  },
+  {
+   "p": "Ele",
+   "i": 13.297,
+   "f": 13.645
+  },
+  {
+   "p": "viu.",
+   "i": 13.645,
+   "f": 13.844
+  },
+  {
+   "p": "Então",
+   "i": 15.746,
+   "f": 16.243
+  },
+  {
+   "p": "hoje,",
+   "i": 16.243,
+   "f": 16.74
+  },
+  {
+   "p": "antes",
+   "i": 17.019,
+   "f": 17.359
+  },
+  {
+   "p": "de",
+   "i": 17.359,
+   "f": 17.554
+  },
+  {
+   "p": "dormir,",
+   "i": 17.554,
+   "f": 17.894
+  },
+  {
+   "p": "diz",
+   "i": 18.483,
+   "f": 18.659
+  },
+  {
+   "p": "comigo:",
+   "i": 18.659,
+   "f": 19.095
+  },
+  {
+   "p": "Eu",
+   "i": 20.015,
+   "f": 20.221
+  },
+  {
+   "p": "deitarei,",
+   "i": 20.221,
+   "f": 20.731
+  },
+  {
+   "p": "e",
+   "i": 21.345,
+   "f": 21.577
+  },
+  {
+   "p": "dormirei",
+   "i": 21.577,
+   "f": 22.154
+  },
+  {
+   "p": "em",
+   "i": 22.154,
+   "f": 22.386
+  },
+  {
+   "p": "paz;",
+   "i": 22.386,
+   "f": 22.618
+  },
+  {
+   "p": "porque",
+   "i": 23.363,
+   "f": 23.696
+  },
+  {
+   "p": "só",
+   "i": 23.696,
+   "f": 23.888
+  },
+  {
+   "p": "tu,",
+   "i": 24.096,
+   "f": 24.267
+  },
+  {
+   "p": "Senhor,",
+   "i": 24.478,
+   "f": 24.971,
+   "t": "SENHOR,"
+  },
+  {
+   "p": "me",
+   "i": 25.317,
+   "f": 25.511
+  },
+  {
+   "p": "fazes",
+   "i": 25.511,
+   "f": 25.849
+  },
+  {
+   "p": "descansar",
+   "i": 25.849,
+   "f": 26.331
+  },
+  {
+   "p": "seguro.",
+   "i": 26.331,
+   "f": 26.813
+  },
+  {
+   "p": "Você",
+   "i": 28.787,
+   "f": 29.067
+  },
+  {
+   "p": "não",
+   "i": 29.067,
+   "f": 29.228
+  },
+  {
+   "p": "precisa",
+   "i": 29.228,
+   "f": 29.629
+  },
+  {
+   "p": "levar",
+   "i": 29.629,
+   "f": 29.909,
+   "q": true
+  },
+  {
+   "p": "o",
+   "i": 29.909,
+   "f": 30.07
+  },
+  {
+   "p": "peso",
+   "i": 30.07,
+   "f": 30.351
+  },
+  {
+   "p": "de",
+   "i": 30.351,
+   "f": 30.512,
+   "q": true
+  },
+  {
+   "p": "amanhã",
+   "i": 30.512,
+   "f": 30.912
+  },
+  {
+   "p": "pra",
+   "i": 30.912,
+   "f": 31.074,
+   "q": true
+  },
+  {
+   "p": "cama.",
+   "i": 31.074,
+   "f": 31.354
+  },
+  {
+   "p": "O",
+   "i": 32.225,
+   "f": 32.374
+  },
+  {
+   "p": "amanhã",
+   "i": 32.374,
+   "f": 32.743
+  },
+  {
+   "p": "fica",
+   "i": 32.743,
+   "f": 33.002
+  },
+  {
+   "p": "pra",
+   "i": 33.002,
+   "f": 33.151
+  },
+  {
+   "p": "amanhã.",
+   "i": 33.151,
+   "f": 33.52
+  },
+  {
+   "p": "Agora...",
+   "i": 34.503,
+   "f": 34.973
+  },
+  {
+   "p": "descansa.",
+   "i": 35.788,
+   "f": 36.49
+  },
+  {
+   "p": "Boa",
+   "i": 37.637,
+   "f": 37.856
+  },
+  {
+   "p": "noite.",
+   "i": 37.856,
+   "f": 38.237
+  },
+  {
+   "p": "Se",
+   "i": 39.479,
+   "f": 39.656
+  },
+  {
+   "p": "isso",
+   "i": 39.656,
+   "f": 39.963
+  },
+  {
+   "p": "falou",
+   "i": 39.963,
+   "f": 40.27
+  },
+  {
+   "p": "com",
+   "i": 40.27,
+   "f": 40.446
+  },
+  {
+   "p": "você,",
+   "i": 40.446,
+   "f": 40.754
+  },
+  {
+   "p": "escreve",
+   "i": 41.115,
+   "f": 41.58
+  },
+  {
+   "p": "amém.",
+   "i": 41.58,
+   "f": 41.907
+  },
+  {
+   "p": "E",
+   "i": 42.635,
+   "f": 42.776
+  },
+  {
+   "p": "manda",
+   "i": 42.776,
+   "f": 43.022
+  },
+  {
+   "p": "pra",
+   "i": 43.022,
+   "f": 43.163
+  },
+  {
+   "p": "alguém",
+   "i": 43.163,
+   "f": 43.409
+  },
+  {
+   "p": "que",
+   "i": 43.409,
+   "f": 43.551
+  },
+  {
+   "p": "está",
+   "i": 43.551,
+   "f": 43.797,
+   "q": true
+  },
+  {
+   "p": "cansado.",
+   "i": 43.797,
+   "f": 44.147
+  }
+ ],
+ "versiculo": {
+  "de": 35,
+  "ate": 49,
+  "referencia": "Salmos 4:8"
+ },
+ "fecho": {
+  "inicio": 44.77,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "ref": "PSA.4.8",
+   "cita": "Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro."
+  }
+ ],
+ "roteiro": "Ninguém viu o quanto você se esforçou hoje. Mas Deus viu. Cada coisa que você aguentou em silêncio... cada vez que pensou em desistir e continuou. Ele viu. Então hoje, antes de dormir, diz comigo: Eu deitarei, e dormirei em paz; porque só tu, Senhor, me fazes descansar seguro. Você não precisa levar o peso de amanhã pra cama. O amanhã fica pra amanhã. Agora... descansa. Boa noite. Se isso falou com você, escreve amém. E manda pra alguém que está cansado."
+}

@@ -104,17 +104,20 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
   const entradas = p.trocas && p.trocas.length === n ? p.trocas : p.clipes.map((_, k) => (k * total) / n);
   const FILTRO = p.filtro ?? 'brightness(1.1) saturate(1.22) contrast(1.03)';
 
+  // sem cartão (ate 0): a legenda já entra no quadro 0, junto com a voz
+  const temCartao = p.abertura.ate > 0;
+
   // legenda atual
   let atual: Grupo | null = null;
   for (let k = 0; k < grupos.length; k++) {
     const g = grupos[k];
-    const ini = p.palavras[g.de].i - 0.08;
+    const ini = k === 0 && !temCartao ? -1 : p.palavras[g.de].i - 0.08;
     const prox = k + 1 < grupos.length ? p.palavras[grupos[k + 1].de].i - 0.08 : p.fecho.inicio;
     const fim = Math.min(prox, p.palavras[g.ate - 1].f + (g.verso ? 1.4 : 0.9));
     if (t >= ini && t < fim) { atual = g; break; }
   }
 
-  const emAbertura = t < p.abertura.ate + 0.5;
+  const emAbertura = temCartao && t < p.abertura.ate + 0.5;
   const abreOpac = 1 - rampa(t, p.abertura.ate, p.abertura.ate + 0.5);
   const emFecho = t >= p.fecho.inicio - 0.1;
   const fechoOpac = rampa(t, p.fecho.inicio, p.fecho.inicio + 0.7);
@@ -168,7 +171,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
       {/* etiqueta pequena no topo, depois da abertura */}
       {!emFecho && (
         <div style={{
-          position: 'absolute', top: 170, width: '100%', textAlign: 'center', opacity: rampa(t, p.abertura.ate + 0.2, p.abertura.ate + 0.9) * 0.92,
+          position: 'absolute', top: 170, width: '100%', textAlign: 'center', opacity: (temCartao ? rampa(t, p.abertura.ate + 0.2, p.abertura.ate + 0.9) : 1) * 0.92,
           fontFamily: SANS, fontWeight: 500, fontSize: 32, letterSpacing: 0.5, color: DOURADO, textShadow: SOMBRA,
         }}>
           {p.etiqueta}
@@ -186,7 +189,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
           } as React.CSSProperties}>
             {p.palavras.slice(atual.de, atual.ate).map((w, k) => {
               // bloco comum: entra inteiro, de uma vez. Versículo: fica todo na tela e cada palavra acende quando é lida.
-              const entra = rampa(t, p.palavras[atual!.de].i - 0.1, p.palavras[atual!.de].i + 0.14);
+              const entra = !temCartao && atual!.de === grupos[0].de ? 1 : rampa(t, p.palavras[atual!.de].i - 0.1, p.palavras[atual!.de].i + 0.14);
               const lida = rampa(t, w.i - 0.1, w.i + 0.15);
               const op = atual!.verso ? entra * (0.72 + 0.28 * lida) : entra;
               return (
