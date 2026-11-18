@@ -5,7 +5,7 @@
  "trilhaInicio": 20,
  "duracao": 46.39,
  "clipes": [
-  "oracao/banco-noite/6227239.mp4",
+  "oracao/banco-noite/10833065.mp4",
   "oracao/banco-noite/10879862.mp4",
   "oracao/banco-noite/16998437.mp4",
   "oracao/banco-noite/7131684.mp4",
@@ -28,7 +28,7 @@
   null,
   null,
   null,
-  null,
+  "brightness(0.6) saturate(1.08) contrast(1.06)",
   null,
   null,
   null,
