@@ -16,7 +16,7 @@ import {
 
 // p: a palavra como é falada. t: como aparece na tela, quando difere da fala (ex.: "SENHOR," no versículo).
 // q: força começar um bloco novo nesta palavra, para a frase quebrar no lugar certo.
-export type Palavra = { p: string; i: number; f: number; t?: string; q?: boolean };
+export type Palavra = { p: string; i: number; f: number; t?: string; q?: boolean; j?: boolean };
 export type PropsOracao = {
   voz: string;
   trilha: string | null;
@@ -26,6 +26,7 @@ export type PropsOracao = {
   clipes: string[]; // vídeos em public/, na ordem
   trocas?: number[]; // segundo em que cada clipe entra (o primeiro é 0). Sem isso, dividem o tempo por igual
   filtro?: string; // ajuste de cor dos clipes (CSS filter)
+  filtros?: (string | null)[]; // por clipe, no lugar do filtro geral (clipe claro demais pede escurecer)
   abertura: { titulo: string; dia: string; ate: number; tamanho?: number; subir?: number }; // "Bom dia!" + data, até esse segundo. subir: px para erguer o cartão
   etiqueta: string; // fica pequena no topo depois da abertura
   palavras: Palavra[];
@@ -69,7 +70,12 @@ export const agrupar = (p: PropsOracao): Grupo[] => {
       let a = v.de;
       while (a < v.ate) {
         let b = Math.min(v.ate, a + 14);
-        if (b < v.ate) { for (let k = b; k > a + 4; k--) if (/[;:.!?]$/.test(p.palavras[k - 1].p)) { b = k; break; } }
+        if (b < v.ate) {
+          let c = -1;
+          for (let k = b; k > a + 4; k--) if (/[;:.!?]$/.test(p.palavras[k - 1].p)) { c = k; break; }
+          if (c < 0) for (let k = b; k > a + 4; k--) if (/,$/.test(p.palavras[k - 1].p)) { c = k; break; }
+          if (c > 0) b = c;
+        }
         g.push({ de: a, ate: b, verso: true }); a = b;
       }
       i = v.ate; continue;
@@ -79,7 +85,7 @@ export const agrupar = (p: PropsOracao): Grupo[] => {
     while (j < limite) {
       const w = p.palavras[j].p; letras += w.length + 1; j++;
       if (/(\.\.\.|[.!?;:,])$/.test(w)) break;
-      if (j - i >= 3 || letras >= 17) break;
+      if ((j - i >= 3 || letras >= 17) && !(j < limite && p.palavras[j].j)) break; // j: esta palavra cola no bloco anterior
       if (j < limite && p.palavras[j].q) break;
       if (j < limite && p.palavras[j].i - p.palavras[j - 1].f > 0.3) break;
     }
@@ -141,13 +147,21 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
         return (
           <Sequence key={k} from={de} durationInFrames={dur}>
             <AbsoluteFill style={{ opacity: k ? rampa(tl, 0, fusao) : 1, transform: `scale(${1.02 + 0.05 * Math.min(1, Math.max(0, tl / (passo + fusao)))})` }}>
-              <OffthreadVideo src={staticFile(src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', filter: FILTRO }} />
+              <OffthreadVideo src={staticFile(src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', filter: p.filtros?.[k] ?? FILTRO }} />
             </AbsoluteFill>
           </Sequence>
         );
       })}
       <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(16,10,4,0.34) 0%, rgba(16,10,4,0.06) 24%, rgba(16,10,4,0.10) 62%, rgba(16,10,4,0.42) 100%)' }} />
       <AbsoluteFill style={{ background: 'radial-gradient(ellipse 90% 30% at 50% 47%, rgba(10,6,2,0.34) 0%, rgba(10,6,2,0.14) 60%, rgba(10,6,2,0) 100%)' }} />
+
+      {/* véu extra atrás do versículo: o dourado em itálico precisa de fundo escuro em clipe claro */}
+      {atual && atual.verso && !emFecho && (
+        <AbsoluteFill style={{
+          opacity: rampa(t, p.palavras[atual.de].i - 0.3, p.palavras[atual.de].i + 0.2),
+          background: 'radial-gradient(ellipse 95% 26% at 50% 46%, rgba(8,5,2,0.55) 0%, rgba(8,5,2,0.3) 55%, rgba(8,5,2,0) 100%)',
+        }} />
+      )}
 
       {/* abertura: no quadro 0 o cumprimento e a data já estão na tela */}
       {emAbertura && (

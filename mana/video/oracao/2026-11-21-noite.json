@@ -1,0 +1,487 @@
+{
+ "voz": "oracao/2026-11-21-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 46.39,
+ "clipes": [
+  "oracao/banco-noite/6227239.mp4",
+  "oracao/banco-noite/10879862.mp4",
+  "oracao/banco-noite/16998437.mp4",
+  "oracao/banco-noite/7131684.mp4",
+  "oracao/banco-noite/17119564.mp4",
+  "oracao/banco-noite/14813142.mp4",
+  "oracao/banco-noite/3765589.mp4",
+  "oracao/banco-noite/12335094.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.53,
+  10.62,
+  16.8,
+  22.23,
+  28.35,
+  31.97,
+  39.76
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Sábado, 21 de novembro",
+ "palavras": [
+  {
+   "p": "Antes",
+   "i": 0.0,
+   "f": 0.378
+  },
+  {
+   "p": "de",
+   "i": 0.378,
+   "f": 0.594
+  },
+  {
+   "p": "dormir,",
+   "i": 0.594,
+   "f": 0.972
+  },
+  {
+   "p": "faz",
+   "i": 1.48,
+   "f": 1.666
+  },
+  {
+   "p": "uma",
+   "i": 1.666,
+   "f": 1.989
+  },
+  {
+   "p": "coisa:",
+   "i": 1.989,
+   "f": 2.312
+  },
+  {
+   "p": "desliga",
+   "i": 2.897,
+   "f": 3.377
+  },
+  {
+   "p": "a",
+   "i": 3.377,
+   "f": 3.57
+  },
+  {
+   "p": "cabeça",
+   "i": 3.57,
+   "f": 4.05
+  },
+  {
+   "p": "por",
+   "i": 4.05,
+   "f": 4.243
+  },
+  {
+   "p": "um",
+   "i": 4.243,
+   "f": 4.437
+  },
+  {
+   "p": "minuto.",
+   "i": 4.437,
+   "f": 4.916
+  },
+  {
+   "p": "A",
+   "i": 5.682,
+   "f": 5.912
+  },
+  {
+   "p": "Bíblia",
+   "i": 5.912,
+   "f": 6.312
+  },
+  {
+   "p": "diz:",
+   "i": 6.312,
+   "f": 6.542
+  },
+  {
+   "p": "Tu",
+   "i": 6.542,
+   "f": 6.772
+  },
+  {
+   "p": "guardarás",
+   "i": 6.772,
+   "f": 7.343
+  },
+  {
+   "p": "em",
+   "i": 7.343,
+   "f": 7.572
+  },
+  {
+   "p": "completa",
+   "i": 7.572,
+   "f": 8.143
+  },
+  {
+   "p": "paz",
+   "i": 8.143,
+   "f": 8.373
+  },
+  {
+   "p": "aquele",
+   "i": 8.373,
+   "f": 8.943
+  },
+  {
+   "p": "que",
+   "i": 8.943,
+   "f": 9.173
+  },
+  {
+   "p": "tem",
+   "i": 9.173,
+   "f": 9.403
+  },
+  {
+   "p": "firme",
+   "i": 9.403,
+   "f": 9.803
+  },
+  {
+   "p": "entendimento,",
+   "i": 9.803,
+   "f": 10.715
+  },
+  {
+   "p": "pois",
+   "i": 10.715,
+   "f": 10.945
+  },
+  {
+   "p": "ele",
+   "i": 10.945,
+   "f": 11.345
+  },
+  {
+   "p": "confia",
+   "i": 11.345,
+   "f": 11.745
+  },
+  {
+   "p": "em",
+   "i": 11.745,
+   "f": 11.975
+  },
+  {
+   "p": "ti.",
+   "i": 11.975,
+   "f": 12.205
+  },
+  {
+   "p": "Paz",
+   "i": 12.721,
+   "f": 12.982
+  },
+  {
+   "p": "não",
+   "i": 12.982,
+   "f": 13.243
+  },
+  {
+   "p": "é",
+   "i": 13.243,
+   "f": 13.503
+  },
+  {
+   "p": "quando",
+   "i": 13.503,
+   "f": 13.957,
+   "q": true
+  },
+  {
+   "p": "tudo",
+   "i": 13.957,
+   "f": 14.41
+  },
+  {
+   "p": "está",
+   "i": 15.562,
+   "f": 16.05
+  },
+  {
+   "p": "resolvido.",
+   "i": 16.05,
+   "f": 16.954
+  },
+  {
+   "p": "É",
+   "i": 16.954,
+   "f": 17.234
+  },
+  {
+   "p": "quando",
+   "i": 17.234,
+   "f": 17.723
+  },
+  {
+   "p": "você",
+   "i": 18.494,
+   "f": 18.964
+  },
+  {
+   "p": "confia",
+   "i": 18.964,
+   "f": 19.434
+  },
+  {
+   "p": "em",
+   "i": 19.434,
+   "f": 19.704
+  },
+  {
+   "p": "quem",
+   "i": 19.704,
+   "f": 19.974,
+   "j": true
+  },
+  {
+   "p": "está",
+   "i": 20.32,
+   "f": 20.735,
+   "q": true
+  },
+  {
+   "p": "cuidando.",
+   "i": 20.735,
+   "f": 21.328
+  },
+  {
+   "p": "Então",
+   "i": 22.376,
+   "f": 22.689
+  },
+  {
+   "p": "fecha",
+   "i": 22.689,
+   "f": 23.002
+  },
+  {
+   "p": "o",
+   "i": 23.306,
+   "f": 23.589
+  },
+  {
+   "p": "dia",
+   "i": 23.589,
+   "f": 23.872
+  },
+  {
+   "p": "assim:",
+   "i": 23.872,
+   "f": 24.363
+  },
+  {
+   "p": "Senhor,",
+   "i": 25.497,
+   "f": 26.059
+  },
+  {
+   "p": "eu",
+   "i": 26.548,
+   "f": 26.795
+  },
+  {
+   "p": "confio",
+   "i": 26.795,
+   "f": 27.224
+  },
+  {
+   "p": "em",
+   "i": 27.224,
+   "f": 27.471
+  },
+  {
+   "p": "ti.",
+   "i": 27.471,
+   "f": 27.718,
+   "j": true
+  },
+  {
+   "p": "Guarda",
+   "i": 28.501,
+   "f": 28.826
+  },
+  {
+   "p": "a",
+   "i": 28.826,
+   "f": 29.012
+  },
+  {
+   "p": "minha",
+   "i": 29.012,
+   "f": 29.337
+  },
+  {
+   "p": "mente,",
+   "i": 29.337,
+   "f": 29.662,
+   "j": true
+  },
+  {
+   "p": "guarda",
+   "i": 30.176,
+   "f": 30.515
+  },
+  {
+   "p": "a",
+   "i": 30.515,
+   "f": 30.71
+  },
+  {
+   "p": "minha",
+   "i": 30.71,
+   "f": 31.049
+  },
+  {
+   "p": "casa,",
+   "i": 31.049,
+   "f": 31.388,
+   "j": true
+  },
+  {
+   "p": "guarda",
+   "i": 32.117,
+   "f": 32.51
+  },
+  {
+   "p": "o",
+   "i": 32.51,
+   "f": 32.736
+  },
+  {
+   "p": "meu",
+   "i": 32.736,
+   "f": 32.961
+  },
+  {
+   "p": "sono.",
+   "i": 32.961,
+   "f": 33.354,
+   "j": true
+  },
+  {
+   "p": "Boa",
+   "i": 34.789,
+   "f": 35.002
+  },
+  {
+   "p": "noite.",
+   "i": 35.002,
+   "f": 35.373
+  },
+  {
+   "p": "Se",
+   "i": 36.661,
+   "f": 36.839
+  },
+  {
+   "p": "você",
+   "i": 36.839,
+   "f": 37.149
+  },
+  {
+   "p": "recebe,",
+   "i": 37.149,
+   "f": 37.592
+  },
+  {
+   "p": "escreve",
+   "i": 38.056,
+   "f": 38.752
+  },
+  {
+   "p": "amém.",
+   "i": 38.752,
+   "f": 39.24
+  },
+  {
+   "p": "E",
+   "i": 39.911,
+   "f": 40.104
+  },
+  {
+   "p": "manda",
+   "i": 40.104,
+   "f": 40.441
+  },
+  {
+   "p": "pra",
+   "i": 40.441,
+   "f": 40.634,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 40.634,
+   "f": 40.971
+  },
+  {
+   "p": "que",
+   "i": 40.971,
+   "f": 41.164
+  },
+  {
+   "p": "precisa",
+   "i": 41.164,
+   "f": 41.644,
+   "q": true
+  },
+  {
+   "p": "de",
+   "i": 41.644,
+   "f": 41.838
+  },
+  {
+   "p": "paz",
+   "i": 41.838,
+   "f": 42.031
+  },
+  {
+   "p": "hoje.",
+   "i": 42.031,
+   "f": 42.368,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 15,
+  "ate": 30,
+  "referencia": "Isaías 26:3"
+ },
+ "fecho": {
+  "inicio": 42.99,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Tu guardarás em completa paz aquele que tem firme entendimento, pois ele confia em ti.",
+   "referencia": "Isaías 26:3"
+  }
+ ],
+ "roteiro": "Antes de dormir, faz uma coisa: desliga a cabeça por um minuto. A Bíblia diz: Tu guardarás em completa paz aquele que tem firme entendimento, pois ele confia em ti. Paz não é quando tudo está resolvido. É quando você confia em quem está cuidando. Então fecha o dia assim: Senhor, eu confio em ti. Guarda a minha mente, guarda a minha casa, guarda o meu sono. Boa noite. Se você recebe, escreve amém. E manda pra alguém que precisa de paz hoje."
+}

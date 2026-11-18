@@ -1,0 +1,424 @@
+{
+ "voz": "oracao/2026-11-20-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 38.21,
+ "clipes": [
+  "oracao/banco-noite/20658721.mp4",
+  "oracao/banco-noite/16998437.mp4",
+  "oracao/banco-noite/13203979.mp4",
+  "oracao/banco-noite/19095583.mp4",
+  "oracao/banco-noite/854739.mp4",
+  "oracao/banco-noite/12216344.mp4",
+  "oracao/banco-noite/12335094.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.05,
+  12.95,
+  17.45,
+  24.65,
+  29.25,
+  32.95
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Sexta-feira, 20 de novembro",
+ "palavras": [
+  {
+   "p": "Essa",
+   "i": 0.0,
+   "f": 0.517
+  },
+  {
+   "p": "semana",
+   "i": 0.517,
+   "f": 1.253
+  },
+  {
+   "p": "pesou,",
+   "i": 1.253,
+   "f": 1.77
+  },
+  {
+   "p": "né?",
+   "i": 2.464,
+   "f": 2.989,
+   "j": true
+  },
+  {
+   "p": "Tudo",
+   "i": 3.82,
+   "f": 4.545
+  },
+  {
+   "p": "bem.",
+   "i": 4.545,
+   "f": 4.962
+  },
+  {
+   "p": "Jesus",
+   "i": 5.191,
+   "f": 5.663
+  },
+  {
+   "p": "disse:",
+   "i": 5.663,
+   "f": 6.135
+  },
+  {
+   "p": "Vinde",
+   "i": 6.449,
+   "f": 6.828
+  },
+  {
+   "p": "a",
+   "i": 6.828,
+   "f": 7.046
+  },
+  {
+   "p": "mim",
+   "i": 7.046,
+   "f": 7.264
+  },
+  {
+   "p": "todos",
+   "i": 7.264,
+   "f": 7.643
+  },
+  {
+   "p": "vós",
+   "i": 7.643,
+   "f": 7.861
+  },
+  {
+   "p": "que",
+   "i": 7.861,
+   "f": 8.079
+  },
+  {
+   "p": "estais",
+   "i": 8.079,
+   "f": 8.458
+  },
+  {
+   "p": "cansados",
+   "i": 8.458,
+   "f": 8.999
+  },
+  {
+   "p": "e",
+   "i": 8.999,
+   "f": 9.216
+  },
+  {
+   "p": "sobrecarregados,",
+   "i": 9.216,
+   "f": 10.241
+  },
+  {
+   "p": "e",
+   "i": 10.53,
+   "f": 10.773
+  },
+  {
+   "p": "eu",
+   "i": 10.773,
+   "f": 11.016
+  },
+  {
+   "p": "vos",
+   "i": 11.016,
+   "f": 11.259
+  },
+  {
+   "p": "farei",
+   "i": 11.259,
+   "f": 11.682
+  },
+  {
+   "p": "descansar.",
+   "i": 11.682,
+   "f": 12.285
+  },
+  {
+   "p": "Ele",
+   "i": 13.082,
+   "f": 13.468
+  },
+  {
+   "p": "não",
+   "i": 13.468,
+   "f": 13.69
+  },
+  {
+   "p": "pediu",
+   "i": 13.69,
+   "f": 14.076
+  },
+  {
+   "p": "pra",
+   "i": 14.076,
+   "f": 14.298
+  },
+  {
+   "p": "você",
+   "i": 14.298,
+   "f": 14.684
+  },
+  {
+   "p": "chegar",
+   "i": 14.684,
+   "f": 15.07
+  },
+  {
+   "p": "forte.",
+   "i": 15.07,
+   "f": 15.456,
+   "j": true
+  },
+  {
+   "p": "Pediu",
+   "i": 15.456,
+   "f": 15.842
+  },
+  {
+   "p": "pra",
+   "i": 15.842,
+   "f": 16.064
+  },
+  {
+   "p": "você",
+   "i": 16.064,
+   "f": 16.45
+  },
+  {
+   "p": "chegar.",
+   "i": 16.45,
+   "f": 16.836,
+   "j": true
+  },
+  {
+   "p": "Então",
+   "i": 17.553,
+   "f": 18.076
+  },
+  {
+   "p": "hoje,",
+   "i": 18.076,
+   "f": 18.598
+  },
+  {
+   "p": "solta",
+   "i": 18.828,
+   "f": 19.167
+  },
+  {
+   "p": "o",
+   "i": 19.167,
+   "f": 19.362
+  },
+  {
+   "p": "que",
+   "i": 19.362,
+   "f": 19.557
+  },
+  {
+   "p": "pesou",
+   "i": 19.557,
+   "f": 19.896
+  },
+  {
+   "p": "nesta",
+   "i": 19.896,
+   "f": 20.235
+  },
+  {
+   "p": "semana.",
+   "i": 20.235,
+   "f": 20.719
+  },
+  {
+   "p": "O",
+   "i": 21.232,
+   "f": 21.433
+  },
+  {
+   "p": "que",
+   "i": 21.433,
+   "f": 21.634
+  },
+  {
+   "p": "deu",
+   "i": 21.634,
+   "f": 21.835
+  },
+  {
+   "p": "errado,",
+   "i": 21.835,
+   "f": 22.334,
+   "j": true
+  },
+  {
+   "p": "o",
+   "i": 22.737,
+   "f": 22.898
+  },
+  {
+   "p": "que",
+   "i": 22.898,
+   "f": 23.06
+  },
+  {
+   "p": "ficou",
+   "i": 23.06,
+   "f": 23.341
+  },
+  {
+   "p": "pela",
+   "i": 23.341,
+   "f": 23.621
+  },
+  {
+   "p": "metade...",
+   "i": 23.621,
+   "f": 24.022
+  },
+  {
+   "p": "deixa",
+   "i": 24.754,
+   "f": 25.031
+  },
+  {
+   "p": "com",
+   "i": 25.031,
+   "f": 25.191
+  },
+  {
+   "p": "Ele.",
+   "i": 25.191,
+   "f": 25.468
+  },
+  {
+   "p": "E",
+   "i": 26.001,
+   "f": 26.239
+  },
+  {
+   "p": "descansa.",
+   "i": 26.239,
+   "f": 26.831
+  },
+  {
+   "p": "Boa",
+   "i": 27.602,
+   "f": 27.826
+  },
+  {
+   "p": "noite.",
+   "i": 27.826,
+   "f": 28.216
+  },
+  {
+   "p": "Se",
+   "i": 29.389,
+   "f": 29.585
+  },
+  {
+   "p": "você",
+   "i": 29.585,
+   "f": 29.926
+  },
+  {
+   "p": "recebe,",
+   "i": 29.926,
+   "f": 30.411
+  },
+  {
+   "p": "escreve",
+   "i": 30.63,
+   "f": 30.937
+  },
+  {
+   "p": "amém.",
+   "i": 30.937,
+   "f": 31.153
+  },
+  {
+   "p": "E",
+   "i": 31.153,
+   "f": 31.277
+  },
+  {
+   "p": "manda",
+   "i": 31.277,
+   "f": 31.492
+  },
+  {
+   "p": "pra",
+   "i": 32.047,
+   "f": 32.235
+  },
+  {
+   "p": "alguém",
+   "i": 32.235,
+   "f": 32.56
+  },
+  {
+   "p": "que",
+   "i": 32.56,
+   "f": 32.747
+  },
+  {
+   "p": "precisa",
+   "i": 32.747,
+   "f": 33.212
+  },
+  {
+   "p": "ouvir",
+   "i": 33.212,
+   "f": 33.537
+  },
+  {
+   "p": "isso",
+   "i": 33.537,
+   "f": 33.863
+  },
+  {
+   "p": "hoje.",
+   "i": 33.863,
+   "f": 34.189,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 8,
+  "ate": 23,
+  "referencia": "Mateus 11:28"
+ },
+ "fecho": {
+  "inicio": 34.81,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar.",
+   "referencia": "Mateus 11:28"
+  }
+ ],
+ "roteiro": "Essa semana pesou, né? Tudo bem. Jesus disse: Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar. Ele não pediu pra você chegar forte. Pediu pra você chegar. Então hoje, solta o que pesou nesta semana. O que deu errado, o que ficou pela metade... deixa com Ele. E descansa. Boa noite. Se você recebe, escreve amém. E manda pra alguém que precisa ouvir isso hoje."
+}

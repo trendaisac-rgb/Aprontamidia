@@ -1,0 +1,584 @@
+{
+ "voz": "oracao/2026-11-20-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 46.46,
+ "clipes": [
+  "oracao/banco-manha/6693824.mp4",
+  "oracao/banco-manha/12008400.mp4",
+  "oracao/banco-manha/5199836.mp4",
+  "oracao/banco-manha/6860448.mp4",
+  "oracao/banco-manha/14235938.mp4",
+  "oracao/banco-manha/12863074.mp4",
+  "oracao/banco-manha/14476180.mp4",
+  "oracao/banco-manha/15499818.mp4",
+  "oracao/banco-manha/12071862.mp4"
+ ],
+ "trocas": [
+  0.0,
+  6.35,
+  9.45,
+  13.75,
+  19.15,
+  25.25,
+  29.65,
+  34.75,
+  39.45
+ ],
+ "filtros": [
+  "brightness(0.9) saturate(1.15) contrast(1.04)",
+  null,
+  "brightness(0.92) saturate(1.15) contrast(1.04)",
+  "brightness(0.84) saturate(1.12) contrast(1.05)",
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Sexta-feira, 20 de novembro",
+ "palavras": [
+  {
+   "p": "Bom",
+   "i": 0.0,
+   "f": 0.303
+  },
+  {
+   "p": "dia.",
+   "i": 0.303,
+   "f": 0.607
+  },
+  {
+   "p": "Antes",
+   "i": 1.426,
+   "f": 1.821
+  },
+  {
+   "p": "de",
+   "i": 1.821,
+   "f": 2.049
+  },
+  {
+   "p": "abrir",
+   "i": 2.049,
+   "f": 2.444
+  },
+  {
+   "p": "qualquer",
+   "i": 2.444,
+   "f": 2.84
+  },
+  {
+   "p": "outra",
+   "i": 2.84,
+   "f": 3.236
+  },
+  {
+   "p": "coisa",
+   "i": 3.236,
+   "f": 3.631
+  },
+  {
+   "p": "hoje...",
+   "i": 3.631,
+   "f": 4.027,
+   "j": true
+  },
+  {
+   "p": "deixa",
+   "i": 4.367,
+   "f": 4.686
+  },
+  {
+   "p": "Deus",
+   "i": 4.686,
+   "f": 4.869
+  },
+  {
+   "p": "falar",
+   "i": 4.869,
+   "f": 5.187
+  },
+  {
+   "p": "primeiro.",
+   "i": 5.187,
+   "f": 5.641,
+   "j": true
+  },
+  {
+   "p": "Hoje",
+   "i": 6.506,
+   "f": 6.836
+  },
+  {
+   "p": "é",
+   "i": 6.836,
+   "f": 7.026
+  },
+  {
+   "p": "sexta-feira,",
+   "i": 7.026,
+   "f": 7.636
+  },
+  {
+   "p": "vinte",
+   "i": 7.893,
+   "f": 8.198
+  },
+  {
+   "p": "de",
+   "i": 8.198,
+   "f": 8.373
+  },
+  {
+   "p": "novembro.",
+   "i": 8.373,
+   "f": 8.808
+  },
+  {
+   "p": "A",
+   "i": 9.6,
+   "f": 9.892
+  },
+  {
+   "p": "Bíblia",
+   "i": 9.892,
+   "f": 10.401
+  },
+  {
+   "p": "diz:",
+   "i": 10.401,
+   "f": 10.694
+  },
+  {
+   "p": "Farta-nos",
+   "i": 11.056,
+   "f": 11.669
+  },
+  {
+   "p": "de",
+   "i": 11.669,
+   "f": 11.915
+  },
+  {
+   "p": "manhã",
+   "i": 11.915,
+   "f": 12.345
+  },
+  {
+   "p": "com",
+   "i": 12.345,
+   "f": 12.591
+  },
+  {
+   "p": "tua",
+   "i": 12.591,
+   "f": 12.838
+  },
+  {
+   "p": "bondade;",
+   "i": 12.838,
+   "f": 13.45
+  },
+  {
+   "p": "e",
+   "i": 13.914,
+   "f": 14.15
+  },
+  {
+   "p": "nos",
+   "i": 14.15,
+   "f": 14.387
+  },
+  {
+   "p": "alegraremos",
+   "i": 14.387,
+   "f": 15.324
+  },
+  {
+   "p": "e",
+   "i": 15.324,
+   "f": 15.56
+  },
+  {
+   "p": "seremos",
+   "i": 15.56,
+   "f": 16.147
+  },
+  {
+   "p": "cheios",
+   "i": 16.147,
+   "f": 16.383
+  },
+  {
+   "p": "de",
+   "i": 16.383,
+   "f": 16.62
+  },
+  {
+   "p": "alegria",
+   "i": 16.62,
+   "f": 17.206
+  },
+  {
+   "p": "por",
+   "i": 17.206,
+   "f": 17.443
+  },
+  {
+   "p": "todos",
+   "i": 17.443,
+   "f": 17.854
+  },
+  {
+   "p": "os",
+   "i": 17.854,
+   "f": 18.091
+  },
+  {
+   "p": "nossos",
+   "i": 18.091,
+   "f": 18.502
+  },
+  {
+   "p": "dias.",
+   "i": 18.502,
+   "f": 18.739
+  },
+  {
+   "p": "Então",
+   "i": 19.332,
+   "f": 19.686
+  },
+  {
+   "p": "ora",
+   "i": 19.686,
+   "f": 20.039
+  },
+  {
+   "p": "comigo.",
+   "i": 20.039,
+   "f": 20.543
+  },
+  {
+   "p": "Senhor,",
+   "i": 21.19,
+   "f": 22.017
+  },
+  {
+   "p": "enche",
+   "i": 22.435,
+   "f": 22.853
+  },
+  {
+   "p": "este",
+   "i": 22.853,
+   "f": 23.272
+  },
+  {
+   "p": "dia",
+   "i": 23.272,
+   "f": 23.512
+  },
+  {
+   "p": "com",
+   "i": 23.512,
+   "f": 23.753
+  },
+  {
+   "p": "a",
+   "i": 23.753,
+   "f": 23.993
+  },
+  {
+   "p": "tua",
+   "i": 23.993,
+   "f": 24.234
+  },
+  {
+   "p": "bondade.",
+   "i": 24.234,
+   "f": 24.831,
+   "j": true
+  },
+  {
+   "p": "Que",
+   "i": 25.395,
+   "f": 25.583
+  },
+  {
+   "p": "eu",
+   "i": 25.583,
+   "f": 25.772
+  },
+  {
+   "p": "perceba",
+   "i": 25.772,
+   "f": 26.24
+  },
+  {
+   "p": "o",
+   "i": 26.24,
+   "f": 26.428,
+   "q": true
+  },
+  {
+   "p": "que",
+   "i": 26.428,
+   "f": 26.617
+  },
+  {
+   "p": "o",
+   "i": 26.617,
+   "f": 26.805
+  },
+  {
+   "p": "Senhor",
+   "i": 26.805,
+   "f": 27.134,
+   "j": true
+  },
+  {
+   "p": "já",
+   "i": 27.134,
+   "f": 27.322,
+   "q": true
+  },
+  {
+   "p": "me",
+   "i": 27.322,
+   "f": 27.511
+  },
+  {
+   "p": "deu...",
+   "i": 27.511,
+   "f": 27.699
+  },
+  {
+   "p": "e",
+   "i": 27.944,
+   "f": 28.108
+  },
+  {
+   "p": "não",
+   "i": 28.108,
+   "f": 28.273
+  },
+  {
+   "p": "só",
+   "i": 28.273,
+   "f": 28.437
+  },
+  {
+   "p": "o",
+   "i": 28.437,
+   "f": 28.602
+  },
+  {
+   "p": "que",
+   "i": 28.602,
+   "f": 28.766
+  },
+  {
+   "p": "falta.",
+   "i": 28.766,
+   "f": 29.053
+  },
+  {
+   "p": "Guarda",
+   "i": 29.792,
+   "f": 30.135
+  },
+  {
+   "p": "a",
+   "i": 30.135,
+   "f": 30.331
+  },
+  {
+   "p": "minha",
+   "i": 30.331,
+   "f": 30.673
+  },
+  {
+   "p": "casa,",
+   "i": 30.673,
+   "f": 31.015,
+   "j": true
+  },
+  {
+   "p": "a",
+   "i": 31.348,
+   "f": 31.517
+  },
+  {
+   "p": "minha",
+   "i": 31.517,
+   "f": 31.81
+  },
+  {
+   "p": "família",
+   "i": 31.81,
+   "f": 32.228
+  },
+  {
+   "p": "e",
+   "i": 32.228,
+   "f": 32.397
+  },
+  {
+   "p": "cada",
+   "i": 32.65,
+   "f": 32.989
+  },
+  {
+   "p": "passo",
+   "i": 32.989,
+   "f": 33.327
+  },
+  {
+   "p": "que",
+   "i": 33.327,
+   "f": 33.522
+  },
+  {
+   "p": "eu",
+   "i": 33.522,
+   "f": 33.717
+  },
+  {
+   "p": "der",
+   "i": 33.717,
+   "f": 33.911
+  },
+  {
+   "p": "hoje.",
+   "i": 33.911,
+   "f": 34.25,
+   "j": true
+  },
+  {
+   "p": "Em",
+   "i": 34.858,
+   "f": 35.069
+  },
+  {
+   "p": "nome",
+   "i": 35.069,
+   "f": 35.436
+  },
+  {
+   "p": "de",
+   "i": 35.436,
+   "f": 35.647
+  },
+  {
+   "p": "Jesus...",
+   "i": 35.647,
+   "f": 36.015,
+   "j": true
+  },
+  {
+   "p": "amém.",
+   "i": 36.778,
+   "f": 37.086
+  },
+  {
+   "p": "Se",
+   "i": 38.002,
+   "f": 38.175
+  },
+  {
+   "p": "você",
+   "i": 38.175,
+   "f": 38.477
+  },
+  {
+   "p": "recebe,",
+   "i": 38.477,
+   "f": 38.908
+  },
+  {
+   "p": "escreve",
+   "i": 38.908,
+   "f": 39.338
+  },
+  {
+   "p": "amém.",
+   "i": 39.338,
+   "f": 39.64
+  },
+  {
+   "p": "E",
+   "i": 39.64,
+   "f": 39.814
+  },
+  {
+   "p": "manda",
+   "i": 39.814,
+   "f": 40.115
+  },
+  {
+   "p": "esse",
+   "i": 40.608,
+   "f": 40.899
+  },
+  {
+   "p": "bom",
+   "i": 40.899,
+   "f": 41.066
+  },
+  {
+   "p": "dia",
+   "i": 41.066,
+   "f": 41.233
+  },
+  {
+   "p": "pra",
+   "i": 41.233,
+   "f": 41.401
+  },
+  {
+   "p": "alguém",
+   "i": 41.401,
+   "f": 41.692
+  },
+  {
+   "p": "que",
+   "i": 41.692,
+   "f": 41.859
+  },
+  {
+   "p": "você",
+   "i": 41.859,
+   "f": 42.15
+  },
+  {
+   "p": "ama.",
+   "i": 42.15,
+   "f": 42.442
+  }
+ ],
+ "versiculo": {
+  "de": 22,
+  "ate": 41,
+  "referencia": "Salmos 90:14"
+ },
+ "fecho": {
+  "inicio": 43.06,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Farta-nos de manhã com tua bondade; e nos alegraremos e seremos cheios de alegria por todos os nossos dias.",
+   "referencia": "Salmos 90:14"
+  }
+ ],
+ "roteiro": "Bom dia. Antes de abrir qualquer outra coisa hoje... deixa Deus falar primeiro. Hoje é sexta-feira, vinte de novembro. A Bíblia diz: Farta-nos de manhã com tua bondade; e nos alegraremos e seremos cheios de alegria por todos os nossos dias. Então ora comigo. Senhor, enche este dia com a tua bondade. Que eu perceba o que o Senhor já me deu... e não só o que falta. Guarda a minha casa, a minha família e cada passo que eu der hoje. Em nome de Jesus... amém. Se você recebe, escreve amém. E manda esse bom dia pra alguém que você ama."
+}

@@ -605,5 +605,16 @@
    "cita": "SENHOR, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando."
   }
  ],
- "roteiro": "Bom dia. Se você acabou de acordar e já pegou o celular... para um minuto antes de tudo. Hoje é quinta-feira, dezenove de novembro. A Bíblia diz: Senhor, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando. Então ora comigo. Senhor, antes de qualquer mensagem, antes de qualquer problema... eu falo com o Senhor. Toma conta do meu dia. Me dá calma pra responder, paciência com quem eu amo, e força pra fazer o que precisa ser feito. Eu entrego este dia nas tuas mãos. Em nome de Jesus... amém. Se você recebe, escreve amém. E manda esse bom dia pra alguém."
+ "roteiro": "Bom dia. Se você acabou de acordar e já pegou o celular... para um minuto antes de tudo. Hoje é quinta-feira, dezenove de novembro. A Bíblia diz: Senhor, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando. Então ora comigo. Senhor, antes de qualquer mensagem, antes de qualquer problema... eu falo com o Senhor. Toma conta do meu dia. Me dá calma pra responder, paciência com quem eu amo, e força pra fazer o que precisa ser feito. Eu entrego este dia nas tuas mãos. Em nome de Jesus... amém. Se você recebe, escreve amém. E manda esse bom dia pra alguém.",
+ "filtros": [
+  null,
+  null,
+  "brightness(0.92) saturate(1.15) contrast(1.05)",
+  "brightness(0.8) saturate(1.12) contrast(1.05)",
+  null,
+  null,
+  "brightness(0.9) saturate(1.15) contrast(1.04)",
+  null,
+  null
+ ]
 }

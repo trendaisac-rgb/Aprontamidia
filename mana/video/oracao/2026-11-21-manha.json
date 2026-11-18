@@ -1,0 +1,549 @@
+{
+ "voz": "oracao/2026-11-21-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 53.76,
+ "clipes": [
+  "oracao/banco-manha/6658334.mp4",
+  "oracao/banco-manha/8298066.mp4",
+  "oracao/banco-manha/12530632.mp4",
+  "oracao/banco-manha/5206027.mp4",
+  "oracao/banco-manha/7218286.mp4",
+  "oracao/banco-manha/7592045.mp4",
+  "oracao/banco-manha/14227807.mp4",
+  "oracao/banco-manha/12157798.mp4",
+  "oracao/banco-manha/16817667.mp4",
+  "oracao/banco-manha/15499822.mp4"
+ ],
+ "trocas": [
+  0.0,
+  6.45,
+  10.15,
+  18.25,
+  24.45,
+  29.55,
+  36.45,
+  41.45,
+  45.15,
+  48.25
+ ],
+ "filtros": [
+  null,
+  null,
+  "brightness(0.84) saturate(1.1) contrast(1.05)",
+  null,
+  null,
+  "brightness(0.92) saturate(1.12) contrast(1.04)",
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Sábado, 21 de novembro",
+ "palavras": [
+  {
+   "p": "Bom",
+   "i": 0.0,
+   "f": 0.518
+  },
+  {
+   "p": "dia.",
+   "i": 0.518,
+   "f": 1.036
+  },
+  {
+   "p": "Se",
+   "i": 2.159,
+   "f": 2.387
+  },
+  {
+   "p": "você",
+   "i": 2.387,
+   "f": 2.784
+  },
+  {
+   "p": "acordou",
+   "i": 2.784,
+   "f": 3.35
+  },
+  {
+   "p": "sem",
+   "i": 3.35,
+   "f": 3.578
+  },
+  {
+   "p": "forças",
+   "i": 3.578,
+   "f": 3.975
+  },
+  {
+   "p": "hoje...",
+   "i": 3.975,
+   "f": 4.372
+  },
+  {
+   "p": "escuta",
+   "i": 4.696,
+   "f": 5.217
+  },
+  {
+   "p": "isso.",
+   "i": 5.217,
+   "f": 5.582
+  },
+  {
+   "p": "Hoje",
+   "i": 6.593,
+   "f": 6.939
+  },
+  {
+   "p": "é",
+   "i": 6.939,
+   "f": 7.138
+  },
+  {
+   "p": "sábado,",
+   "i": 7.138,
+   "f": 7.631
+  },
+  {
+   "p": "vinte",
+   "i": 7.949,
+   "f": 8.221
+  },
+  {
+   "p": "e",
+   "i": 8.221,
+   "f": 8.378
+  },
+  {
+   "p": "um",
+   "i": 8.378,
+   "f": 8.534
+  },
+  {
+   "p": "de",
+   "i": 8.534,
+   "f": 8.69,
+   "j": true
+  },
+  {
+   "p": "novembro.",
+   "i": 8.69,
+   "f": 9.078,
+   "j": true
+  },
+  {
+   "p": "A",
+   "i": 10.253,
+   "f": 10.488
+  },
+  {
+   "p": "Bíblia",
+   "i": 10.488,
+   "f": 10.897
+  },
+  {
+   "p": "diz:",
+   "i": 10.897,
+   "f": 11.132
+  },
+  {
+   "p": "Mas",
+   "i": 11.716,
+   "f": 11.959
+  },
+  {
+   "p": "os",
+   "i": 11.959,
+   "f": 12.201
+  },
+  {
+   "p": "que",
+   "i": 12.201,
+   "f": 12.444
+  },
+  {
+   "p": "confiam",
+   "i": 12.444,
+   "f": 12.866
+  },
+  {
+   "p": "no",
+   "i": 12.866,
+   "f": 13.108
+  },
+  {
+   "p": "Senhor",
+   "i": 13.108,
+   "f": 13.53,
+   "t": "SENHOR"
+  },
+  {
+   "p": "renovarão",
+   "i": 13.736,
+   "f": 14.517
+  },
+  {
+   "p": "as",
+   "i": 14.517,
+   "f": 14.759
+  },
+  {
+   "p": "forças,",
+   "i": 14.759,
+   "f": 15.181
+  },
+  {
+   "p": "subirão",
+   "i": 15.704,
+   "f": 16.332
+  },
+  {
+   "p": "com",
+   "i": 16.332,
+   "f": 16.585
+  },
+  {
+   "p": "asas",
+   "i": 16.585,
+   "f": 17.026
+  },
+  {
+   "p": "como",
+   "i": 17.026,
+   "f": 17.467
+  },
+  {
+   "p": "águias;",
+   "i": 17.467,
+   "f": 17.908
+  },
+  {
+   "p": "correrão,",
+   "i": 18.4,
+   "f": 19.027
+  },
+  {
+   "p": "e",
+   "i": 19.41,
+   "f": 19.604
+  },
+  {
+   "p": "não",
+   "i": 19.604,
+   "f": 19.798
+  },
+  {
+   "p": "se",
+   "i": 19.798,
+   "f": 19.993
+  },
+  {
+   "p": "cansarão;",
+   "i": 19.993,
+   "f": 20.474
+  },
+  {
+   "p": "caminharão,",
+   "i": 21.158,
+   "f": 21.861
+  },
+  {
+   "p": "e",
+   "i": 22.288,
+   "f": 22.464
+  },
+  {
+   "p": "não",
+   "i": 22.464,
+   "f": 22.639
+  },
+  {
+   "p": "se",
+   "i": 22.639,
+   "f": 22.815
+  },
+  {
+   "p": "fatigarão.",
+   "i": 22.815,
+   "f": 23.381
+  },
+  {
+   "p": "Então",
+   "i": 24.602,
+   "f": 24.905
+  },
+  {
+   "p": "ora",
+   "i": 24.905,
+   "f": 25.208
+  },
+  {
+   "p": "comigo.",
+   "i": 25.208,
+   "f": 25.64
+  },
+  {
+   "p": "Senhor,",
+   "i": 26.669,
+   "f": 27.338
+  },
+  {
+   "p": "eu",
+   "i": 27.591,
+   "f": 27.863
+  },
+  {
+   "p": "confio",
+   "i": 27.863,
+   "f": 28.337
+  },
+  {
+   "p": "em",
+   "i": 28.337,
+   "f": 28.609
+  },
+  {
+   "p": "ti.",
+   "i": 28.609,
+   "f": 28.881,
+   "j": true
+  },
+  {
+   "p": "Renova",
+   "i": 29.659,
+   "f": 30.122
+  },
+  {
+   "p": "as",
+   "i": 30.122,
+   "f": 30.308
+  },
+  {
+   "p": "minhas",
+   "i": 30.308,
+   "f": 30.633
+  },
+  {
+   "p": "forças",
+   "i": 30.633,
+   "f": 30.957
+  },
+  {
+   "p": "hoje.",
+   "i": 30.957,
+   "f": 31.282
+  },
+  {
+   "p": "Onde",
+   "i": 32.171,
+   "f": 32.618
+  },
+  {
+   "p": "me",
+   "i": 32.618,
+   "f": 32.875
+  },
+  {
+   "p": "faltar",
+   "i": 32.875,
+   "f": 33.322
+  },
+  {
+   "p": "força,",
+   "i": 33.322,
+   "f": 33.769,
+   "j": true
+  },
+  {
+   "p": "sê",
+   "i": 34.099,
+   "f": 34.352
+  },
+  {
+   "p": "tu",
+   "i": 34.352,
+   "f": 34.605
+  },
+  {
+   "p": "a",
+   "i": 34.605,
+   "f": 34.858
+  },
+  {
+   "p": "minha",
+   "i": 34.858,
+   "f": 35.298,
+   "j": true
+  },
+  {
+   "p": "força.",
+   "i": 35.298,
+   "f": 35.739,
+   "j": true
+  },
+  {
+   "p": "Abençoa",
+   "i": 36.603,
+   "f": 37.114
+  },
+  {
+   "p": "este",
+   "i": 37.114,
+   "f": 37.472
+  },
+  {
+   "p": "sábado,",
+   "i": 37.472,
+   "f": 37.984
+  },
+  {
+   "p": "a",
+   "i": 38.475,
+   "f": 38.673
+  },
+  {
+   "p": "minha",
+   "i": 38.673,
+   "f": 39.016
+  },
+  {
+   "p": "casa",
+   "i": 39.016,
+   "f": 39.36
+  },
+  {
+   "p": "e",
+   "i": 39.807,
+   "f": 39.977
+  },
+  {
+   "p": "quem",
+   "i": 39.977,
+   "f": 40.148
+  },
+  {
+   "p": "eu",
+   "i": 40.148,
+   "f": 40.318
+  },
+  {
+   "p": "amo.",
+   "i": 40.318,
+   "f": 40.614,
+   "j": true
+  },
+  {
+   "p": "Em",
+   "i": 41.616,
+   "f": 41.836
+  },
+  {
+   "p": "nome",
+   "i": 41.836,
+   "f": 42.221
+  },
+  {
+   "p": "de",
+   "i": 42.221,
+   "f": 42.441
+  },
+  {
+   "p": "Jesus...",
+   "i": 42.441,
+   "f": 42.826,
+   "j": true
+  },
+  {
+   "p": "amém.",
+   "i": 43.62,
+   "f": 43.979
+  },
+  {
+   "p": "Se",
+   "i": 45.304,
+   "f": 45.474
+  },
+  {
+   "p": "você",
+   "i": 45.474,
+   "f": 45.769
+  },
+  {
+   "p": "recebe,",
+   "i": 45.769,
+   "f": 46.191
+  },
+  {
+   "p": "escreve",
+   "i": 46.879,
+   "f": 47.252
+  },
+  {
+   "p": "amém.",
+   "i": 47.252,
+   "f": 47.514
+  },
+  {
+   "p": "E",
+   "i": 48.435,
+   "f": 48.577
+  },
+  {
+   "p": "manda",
+   "i": 48.577,
+   "f": 48.823
+  },
+  {
+   "p": "esse",
+   "i": 48.823,
+   "f": 49.07,
+   "q": true
+  },
+  {
+   "p": "bom",
+   "i": 49.07,
+   "f": 49.212
+  },
+  {
+   "p": "dia",
+   "i": 49.212,
+   "f": 49.354
+  },
+  {
+   "p": "pra",
+   "i": 49.354,
+   "f": 49.496,
+   "q": true
+  },
+  {
+   "p": "alguém.",
+   "i": 49.496,
+   "f": 49.743
+  }
+ ],
+ "versiculo": {
+  "de": 21,
+  "ate": 45,
+  "referencia": "Isaías 40:31"
+ },
+ "fecho": {
+  "inicio": 50.36,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Mas os que confiam no SENHOR renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.",
+   "referencia": "Isaías 40:31"
+  }
+ ],
+ "roteiro": "Bom dia. Se você acordou sem forças hoje... escuta isso. Hoje é sábado, vinte e um de novembro. A Bíblia diz: Mas os que confiam no Senhor renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão. Então ora comigo. Senhor, eu confio em ti. Renova as minhas forças hoje. Onde me faltar força, sê tu a minha força. Abençoa este sábado, a minha casa e quem eu amo. Em nome de Jesus... amém. Se você recebe, escreve amém. E manda esse bom dia pra alguém."
+}

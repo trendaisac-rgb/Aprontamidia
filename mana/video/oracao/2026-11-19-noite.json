@@ -1,0 +1,498 @@
+{
+ "voz": "oracao/2026-11-19-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 46.09,
+ "clipes": [
+  "oracao/banco-noite/15215243.mp4",
+  "oracao/banco-noite/12335094.mp4",
+  "oracao/banco-noite/14209304.mp4",
+  "oracao/banco-noite/16839840.mp4",
+  "oracao/banco-noite/20393311.mp4",
+  "oracao/banco-noite/3765589.mp4",
+  "oracao/banco-noite/14813142.mp4",
+  "oracao/banco-noite/13096328.mp4"
+ ],
+ "trocas": [
+  0.0,
+  7.05,
+  10.2,
+  17.65,
+  22.55,
+  27.35,
+  35.45,
+  40.15
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Quinta-feira, 19 de novembro",
+ "palavras": [
+  {
+   "p": "Se",
+   "i": 0.0,
+   "f": 0.207
+  },
+  {
+   "p": "a",
+   "i": 0.207,
+   "f": 0.414
+  },
+  {
+   "p": "sua",
+   "i": 0.414,
+   "f": 0.62
+  },
+  {
+   "p": "cabeça",
+   "i": 0.62,
+   "f": 1.134,
+   "j": true
+  },
+  {
+   "p": "ainda",
+   "i": 1.134,
+   "f": 1.494
+  },
+  {
+   "p": "está",
+   "i": 1.494,
+   "f": 1.854
+  },
+  {
+   "p": "cheia",
+   "i": 1.854,
+   "f": 2.061
+  },
+  {
+   "p": "do",
+   "i": 2.061,
+   "f": 2.267
+  },
+  {
+   "p": "dia",
+   "i": 2.267,
+   "f": 2.474
+  },
+  {
+   "p": "de",
+   "i": 2.474,
+   "f": 2.681
+  },
+  {
+   "p": "hoje...",
+   "i": 2.681,
+   "f": 3.041,
+   "j": true
+  },
+  {
+   "p": "respira.",
+   "i": 3.462,
+   "f": 4.163
+  },
+  {
+   "p": "Você",
+   "i": 4.823,
+   "f": 5.221
+  },
+  {
+   "p": "não",
+   "i": 5.221,
+   "f": 5.449
+  },
+  {
+   "p": "precisa",
+   "i": 5.449,
+   "f": 6.016
+  },
+  {
+   "p": "dormir",
+   "i": 6.016,
+   "f": 6.414
+  },
+  {
+   "p": "carregando",
+   "i": 6.414,
+   "f": 7.151
+  },
+  {
+   "p": "tudo",
+   "i": 7.151,
+   "f": 7.549
+  },
+  {
+   "p": "isso.",
+   "i": 7.549,
+   "f": 7.947
+  },
+  {
+   "p": "A",
+   "i": 8.611,
+   "f": 8.958
+  },
+  {
+   "p": "Bíblia",
+   "i": 8.958,
+   "f": 9.562
+  },
+  {
+   "p": "diz:",
+   "i": 9.562,
+   "f": 9.909
+  },
+  {
+   "p": "lançando",
+   "i": 10.362,
+   "f": 10.975
+  },
+  {
+   "p": "sobre",
+   "i": 10.975,
+   "f": 11.405
+  },
+  {
+   "p": "ele",
+   "i": 11.405,
+   "f": 11.835
+  },
+  {
+   "p": "toda",
+   "i": 12.197,
+   "f": 12.618
+  },
+  {
+   "p": "a",
+   "i": 12.618,
+   "f": 12.86
+  },
+  {
+   "p": "vossa",
+   "i": 12.86,
+   "f": 13.281
+  },
+  {
+   "p": "ansiedade;",
+   "i": 13.281,
+   "f": 14.06
+  },
+  {
+   "p": "porque",
+   "i": 14.71,
+   "f": 15.113
+  },
+  {
+   "p": "ele",
+   "i": 15.113,
+   "f": 15.516
+  },
+  {
+   "p": "tem",
+   "i": 15.516,
+   "f": 15.748
+  },
+  {
+   "p": "cuidado",
+   "i": 15.748,
+   "f": 16.322
+  },
+  {
+   "p": "de",
+   "i": 16.322,
+   "f": 16.554
+  },
+  {
+   "p": "vós.",
+   "i": 16.554,
+   "f": 16.785
+  },
+  {
+   "p": "Então",
+   "i": 17.798,
+   "f": 18.154
+  },
+  {
+   "p": "entrega.",
+   "i": 18.154,
+   "f": 18.661
+  },
+  {
+   "p": "A",
+   "i": 19.597,
+   "f": 19.809
+  },
+  {
+   "p": "conta",
+   "i": 19.809,
+   "f": 20.177
+  },
+  {
+   "p": "que",
+   "i": 20.177,
+   "f": 20.388
+  },
+  {
+   "p": "não",
+   "i": 20.388,
+   "f": 20.6
+  },
+  {
+   "p": "fechou...",
+   "i": 20.6,
+   "f": 20.968
+  },
+  {
+   "p": "a",
+   "i": 21.622,
+   "f": 21.853
+  },
+  {
+   "p": "conversa",
+   "i": 21.853,
+   "f": 22.426
+  },
+  {
+   "p": "que",
+   "i": 22.426,
+   "f": 22.657
+  },
+  {
+   "p": "ficou",
+   "i": 22.657,
+   "f": 23.059
+  },
+  {
+   "p": "mal",
+   "i": 23.059,
+   "f": 23.289
+  },
+  {
+   "p": "resolvida...",
+   "i": 23.289,
+   "f": 24.033
+  },
+  {
+   "p": "a",
+   "i": 24.542,
+   "f": 24.709
+  },
+  {
+   "p": "preocupação",
+   "i": 24.709,
+   "f": 25.249
+  },
+  {
+   "p": "com",
+   "i": 25.249,
+   "f": 25.416
+  },
+  {
+   "p": "quem",
+   "i": 25.689,
+   "f": 25.884
+  },
+  {
+   "p": "você",
+   "i": 25.884,
+   "f": 26.224
+  },
+  {
+   "p": "ama.",
+   "i": 26.224,
+   "f": 26.563
+  },
+  {
+   "p": "Fala",
+   "i": 27.519,
+   "f": 27.888
+  },
+  {
+   "p": "com",
+   "i": 27.888,
+   "f": 28.1
+  },
+  {
+   "p": "Deus",
+   "i": 28.1,
+   "f": 28.312
+  },
+  {
+   "p": "agora,",
+   "i": 28.312,
+   "f": 28.839,
+   "j": true
+  },
+  {
+   "p": "do",
+   "i": 29.557,
+   "f": 29.75
+  },
+  {
+   "p": "jeito",
+   "i": 29.75,
+   "f": 30.086
+  },
+  {
+   "p": "que",
+   "i": 30.086,
+   "f": 30.28
+  },
+  {
+   "p": "você",
+   "i": 30.28,
+   "f": 30.616
+  },
+  {
+   "p": "está.",
+   "i": 30.616,
+   "f": 30.953
+  },
+  {
+   "p": "Ele",
+   "i": 31.944,
+   "f": 32.253
+  },
+  {
+   "p": "cuida",
+   "i": 32.253,
+   "f": 32.561
+  },
+  {
+   "p": "de",
+   "i": 32.561,
+   "f": 32.738
+  },
+  {
+   "p": "você",
+   "i": 32.738,
+   "f": 33.047,
+   "j": true
+  },
+  {
+   "p": "enquanto",
+   "i": 33.047,
+   "f": 33.486
+  },
+  {
+   "p": "você",
+   "i": 33.486,
+   "f": 33.795
+  },
+  {
+   "p": "dorme.",
+   "i": 33.795,
+   "f": 34.103
+  },
+  {
+   "p": "Boa",
+   "i": 35.581,
+   "f": 35.803
+  },
+  {
+   "p": "noite.",
+   "i": 35.803,
+   "f": 36.19
+  },
+  {
+   "p": "Se",
+   "i": 37.243,
+   "f": 37.403
+  },
+  {
+   "p": "isso",
+   "i": 37.403,
+   "f": 37.683
+  },
+  {
+   "p": "falou",
+   "i": 37.683,
+   "f": 37.962
+  },
+  {
+   "p": "com",
+   "i": 37.962,
+   "f": 38.123
+  },
+  {
+   "p": "você,",
+   "i": 38.123,
+   "f": 38.402
+  },
+  {
+   "p": "escreve",
+   "i": 38.98,
+   "f": 39.375
+  },
+  {
+   "p": "amém.",
+   "i": 39.375,
+   "f": 39.652
+  },
+  {
+   "p": "E",
+   "i": 40.264,
+   "f": 40.433
+  },
+  {
+   "p": "manda",
+   "i": 40.433,
+   "f": 40.726
+  },
+  {
+   "p": "pra",
+   "i": 40.726,
+   "f": 40.895,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 40.895,
+   "f": 41.189
+  },
+  {
+   "p": "que",
+   "i": 41.189,
+   "f": 41.358,
+   "q": true
+  },
+  {
+   "p": "anda",
+   "i": 41.358,
+   "f": 41.652
+  },
+  {
+   "p": "ansioso.",
+   "i": 41.652,
+   "f": 42.07
+  }
+ ],
+ "versiculo": {
+  "de": 22,
+  "ate": 35,
+  "referencia": "1 Pedro 5:7"
+ },
+ "fecho": {
+  "inicio": 42.69,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós.",
+   "referencia": "1 Pedro 5:7"
+  }
+ ],
+ "roteiro": "Se a sua cabeça ainda está cheia do dia de hoje... respira. Você não precisa dormir carregando tudo isso. A Bíblia diz: lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós. Então entrega. A conta que não fechou... a conversa que ficou mal resolvida... a preocupação com quem você ama. Fala com Deus agora, do jeito que você está. Ele cuida de você enquanto você dorme. Boa noite. Se isso falou com você, escreve amém. E manda pra alguém que anda ansioso."
+}
