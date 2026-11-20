@@ -25,9 +25,9 @@
   30.05
  ],
  "filtros": [
+  "brightness(0.85) saturate(1.18) contrast(1.04)",
   null,
-  null,
-  null,
+  "brightness(0.72) saturate(1.12) contrast(1.05)",
   null,
   null,
   null,

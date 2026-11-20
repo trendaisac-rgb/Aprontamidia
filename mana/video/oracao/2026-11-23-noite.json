@@ -22,15 +22,15 @@
   18.42,
   23.81,
   27.89,
-  31.45
+  32.07
  ],
  "filtros": [
   null,
   null,
   null,
   null,
-  null,
-  null,
+  "brightness(0.65) saturate(1.1) contrast(1.05)",
+  "brightness(0.85) saturate(1.15) contrast(1.04)",
   null,
   null
  ],
@@ -280,7 +280,7 @@
    "p": "em",
    "i": 22.831,
    "f": 23.036,
-   "j": true
+   "q": true
   },
   {
    "p": "ti.",
