@@ -1,0 +1,449 @@
+{
+ "voz": "oracao/2026-11-22-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 37.51,
+ "clipes": [
+  "oracao/banco-noite/15215243.mp4",
+  "oracao/banco-noite/14209304.mp4",
+  "oracao/banco-noite/13203979.mp4",
+  "oracao/banco-noite/20393311.mp4",
+  "oracao/banco-noite/20658721.mp4",
+  "oracao/banco-noite/13096328.mp4",
+  "oracao/banco-noite/6173759.mp4",
+  "oracao/banco-noite/854739.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.2,
+  8.78,
+  12.01,
+  17.32,
+  22.47,
+  26.92,
+  29.48
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Domingo, 22 de novembro",
+ "palavras": [
+  {
+   "p": "Amanhã",
+   "i": 0.0,
+   "f": 0.595
+  },
+  {
+   "p": "é",
+   "i": 0.595,
+   "f": 0.835
+  },
+  {
+   "p": "segunda...",
+   "i": 0.835,
+   "f": 1.43
+  },
+  {
+   "p": "e",
+   "i": 1.72,
+   "f": 1.864
+  },
+  {
+   "p": "a",
+   "i": 1.864,
+   "f": 2.008
+  },
+  {
+   "p": "sua",
+   "i": 2.008,
+   "f": 2.153
+  },
+  {
+   "p": "cabeça",
+   "i": 2.153,
+   "f": 2.511,
+   "j": true
+  },
+  {
+   "p": "já",
+   "i": 2.511,
+   "f": 2.655,
+   "q": true
+  },
+  {
+   "p": "está",
+   "i": 2.655,
+   "f": 2.906
+  },
+  {
+   "p": "lá?",
+   "i": 2.906,
+   "f": 3.05
+  },
+  {
+   "p": "Jesus",
+   "i": 3.93,
+   "f": 4.515
+  },
+  {
+   "p": "disse:",
+   "i": 4.515,
+   "f": 5.1
+  },
+  {
+   "p": "Não",
+   "i": 5.35,
+   "f": 5.583
+  },
+  {
+   "p": "andeis,",
+   "i": 5.583,
+   "f": 5.989
+  },
+  {
+   "p": "pois,",
+   "i": 5.989,
+   "f": 6.222
+  },
+  {
+   "p": "ansiosos",
+   "i": 6.222,
+   "f": 6.8
+  },
+  {
+   "p": "pelo",
+   "i": 6.8,
+   "f": 7.206
+  },
+  {
+   "p": "dia",
+   "i": 7.206,
+   "f": 7.439
+  },
+  {
+   "p": "de",
+   "i": 7.439,
+   "f": 7.672
+  },
+  {
+   "p": "amanhã,",
+   "i": 7.672,
+   "f": 8.25
+  },
+  {
+   "p": "porque",
+   "i": 8.88,
+   "f": 9.163
+  },
+  {
+   "p": "o",
+   "i": 9.163,
+   "f": 9.326
+  },
+  {
+   "p": "amanhã",
+   "i": 9.326,
+   "f": 9.73
+  },
+  {
+   "p": "cuidará",
+   "i": 10.06,
+   "f": 10.519
+  },
+  {
+   "p": "de",
+   "i": 10.519,
+   "f": 10.703
+  },
+  {
+   "p": "si",
+   "i": 10.703,
+   "f": 10.888
+  },
+  {
+   "p": "mesmo.",
+   "i": 10.888,
+   "f": 11.21
+  },
+  {
+   "p": "Basta",
+   "i": 12.11,
+   "f": 12.582
+  },
+  {
+   "p": "a",
+   "i": 12.582,
+   "f": 12.853
+  },
+  {
+   "p": "cada",
+   "i": 12.853,
+   "f": 13.325
+  },
+  {
+   "p": "dia",
+   "i": 13.325,
+   "f": 13.596
+  },
+  {
+   "p": "o",
+   "i": 13.596,
+   "f": 13.868
+  },
+  {
+   "p": "seu",
+   "i": 13.868,
+   "f": 14.139
+  },
+  {
+   "p": "mal.",
+   "i": 14.139,
+   "f": 14.41
+  },
+  {
+   "p": "Hoje",
+   "i": 15.56,
+   "f": 15.885
+  },
+  {
+   "p": "ainda",
+   "i": 15.885,
+   "f": 16.21
+  },
+  {
+   "p": "é",
+   "i": 16.21,
+   "f": 16.397
+  },
+  {
+   "p": "domingo.",
+   "i": 16.397,
+   "f": 16.86,
+   "j": true
+  },
+  {
+   "p": "Entrega",
+   "i": 17.47,
+   "f": 17.967
+  },
+  {
+   "p": "a",
+   "i": 17.967,
+   "f": 18.167
+  },
+  {
+   "p": "semana",
+   "i": 18.167,
+   "f": 18.663
+  },
+  {
+   "p": "pra",
+   "i": 18.663,
+   "f": 18.863,
+   "j": true
+  },
+  {
+   "p": "Deus",
+   "i": 18.863,
+   "f": 19.063,
+   "j": true
+  },
+  {
+   "p": "e",
+   "i": 19.063,
+   "f": 19.263,
+   "q": true
+  },
+  {
+   "p": "descansa.",
+   "i": 19.263,
+   "f": 19.76
+  },
+  {
+   "p": "Senhor,",
+   "i": 20.65,
+   "f": 21.5
+  },
+  {
+   "p": "eu",
+   "i": 21.71,
+   "f": 21.912
+  },
+  {
+   "p": "te",
+   "i": 21.912,
+   "f": 22.114
+  },
+  {
+   "p": "entrego",
+   "i": 22.114,
+   "f": 22.616
+  },
+  {
+   "p": "essa",
+   "i": 22.616,
+   "f": 22.968
+  },
+  {
+   "p": "semana.",
+   "i": 22.968,
+   "f": 23.47
+  },
+  {
+   "p": "Cuida",
+   "i": 23.69,
+   "f": 24.084
+  },
+  {
+   "p": "do",
+   "i": 24.084,
+   "f": 24.31
+  },
+  {
+   "p": "que",
+   "i": 24.31,
+   "f": 24.536
+  },
+  {
+   "p": "eu",
+   "i": 24.536,
+   "f": 24.762,
+   "j": true
+  },
+  {
+   "p": "não",
+   "i": 24.762,
+   "f": 24.988,
+   "q": true
+  },
+  {
+   "p": "consigo",
+   "i": 24.988,
+   "f": 25.549
+  },
+  {
+   "p": "controlar.",
+   "i": 25.549,
+   "f": 26.11
+  },
+  {
+   "p": "Boa",
+   "i": 27.07,
+   "f": 27.285
+  },
+  {
+   "p": "noite.",
+   "i": 27.285,
+   "f": 27.66
+  },
+  {
+   "p": "Se",
+   "i": 28.32,
+   "f": 28.511
+  },
+  {
+   "p": "você",
+   "i": 28.511,
+   "f": 28.845
+  },
+  {
+   "p": "recebe,",
+   "i": 28.845,
+   "f": 29.32
+  },
+  {
+   "p": "escreve",
+   "i": 29.63,
+   "f": 30.09
+  },
+  {
+   "p": "amém.",
+   "i": 30.3,
+   "f": 30.64
+  },
+  {
+   "p": "E",
+   "i": 31.37,
+   "f": 31.51
+  },
+  {
+   "p": "manda",
+   "i": 31.51,
+   "f": 31.753
+  },
+  {
+   "p": "pra",
+   "i": 31.753,
+   "f": 31.892
+  },
+  {
+   "p": "alguém",
+   "i": 31.892,
+   "f": 32.135
+  },
+  {
+   "p": "que",
+   "i": 32.135,
+   "f": 32.275,
+   "j": true
+  },
+  {
+   "p": "está",
+   "i": 32.275,
+   "f": 32.518,
+   "j": true
+  },
+  {
+   "p": "ansioso",
+   "i": 32.518,
+   "f": 32.864,
+   "j": true
+  },
+  {
+   "p": "com",
+   "i": 32.864,
+   "f": 33.004,
+   "q": true
+  },
+  {
+   "p": "a",
+   "i": 33.004,
+   "f": 33.144
+  },
+  {
+   "p": "segunda.",
+   "i": 33.144,
+   "f": 33.49
+  }
+ ],
+ "versiculo": {
+  "de": 12,
+  "ate": 34,
+  "referencia": "Mateus 6:34"
+ },
+ "fecho": {
+  "inicio": 34.11,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal.",
+   "referencia": "Mateus 6:34"
+  }
+ ],
+ "roteiro": "Amanhã é segunda... e a sua cabeça já está lá? Jesus disse: Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal. Hoje ainda é domingo. Entrega a semana pra Deus e descansa. Senhor, eu te entrego essa semana. Cuida do que eu não consigo controlar. Boa noite. Se você recebe, escreve amém. E manda pra alguém que está ansioso com a segunda."
+}

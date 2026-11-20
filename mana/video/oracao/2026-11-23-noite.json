@@ -1,0 +1,418 @@
+{
+ "voz": "oracao/2026-11-23-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 36.38,
+ "clipes": [
+  "oracao/banco-noite/6598883.mp4",
+  "oracao/banco-noite/11630917.mp4",
+  "oracao/banco-noite/19675280.mp4",
+  "oracao/banco-noite/37446304.mp4",
+  "oracao/banco-noite/6718232.mp4",
+  "oracao/banco-noite/5895192.mp4",
+  "oracao/banco-noite/10833065.mp4",
+  "oracao/banco-noite/3765589.mp4"
+ ],
+ "trocas": [
+  0.0,
+  4.15,
+  8.55,
+  14.11,
+  18.42,
+  23.81,
+  27.89,
+  31.45
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Segunda-feira, 23 de novembro",
+ "palavras": [
+  {
+   "p": "Você",
+   "i": 0.0,
+   "f": 0.354
+  },
+  {
+   "p": "não",
+   "i": 0.354,
+   "f": 0.557
+  },
+  {
+   "p": "precisa",
+   "i": 0.557,
+   "f": 1.061
+  },
+  {
+   "p": "ficar",
+   "i": 1.061,
+   "f": 1.414
+  },
+  {
+   "p": "acordado",
+   "i": 1.414,
+   "f": 2.069
+  },
+  {
+   "p": "vigiando",
+   "i": 2.069,
+   "f": 2.573
+  },
+  {
+   "p": "tudo",
+   "i": 2.573,
+   "f": 2.926
+  },
+  {
+   "p": "sozinho.",
+   "i": 2.926,
+   "f": 3.43
+  },
+  {
+   "p": "A",
+   "i": 4.3,
+   "f": 4.64
+  },
+  {
+   "p": "Bíblia",
+   "i": 4.64,
+   "f": 5.23
+  },
+  {
+   "p": "diz:",
+   "i": 5.23,
+   "f": 5.57
+  },
+  {
+   "p": "O",
+   "i": 5.86,
+   "f": 6.069
+  },
+  {
+   "p": "Senhor",
+   "i": 6.069,
+   "f": 6.432,
+   "t": "SENHOR"
+  },
+  {
+   "p": "te",
+   "i": 6.432,
+   "f": 6.641
+  },
+  {
+   "p": "guardará",
+   "i": 6.641,
+   "f": 7.159
+  },
+  {
+   "p": "de",
+   "i": 7.159,
+   "f": 7.368
+  },
+  {
+   "p": "todo",
+   "i": 7.368,
+   "f": 7.731
+  },
+  {
+   "p": "mal;",
+   "i": 7.731,
+   "f": 7.94
+  },
+  {
+   "p": "ele",
+   "i": 8.65,
+   "f": 8.963
+  },
+  {
+   "p": "guardará",
+   "i": 8.963,
+   "f": 9.408
+  },
+  {
+   "p": "a",
+   "i": 9.408,
+   "f": 9.588
+  },
+  {
+   "p": "tua",
+   "i": 9.588,
+   "f": 9.767
+  },
+  {
+   "p": "alma.",
+   "i": 9.767,
+   "f": 10.08
+  },
+  {
+   "p": "O",
+   "i": 10.78,
+   "f": 11.009
+  },
+  {
+   "p": "Senhor",
+   "i": 11.009,
+   "f": 11.406,
+   "t": "SENHOR"
+  },
+  {
+   "p": "guardará",
+   "i": 11.406,
+   "f": 11.974
+  },
+  {
+   "p": "tua",
+   "i": 11.974,
+   "f": 12.202
+  },
+  {
+   "p": "saída",
+   "i": 12.202,
+   "f": 12.6
+  },
+  {
+   "p": "e",
+   "i": 12.9,
+   "f": 13.128
+  },
+  {
+   "p": "tua",
+   "i": 13.128,
+   "f": 13.355
+  },
+  {
+   "p": "entrada,",
+   "i": 13.355,
+   "f": 13.92
+  },
+  {
+   "p": "desde",
+   "i": 14.21,
+   "f": 14.544
+  },
+  {
+   "p": "agora",
+   "i": 14.544,
+   "f": 15.02
+  },
+  {
+   "p": "e",
+   "i": 15.37,
+   "f": 15.557
+  },
+  {
+   "p": "para",
+   "i": 15.557,
+   "f": 15.884
+  },
+  {
+   "p": "sempre.",
+   "i": 15.884,
+   "f": 16.21
+  },
+  {
+   "p": "Ele",
+   "i": 17.0,
+   "f": 17.307
+  },
+  {
+   "p": "não",
+   "i": 17.307,
+   "f": 17.483
+  },
+  {
+   "p": "dorme.",
+   "i": 17.483,
+   "f": 17.79
+  },
+  {
+   "p": "Então",
+   "i": 18.57,
+   "f": 18.837
+  },
+  {
+   "p": "você",
+   "i": 18.837,
+   "f": 19.105
+  },
+  {
+   "p": "pode",
+   "i": 19.105,
+   "f": 19.372
+  },
+  {
+   "p": "dormir.",
+   "i": 19.372,
+   "f": 19.64,
+   "j": true
+  },
+  {
+   "p": "Senhor,",
+   "i": 21.19,
+   "f": 21.7
+  },
+  {
+   "p": "eu",
+   "i": 22.12,
+   "f": 22.324,
+   "j": true
+  },
+  {
+   "p": "descanso",
+   "i": 22.324,
+   "f": 22.831,
+   "j": true
+  },
+  {
+   "p": "em",
+   "i": 22.831,
+   "f": 23.036,
+   "j": true
+  },
+  {
+   "p": "ti.",
+   "i": 23.036,
+   "f": 23.24,
+   "j": true
+  },
+  {
+   "p": "Guarda",
+   "i": 23.96,
+   "f": 24.254
+  },
+  {
+   "p": "a",
+   "i": 24.254,
+   "f": 24.423
+  },
+  {
+   "p": "minha",
+   "i": 24.423,
+   "f": 24.717
+  },
+  {
+   "p": "alma",
+   "i": 24.717,
+   "f": 25.012
+  },
+  {
+   "p": "esta",
+   "i": 25.012,
+   "f": 25.306
+  },
+  {
+   "p": "noite.",
+   "i": 25.306,
+   "f": 25.6
+  },
+  {
+   "p": "Boa",
+   "i": 26.72,
+   "f": 26.954
+  },
+  {
+   "p": "noite.",
+   "i": 26.954,
+   "f": 27.36
+  },
+  {
+   "p": "Se",
+   "i": 28.04,
+   "f": 28.209
+  },
+  {
+   "p": "você",
+   "i": 28.209,
+   "f": 28.502
+  },
+  {
+   "p": "recebe,",
+   "i": 28.502,
+   "f": 28.92
+  },
+  {
+   "p": "escreve",
+   "i": 29.19,
+   "f": 29.68
+  },
+  {
+   "p": "amém.",
+   "i": 29.92,
+   "f": 30.32
+  },
+  {
+   "p": "E",
+   "i": 30.84,
+   "f": 30.979
+  },
+  {
+   "p": "manda",
+   "i": 30.979,
+   "f": 31.22
+  },
+  {
+   "p": "pra",
+   "i": 31.22,
+   "f": 31.359,
+   "j": true
+  },
+  {
+   "p": "alguém",
+   "i": 31.359,
+   "f": 31.6,
+   "j": true
+  },
+  {
+   "p": "que",
+   "i": 31.6,
+   "f": 31.739,
+   "q": true
+  },
+  {
+   "p": "tem",
+   "i": 31.739,
+   "f": 31.877
+  },
+  {
+   "p": "dormido",
+   "i": 31.877,
+   "f": 32.221
+  },
+  {
+   "p": "mal.",
+   "i": 32.221,
+   "f": 32.36,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 11,
+  "ate": 36,
+  "referencia": "Salmos 121:7-8"
+ },
+ "fecho": {
+  "inicio": 32.98,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "O SENHOR te guardará de todo mal; ele guardará a tua alma. O SENHOR guardará tua saída e tua entrada, desde agora e para sempre.",
+   "referencia": "Salmos 121:7-8"
+  }
+ ],
+ "roteiro": "Você não precisa ficar acordado vigiando tudo sozinho. A Bíblia diz: O Senhor te guardará de todo mal; ele guardará a tua alma. O Senhor guardará tua saída e tua entrada, desde agora e para sempre. Ele não dorme. Então você pode dormir. Senhor, eu descanso em ti. Guarda a minha alma esta noite. Boa noite. Se você recebe, escreve amém. E manda pra alguém que tem dormido mal."
+}

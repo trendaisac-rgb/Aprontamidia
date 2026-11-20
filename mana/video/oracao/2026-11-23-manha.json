@@ -1,0 +1,456 @@
+{
+ "voz": "oracao/2026-11-23-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 40.37,
+ "clipes": [
+  "oracao/banco-manha/6658334.mp4",
+  "oracao/banco-manha/19688504.mp4",
+  "oracao/banco-manha/27223230.mp4",
+  "oracao/banco-manha/11272939.mp4",
+  "oracao/banco-manha/6646056.mp4",
+  "oracao/banco-manha/18199689.mp4",
+  "oracao/banco-manha/5974539.mp4",
+  "oracao/banco-manha/12361537.mp4"
+ ],
+ "trocas": [
+  0.0,
+  4.75,
+  9.1,
+  13.7,
+  17.25,
+  22.75,
+  28.4,
+  33.05
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Segunda-feira, 23 de novembro",
+ "palavras": [
+  {
+   "p": "Segunda-feira...",
+   "i": 0.0,
+   "f": 1.08
+  },
+  {
+   "p": "e",
+   "i": 1.79,
+   "f": 1.971
+  },
+  {
+   "p": "você",
+   "i": 1.971,
+   "f": 2.286
+  },
+  {
+   "p": "já",
+   "i": 2.286,
+   "f": 2.466
+  },
+  {
+   "p": "acordou",
+   "i": 2.466,
+   "f": 2.915,
+   "j": true
+  },
+  {
+   "p": "com",
+   "i": 2.915,
+   "f": 3.096,
+   "q": true
+  },
+  {
+   "p": "medo",
+   "i": 3.096,
+   "f": 3.411
+  },
+  {
+   "p": "da",
+   "i": 3.411,
+   "f": 3.591,
+   "j": true
+  },
+  {
+   "p": "semana?",
+   "i": 3.591,
+   "f": 4.04,
+   "j": true
+  },
+  {
+   "p": "A",
+   "i": 4.91,
+   "f": 5.188
+  },
+  {
+   "p": "Bíblia",
+   "i": 5.188,
+   "f": 5.672
+  },
+  {
+   "p": "diz:",
+   "i": 5.672,
+   "f": 5.95
+  },
+  {
+   "p": "E",
+   "i": 6.52,
+   "f": 6.725
+  },
+  {
+   "p": "o",
+   "i": 6.725,
+   "f": 6.929
+  },
+  {
+   "p": "Senhor",
+   "i": 6.929,
+   "f": 7.286,
+   "t": "SENHOR"
+  },
+  {
+   "p": "é",
+   "i": 7.286,
+   "f": 7.49
+  },
+  {
+   "p": "o",
+   "i": 7.49,
+   "f": 7.695
+  },
+  {
+   "p": "que",
+   "i": 7.695,
+   "f": 7.9
+  },
+  {
+   "p": "vai",
+   "i": 7.9,
+   "f": 8.104
+  },
+  {
+   "p": "diante",
+   "i": 8.104,
+   "f": 8.461
+  },
+  {
+   "p": "de",
+   "i": 8.461,
+   "f": 8.665
+  },
+  {
+   "p": "ti;",
+   "i": 8.665,
+   "f": 8.87
+  },
+  {
+   "p": "ele",
+   "i": 9.29,
+   "f": 9.687
+  },
+  {
+   "p": "será",
+   "i": 9.687,
+   "f": 10.084
+  },
+  {
+   "p": "contigo,",
+   "i": 10.084,
+   "f": 10.65
+  },
+  {
+   "p": "não",
+   "i": 10.94,
+   "f": 11.172
+  },
+  {
+   "p": "te",
+   "i": 11.172,
+   "f": 11.404
+  },
+  {
+   "p": "deixará,",
+   "i": 11.404,
+   "f": 11.98
+  },
+  {
+   "p": "nem",
+   "i": 12.27,
+   "f": 12.465
+  },
+  {
+   "p": "te",
+   "i": 12.465,
+   "f": 12.659
+  },
+  {
+   "p": "desamparará;",
+   "i": 12.659,
+   "f": 13.43
+  },
+  {
+   "p": "não",
+   "i": 13.86,
+   "f": 14.36,
+   "q": true
+  },
+  {
+   "p": "temas,",
+   "i": 14.36,
+   "f": 15.23
+  },
+  {
+   "p": "nem",
+   "i": 15.46,
+   "f": 15.648
+  },
+  {
+   "p": "te",
+   "i": 15.648,
+   "f": 15.835
+  },
+  {
+   "p": "intimides.",
+   "i": 15.835,
+   "f": 16.44
+  },
+  {
+   "p": "Onde",
+   "i": 17.41,
+   "f": 17.73
+  },
+  {
+   "p": "quer",
+   "i": 17.73,
+   "f": 17.913
+  },
+  {
+   "p": "que",
+   "i": 17.913,
+   "f": 18.097
+  },
+  {
+   "p": "você",
+   "i": 18.097,
+   "f": 18.417
+  },
+  {
+   "p": "vá",
+   "i": 18.417,
+   "f": 18.6
+  },
+  {
+   "p": "hoje...",
+   "i": 18.6,
+   "f": 18.92
+  },
+  {
+   "p": "no",
+   "i": 19.21,
+   "f": 19.434
+  },
+  {
+   "p": "trabalho,",
+   "i": 19.434,
+   "f": 19.99
+  },
+  {
+   "p": "no",
+   "i": 20.33,
+   "f": 20.574
+  },
+  {
+   "p": "trânsito,",
+   "i": 20.574,
+   "f": 21.18
+  },
+  {
+   "p": "em",
+   "i": 21.59,
+   "f": 21.915
+  },
+  {
+   "p": "casa...",
+   "i": 21.915,
+   "f": 22.48
+  },
+  {
+   "p": "ele",
+   "i": 22.89,
+   "f": 23.15
+  },
+  {
+   "p": "vai",
+   "i": 23.15,
+   "f": 23.3
+  },
+  {
+   "p": "na",
+   "i": 23.3,
+   "f": 23.45
+  },
+  {
+   "p": "frente.",
+   "i": 23.45,
+   "f": 23.71,
+   "j": true
+  },
+  {
+   "p": "Senhor,",
+   "i": 25.12,
+   "f": 25.65
+  },
+  {
+   "p": "vai",
+   "i": 26.06,
+   "f": 26.246
+  },
+  {
+   "p": "comigo",
+   "i": 26.246,
+   "f": 26.706
+  },
+  {
+   "p": "nessa",
+   "i": 26.706,
+   "f": 27.029,
+   "q": true
+  },
+  {
+   "p": "semana.",
+   "i": 27.029,
+   "f": 27.49,
+   "j": true
+  },
+  {
+   "p": "Bom",
+   "i": 28.56,
+   "f": 28.825
+  },
+  {
+   "p": "dia.",
+   "i": 28.825,
+   "f": 29.09
+  },
+  {
+   "p": "Se",
+   "i": 30.24,
+   "f": 30.451
+  },
+  {
+   "p": "você",
+   "i": 30.451,
+   "f": 30.817
+  },
+  {
+   "p": "recebe,",
+   "i": 30.817,
+   "f": 31.34
+  },
+  {
+   "p": "escreve",
+   "i": 31.74,
+   "f": 32.228
+  },
+  {
+   "p": "amém.",
+   "i": 32.228,
+   "f": 32.57
+  },
+  {
+   "p": "E",
+   "i": 33.2,
+   "f": 33.376
+  },
+  {
+   "p": "manda",
+   "i": 33.376,
+   "f": 33.682
+  },
+  {
+   "p": "esse",
+   "i": 33.682,
+   "f": 33.988
+  },
+  {
+   "p": "bom",
+   "i": 33.988,
+   "f": 34.163,
+   "j": true
+  },
+  {
+   "p": "dia",
+   "i": 34.163,
+   "f": 34.339,
+   "j": true
+  },
+  {
+   "p": "pra",
+   "i": 34.339,
+   "f": 34.515,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 34.515,
+   "f": 34.821
+  },
+  {
+   "p": "que",
+   "i": 34.821,
+   "f": 34.996
+  },
+  {
+   "p": "precisa",
+   "i": 34.996,
+   "f": 35.432,
+   "j": true
+  },
+  {
+   "p": "de",
+   "i": 35.432,
+   "f": 35.608,
+   "q": true
+  },
+  {
+   "p": "coragem",
+   "i": 35.608,
+   "f": 36.044
+  },
+  {
+   "p": "hoje.",
+   "i": 36.044,
+   "f": 36.35
+  }
+ ],
+ "versiculo": {
+  "de": 12,
+  "ate": 36,
+  "referencia": "Deuteronômio 31:8"
+ },
+ "fecho": {
+  "inicio": 36.97,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "E o SENHOR é o que vai diante de ti; ele será contigo, não te deixará, nem te desamparará; não temas, nem te intimides.",
+   "referencia": "Deuteronômio 31:8"
+  }
+ ],
+ "roteiro": "Segunda-feira... e você já acordou com medo da semana? A Bíblia diz: E o Senhor é o que vai diante de ti; ele será contigo, não te deixará, nem te desamparará; não temas, nem te intimides. Onde quer que você vá hoje... no trabalho, no trânsito, em casa... ele vai na frente. Senhor, vai comigo nessa semana. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que precisa de coragem hoje."
+}

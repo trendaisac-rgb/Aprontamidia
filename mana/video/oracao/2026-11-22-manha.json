@@ -1,0 +1,403 @@
+{
+ "voz": "oracao/2026-11-22-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 36.38,
+ "clipes": [
+  "oracao/banco-manha/18675414.mp4",
+  "oracao/banco-manha/15365448.mp4",
+  "oracao/banco-manha/19445119.mp4",
+  "oracao/banco-manha/34689939.mp4",
+  "oracao/banco-manha/27729136.mp4",
+  "oracao/banco-manha/7218286.mp4",
+  "oracao/banco-manha/14235938.mp4",
+  "oracao/banco-manha/12814510.mp4"
+ ],
+ "trocas": [
+  0.0,
+  4.23,
+  9.78,
+  13.16,
+  17.45,
+  20.15,
+  25.45,
+  30.05
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Domingo, 22 de novembro",
+ "palavras": [
+  {
+   "p": "Hoje",
+   "i": 0.0,
+   "f": 0.458
+  },
+  {
+   "p": "você",
+   "i": 0.458,
+   "f": 0.916
+  },
+  {
+   "p": "não",
+   "i": 0.916,
+   "f": 1.179,
+   "q": true
+  },
+  {
+   "p": "precisa",
+   "i": 1.179,
+   "f": 1.832
+  },
+  {
+   "p": "correr.",
+   "i": 1.832,
+   "f": 2.29
+  },
+  {
+   "p": "É",
+   "i": 2.86,
+   "f": 3.035
+  },
+  {
+   "p": "domingo.",
+   "i": 3.035,
+   "f": 3.47
+  },
+  {
+   "p": "A",
+   "i": 4.38,
+   "f": 4.674
+  },
+  {
+   "p": "Bíblia",
+   "i": 4.674,
+   "f": 5.186
+  },
+  {
+   "p": "diz:",
+   "i": 5.186,
+   "f": 5.48
+  },
+  {
+   "p": "O",
+   "i": 5.78,
+   "f": 6.07
+  },
+  {
+   "p": "Senhor",
+   "i": 6.07,
+   "f": 6.575,
+   "t": "SENHOR"
+  },
+  {
+   "p": "é",
+   "i": 6.575,
+   "f": 6.865
+  },
+  {
+   "p": "meu",
+   "i": 6.865,
+   "f": 7.155
+  },
+  {
+   "p": "pastor,",
+   "i": 7.155,
+   "f": 7.66
+  },
+  {
+   "p": "nada",
+   "i": 7.96,
+   "f": 8.387
+  },
+  {
+   "p": "me",
+   "i": 8.387,
+   "f": 8.632
+  },
+  {
+   "p": "faltará.",
+   "i": 8.632,
+   "f": 9.24
+  },
+  {
+   "p": "Ele",
+   "i": 9.93,
+   "f": 10.463
+  },
+  {
+   "p": "me",
+   "i": 10.463,
+   "f": 10.769
+  },
+  {
+   "p": "faz",
+   "i": 10.769,
+   "f": 11.075
+  },
+  {
+   "p": "deitar",
+   "i": 11.075,
+   "f": 11.608
+  },
+  {
+   "p": "em",
+   "i": 11.608,
+   "f": 11.914
+  },
+  {
+   "p": "pastos",
+   "i": 11.914,
+   "f": 12.447
+  },
+  {
+   "p": "verdes,",
+   "i": 12.447,
+   "f": 12.98
+  },
+  {
+   "p": "e",
+   "i": 13.26,
+   "f": 13.472
+  },
+  {
+   "p": "me",
+   "i": 13.472,
+   "f": 13.683
+  },
+  {
+   "p": "leva",
+   "i": 13.683,
+   "f": 14.052
+  },
+  {
+   "p": "a",
+   "i": 14.052,
+   "f": 14.263
+  },
+  {
+   "p": "águas",
+   "i": 14.263,
+   "f": 14.632
+  },
+  {
+   "p": "quietas.",
+   "i": 14.632,
+   "f": 15.0
+  },
+  {
+   "p": "Então",
+   "i": 15.91,
+   "f": 16.495
+  },
+  {
+   "p": "respira.",
+   "i": 16.495,
+   "f": 17.33
+  },
+  {
+   "p": "Deixa",
+   "i": 17.6,
+   "f": 17.9
+  },
+  {
+   "p": "ele",
+   "i": 17.9,
+   "f": 18.199
+  },
+  {
+   "p": "cuidar",
+   "i": 18.199,
+   "f": 18.499
+  },
+  {
+   "p": "de",
+   "i": 18.499,
+   "f": 18.671
+  },
+  {
+   "p": "você",
+   "i": 18.671,
+   "f": 18.97
+  },
+  {
+   "p": "hoje.",
+   "i": 18.97,
+   "f": 19.27
+  },
+  {
+   "p": "Senhor,",
+   "i": 20.3,
+   "f": 21.04
+  },
+  {
+   "p": "obrigado",
+   "i": 21.33,
+   "f": 21.868
+  },
+  {
+   "p": "por",
+   "i": 21.868,
+   "f": 22.035
+  },
+  {
+   "p": "esse",
+   "i": 22.035,
+   "f": 22.326,
+   "j": true
+  },
+  {
+   "p": "domingo.",
+   "i": 22.326,
+   "f": 22.74,
+   "j": true
+  },
+  {
+   "p": "Que",
+   "i": 23.45,
+   "f": 23.66
+  },
+  {
+   "p": "eu",
+   "i": 23.66,
+   "f": 23.87
+  },
+  {
+   "p": "descanse",
+   "i": 23.87,
+   "f": 24.39
+  },
+  {
+   "p": "em",
+   "i": 24.39,
+   "f": 24.6,
+   "j": true
+  },
+  {
+   "p": "ti.",
+   "i": 24.6,
+   "f": 24.81,
+   "j": true
+  },
+  {
+   "p": "Bom",
+   "i": 25.56,
+   "f": 26.09
+  },
+  {
+   "p": "dia.",
+   "i": 26.09,
+   "f": 26.62
+  },
+  {
+   "p": "Se",
+   "i": 27.3,
+   "f": 27.459
+  },
+  {
+   "p": "você",
+   "i": 27.459,
+   "f": 27.736
+  },
+  {
+   "p": "recebe,",
+   "i": 27.736,
+   "f": 28.13
+  },
+  {
+   "p": "escreve",
+   "i": 28.45,
+   "f": 28.96
+  },
+  {
+   "p": "amém.",
+   "i": 29.19,
+   "f": 29.63
+  },
+  {
+   "p": "E",
+   "i": 30.2,
+   "f": 30.358
+  },
+  {
+   "p": "manda",
+   "i": 30.358,
+   "f": 30.632
+  },
+  {
+   "p": "esse",
+   "i": 30.632,
+   "f": 30.906
+  },
+  {
+   "p": "bom",
+   "i": 30.906,
+   "f": 31.064,
+   "j": true
+  },
+  {
+   "p": "dia",
+   "i": 31.064,
+   "f": 31.222,
+   "j": true
+  },
+  {
+   "p": "pra",
+   "i": 31.222,
+   "f": 31.379,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 31.379,
+   "f": 31.654
+  },
+  {
+   "p": "que",
+   "i": 31.654,
+   "f": 31.811
+  },
+  {
+   "p": "você",
+   "i": 31.811,
+   "f": 32.086,
+   "j": true
+  },
+  {
+   "p": "ama.",
+   "i": 32.086,
+   "f": 32.36,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 10,
+  "ate": 31,
+  "referencia": "Salmos 23:1-2"
+ },
+ "fecho": {
+  "inicio": 32.98,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "O SENHOR é meu pastor, nada me faltará. Ele me faz deitar em pastos verdes, e me leva a águas quietas.",
+   "referencia": "Salmos 23:1-2"
+  }
+ ],
+ "roteiro": "Hoje você não precisa correr. É domingo. A Bíblia diz: O Senhor é meu pastor, nada me faltará. Ele me faz deitar em pastos verdes, e me leva a águas quietas. Então respira. Deixa ele cuidar de você hoje. Senhor, obrigado por esse domingo. Que eu descanse em ti. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que você ama."
+}

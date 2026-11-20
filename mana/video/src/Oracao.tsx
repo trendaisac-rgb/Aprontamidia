@@ -70,7 +70,9 @@ export const agrupar = (p: PropsOracao): Grupo[] => {
       let a = v.de;
       while (a < v.ate) {
         let b = Math.min(v.ate, a + 14);
-        if (b < v.ate) {
+        const qk = p.palavras.slice(a + 1, b).findIndex((w) => w.q); // q: quebra manual dentro do versículo
+        if (qk >= 0) b = a + 1 + qk;
+        else if (b < v.ate) {
           let c = -1;
           for (let k = b; k > a + 4; k--) if (/[;:.!?]$/.test(p.palavras[k - 1].p)) { c = k; break; }
           if (c < 0) for (let k = b; k > a + 4; k--) if (/,$/.test(p.palavras[k - 1].p)) { c = k; break; }
