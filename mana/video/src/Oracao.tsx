@@ -29,6 +29,7 @@ export type PropsOracao = {
   filtros?: (string | null)[]; // por clipe, no lugar do filtro geral (clipe claro demais pede escurecer)
   abertura: { titulo: string; dia: string; ate: number; tamanho?: number; subir?: number }; // "Bom dia!" + data, até esse segundo. subir: px para erguer o cartão
   etiqueta: string; // fica pequena no topo depois da abertura
+  gancho?: { palavras: number; tamanho?: number }; // as N primeiras palavras já ficam inteiras e grandes na tela desde o quadro 0
   palavras: Palavra[];
   versiculo: { de: number; ate: number; referencia: string } | null; // índices em palavras (ate exclusivo)
   fecho: { inicio: number; sub: string; arroba: string };
@@ -65,6 +66,7 @@ export const agrupar = (p: PropsOracao): Grupo[] => {
   const v = p.versiculo;
   let i = p.palavras.findIndex((w) => w.i >= p.abertura.ate - 0.05);
   if (i < 0) i = p.palavras.length;
+  if (p.gancho) i = Math.max(i, p.gancho.palavras);
   while (i < p.palavras.length) {
     if (v && i === v.de) {
       let a = v.de;
@@ -114,16 +116,21 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
 
   // sem cartão (ate 0): a legenda já entra no quadro 0, junto com a voz
   const temCartao = p.abertura.ate > 0;
+  // gancho: a frase de abertura inteira na tela desde o quadro 0, até a próxima palavra começar
+  const gN = p.gancho ? Math.min(p.gancho.palavras, p.palavras.length) : 0;
+  const ganchoFim = p.gancho ? (gN < p.palavras.length ? p.palavras[gN].i - 0.12 : p.fecho.inicio) : 0;
+  const legendaNoZero = !temCartao && !p.gancho;
 
   // legenda atual
   let atual: Grupo | null = null;
   for (let k = 0; k < grupos.length; k++) {
     const g = grupos[k];
-    const ini = k === 0 && !temCartao ? -1 : p.palavras[g.de].i - 0.08;
+    const ini = k === 0 && legendaNoZero ? -1 : p.palavras[g.de].i - 0.08;
     const prox = k + 1 < grupos.length ? p.palavras[grupos[k + 1].de].i - 0.08 : p.fecho.inicio;
     const fim = Math.min(prox, p.palavras[g.ate - 1].f + (g.verso ? 1.4 : 0.9));
     if (t >= ini && t < fim) { atual = g; break; }
   }
+  if (p.gancho && t < ganchoFim) atual = null;
 
   const emAbertura = temCartao && t < p.abertura.ate + 0.5;
   const abreOpac = 1 - rampa(t, p.abertura.ate, p.abertura.ate + 0.5);
@@ -194,6 +201,27 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
         </div>
       )}
 
+      {/* gancho: a primeira frase inteira, grande, já no quadro 0; cada palavra acende quando é falada */}
+      {p.gancho && t < ganchoFim + 0.05 && !emFecho && (
+        <>
+          <AbsoluteFill style={{
+            opacity: 1 - rampa(t, ganchoFim - 0.3, ganchoFim),
+            background: 'radial-gradient(ellipse 100% 34% at 50% 46%, rgba(8,5,2,0.58) 0%, rgba(8,5,2,0.32) 55%, rgba(8,5,2,0) 100%)',
+          }} />
+          <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: '0 76px', paddingBottom: 110, opacity: 1 - rampa(t, ganchoFim - 0.3, ganchoFim) }}>
+            <div style={{
+              fontFamily: SERIF, fontWeight: 600, fontSize: p.gancho.tamanho ?? (gN <= 7 ? 122 : 106), lineHeight: 1.1,
+              color: BRANCO, textShadow: SOMBRA, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', columnGap: '0.26em', maxWidth: 940,
+              transform: `scale(${interpolate(t, [0, 0.7], [1.04, 1], { extrapolateRight: 'clamp', easing: suave })})`,
+            } as React.CSSProperties}>
+              {p.palavras.slice(0, gN).map((w, k) => (
+                <span key={k} style={{ opacity: 0.74 + 0.26 * rampa(t, w.i - 0.1, w.i + 0.15), display: 'inline-block' }}>{w.t ?? w.p}</span>
+              ))}
+            </div>
+          </AbsoluteFill>
+        </>
+      )}
+
       {/* legenda: o bloco monta palavra por palavra, no tempo da voz */}
       {atual && !emFecho && (
         <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: atual.verso ? '0 84px' : '0 90px', paddingBottom: 110 }}>
@@ -205,7 +233,7 @@ export const Oracao: React.FC<PropsOracao> = (p) => {
           } as React.CSSProperties}>
             {p.palavras.slice(atual.de, atual.ate).map((w, k) => {
               // bloco comum: entra inteiro, de uma vez. Versículo: fica todo na tela e cada palavra acende quando é lida.
-              const entra = !temCartao && atual!.de === grupos[0].de ? 1 : rampa(t, p.palavras[atual!.de].i - 0.1, p.palavras[atual!.de].i + 0.14);
+              const entra = legendaNoZero && atual!.de === grupos[0].de ? 1 : rampa(t, p.palavras[atual!.de].i - 0.1, p.palavras[atual!.de].i + 0.14);
               const lida = rampa(t, w.i - 0.1, w.i + 0.15);
               const op = atual!.verso ? entra * (0.72 + 0.28 * lida) : entra;
               return (
