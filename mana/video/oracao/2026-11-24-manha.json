@@ -1,0 +1,400 @@
+{
+ "voz": "oracao/2026-11-24-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 34.02,
+ "clipes": [
+  "oracao/banco-manha/8091712.mp4",
+  "oracao/banco-manha/6503215.mp4",
+  "oracao/banco-manha/30351656.mp4",
+  "oracao/banco-manha/18199689.mp4",
+  "oracao/banco-manha/32817042.mp4",
+  "oracao/banco-manha/7218286.mp4",
+  "oracao/banco-manha/14235938.mp4",
+  "oracao/banco-manha/15499822.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.1,
+  10.2,
+  14.4,
+  17.6,
+  20.2,
+  23.4,
+  27.5
+ ],
+ "filtros": [
+  "brightness(0.82) saturate(1.15) contrast(1.05)",
+  "brightness(0.7) saturate(1.1) contrast(1.06)",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Terça-feira, 24 de novembro",
+ "palavras": [
+  {
+   "p": "Você",
+   "i": 0.0,
+   "f": 0.345
+  },
+  {
+   "p": "não",
+   "i": 0.345,
+   "f": 0.543
+  },
+  {
+   "p": "vai",
+   "i": 0.543,
+   "f": 0.742
+  },
+  {
+   "p": "enfrentar",
+   "i": 0.742,
+   "f": 1.233,
+   "j": true
+  },
+  {
+   "p": "esse",
+   "i": 1.233,
+   "f": 1.579,
+   "q": true
+  },
+  {
+   "p": "dia",
+   "i": 1.579,
+   "f": 1.777
+  },
+  {
+   "p": "sozinho.",
+   "i": 1.777,
+   "f": 2.269,
+   "j": true
+  },
+  {
+   "p": "Escuta",
+   "i": 2.938,
+   "f": 3.502
+  },
+  {
+   "p": "o",
+   "i": 3.502,
+   "f": 3.729
+  },
+  {
+   "p": "que",
+   "i": 3.729,
+   "f": 3.956
+  },
+  {
+   "p": "Deus",
+   "i": 3.956,
+   "f": 4.183,
+   "j": true
+  },
+  {
+   "p": "diz:",
+   "i": 4.183,
+   "f": 4.41,
+   "j": true
+  },
+  {
+   "p": "Porque",
+   "i": 5.199,
+   "f": 5.599
+  },
+  {
+   "p": "eu,",
+   "i": 5.599,
+   "f": 5.828
+  },
+  {
+   "p": "o",
+   "i": 6.184,
+   "f": 6.47
+  },
+  {
+   "p": "Senhor",
+   "i": 6.47,
+   "f": 6.967,
+   "t": "SENHOR"
+  },
+  {
+   "p": "teu",
+   "i": 6.967,
+   "f": 7.253
+  },
+  {
+   "p": "Deus,",
+   "i": 7.253,
+   "f": 7.539
+  },
+  {
+   "p": "te",
+   "i": 7.837,
+   "f": 8.043
+  },
+  {
+   "p": "seguro",
+   "i": 8.043,
+   "f": 8.556
+  },
+  {
+   "p": "pela",
+   "i": 8.556,
+   "f": 8.915
+  },
+  {
+   "p": "tua",
+   "i": 8.915,
+   "f": 9.122
+  },
+  {
+   "p": "mão",
+   "i": 9.122,
+   "f": 9.328
+  },
+  {
+   "p": "direita,",
+   "i": 9.328,
+   "f": 9.84
+  },
+  {
+   "p": "e",
+   "i": 10.301,
+   "f": 10.458
+  },
+  {
+   "p": "te",
+   "i": 10.458,
+   "f": 10.616
+  },
+  {
+   "p": "digo:",
+   "i": 10.616,
+   "f": 10.89
+  },
+  {
+   "p": "Não",
+   "i": 11.599,
+   "f": 11.93
+  },
+  {
+   "p": "temas;",
+   "i": 11.93,
+   "f": 12.507
+  },
+  {
+   "p": "eu",
+   "i": 12.898,
+   "f": 13.055
+  },
+  {
+   "p": "te",
+   "i": 13.055,
+   "f": 13.212
+  },
+  {
+   "p": "ajudo.",
+   "i": 13.212,
+   "f": 13.603
+  },
+  {
+   "p": "Hoje,",
+   "i": 14.584,
+   "f": 14.943
+  },
+  {
+   "p": "quando",
+   "i": 15.372,
+   "f": 15.684
+  },
+  {
+   "p": "apertar...",
+   "i": 15.684,
+   "f": 16.128
+  },
+  {
+   "p": "lembra:",
+   "i": 16.655,
+   "f": 17.073
+  },
+  {
+   "p": "ele",
+   "i": 17.762,
+   "f": 18.044
+  },
+  {
+   "p": "está",
+   "i": 18.044,
+   "f": 18.326
+  },
+  {
+   "p": "segurando",
+   "i": 18.326,
+   "f": 18.848
+  },
+  {
+   "p": "a",
+   "i": 18.848,
+   "f": 19.01
+  },
+  {
+   "p": "sua",
+   "i": 19.01,
+   "f": 19.172
+  },
+  {
+   "p": "mão.",
+   "i": 19.172,
+   "f": 19.334
+  },
+  {
+   "p": "Senhor,",
+   "i": 20.321,
+   "f": 20.933
+  },
+  {
+   "p": "segura",
+   "i": 21.4,
+   "f": 21.792
+  },
+  {
+   "p": "a",
+   "i": 21.792,
+   "f": 21.95
+  },
+  {
+   "p": "minha",
+   "i": 21.95,
+   "f": 22.225
+  },
+  {
+   "p": "mão",
+   "i": 22.225,
+   "f": 22.383,
+   "j": true
+  },
+  {
+   "p": "hoje.",
+   "i": 22.383,
+   "f": 22.658,
+   "j": true
+  },
+  {
+   "p": "Bom",
+   "i": 23.541,
+   "f": 23.836
+  },
+  {
+   "p": "dia.",
+   "i": 23.836,
+   "f": 24.13
+  },
+  {
+   "p": "Se",
+   "i": 24.881,
+   "f": 25.056
+  },
+  {
+   "p": "você",
+   "i": 25.056,
+   "f": 25.361
+  },
+  {
+   "p": "recebe,",
+   "i": 25.361,
+   "f": 25.796
+  },
+  {
+   "p": "escreve",
+   "i": 26.279,
+   "f": 26.824
+  },
+  {
+   "p": "amém.",
+   "i": 26.824,
+   "f": 27.207
+  },
+  {
+   "p": "E",
+   "i": 27.714,
+   "f": 27.88
+  },
+  {
+   "p": "manda",
+   "i": 27.88,
+   "f": 28.171
+  },
+  {
+   "p": "esse",
+   "i": 28.171,
+   "f": 28.461
+  },
+  {
+   "p": "bom",
+   "i": 28.461,
+   "f": 28.628,
+   "j": true
+  },
+  {
+   "p": "dia",
+   "i": 28.628,
+   "f": 28.795,
+   "j": true
+  },
+  {
+   "p": "pra",
+   "i": 28.795,
+   "f": 28.962,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 28.962,
+   "f": 29.252
+  },
+  {
+   "p": "que",
+   "i": 29.252,
+   "f": 29.419
+  },
+  {
+   "p": "você",
+   "i": 29.419,
+   "f": 29.709,
+   "j": true
+  },
+  {
+   "p": "ama.",
+   "i": 29.709,
+   "f": 30.0,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 12,
+  "ate": 32,
+  "referencia": "Isaías 41:13"
+ },
+ "fecho": {
+  "inicio": 30.62,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Porque eu, o SENHOR teu Deus, te seguro pela tua mão direita, e te digo: Não temas; eu te ajudo.",
+   "referencia": "Isaías 41:13"
+  }
+ ],
+ "roteiro": "Você não vai enfrentar esse dia sozinho. Escuta o que Deus diz: Porque eu, o Senhor teu Deus, te seguro pela tua mão direita, e te digo: Não temas; eu te ajudo. Hoje, quando apertar... lembra: ele está segurando a sua mão. Senhor, segura a minha mão hoje. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que você ama."
+}

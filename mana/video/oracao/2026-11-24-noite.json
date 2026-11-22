@@ -1,0 +1,388 @@
+{
+ "voz": "oracao/2026-11-24-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 32.13,
+ "clipes": [
+  "oracao/banco-noite/6670423.mp4",
+  "oracao/banco-noite/8588877.mp4",
+  "oracao/banco-noite/8343577.mp4",
+  "oracao/banco-noite/6624511.mp4",
+  "oracao/banco-noite/7698612.mp4",
+  "oracao/banco-noite/10833065.mp4",
+  "oracao/banco-noite/3765589.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.0,
+  10.6,
+  13.4,
+  17.1,
+  20.9,
+  25.3
+ ],
+ "filtros": [
+  "brightness(0.85) saturate(1.1) contrast(1.05)",
+  null,
+  null,
+  null,
+  "brightness(0.75) saturate(1.1) contrast(1.05)",
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Terça-feira, 24 de novembro",
+ "palavras": [
+  {
+   "p": "Se",
+   "i": 0.0,
+   "f": 0.221
+  },
+  {
+   "p": "hoje",
+   "i": 0.221,
+   "f": 0.605
+  },
+  {
+   "p": "o",
+   "i": 0.605,
+   "f": 0.826
+  },
+  {
+   "p": "seu",
+   "i": 0.826,
+   "f": 1.047,
+   "j": true
+  },
+  {
+   "p": "coração",
+   "i": 1.047,
+   "f": 1.594,
+   "j": true
+  },
+  {
+   "p": "ficou",
+   "i": 1.594,
+   "f": 1.979,
+   "q": true
+  },
+  {
+   "p": "apertado...",
+   "i": 1.979,
+   "f": 2.69,
+   "j": true
+  },
+  {
+   "p": "você",
+   "i": 3.36,
+   "f": 3.632
+  },
+  {
+   "p": "não",
+   "i": 3.632,
+   "f": 3.789
+  },
+  {
+   "p": "está",
+   "i": 3.789,
+   "f": 4.062
+  },
+  {
+   "p": "sozinho.",
+   "i": 4.062,
+   "f": 4.45,
+   "j": true
+  },
+  {
+   "p": "A",
+   "i": 5.4,
+   "f": 5.663
+  },
+  {
+   "p": "Bíblia",
+   "i": 5.663,
+   "f": 6.12
+  },
+  {
+   "p": "diz:",
+   "i": 6.12,
+   "f": 6.383
+  },
+  {
+   "p": "O",
+   "i": 6.383,
+   "f": 6.645
+  },
+  {
+   "p": "Senhor",
+   "i": 6.645,
+   "f": 7.103,
+   "t": "SENHOR"
+  },
+  {
+   "p": "está",
+   "i": 7.103,
+   "f": 7.56
+  },
+  {
+   "p": "perto",
+   "i": 7.81,
+   "f": 8.129
+  },
+  {
+   "p": "daqueles",
+   "i": 8.129,
+   "f": 8.583
+  },
+  {
+   "p": "que",
+   "i": 8.583,
+   "f": 8.766
+  },
+  {
+   "p": "estão",
+   "i": 8.766,
+   "f": 9.085
+  },
+  {
+   "p": "com",
+   "i": 9.085,
+   "f": 9.268
+  },
+  {
+   "p": "o",
+   "i": 9.268,
+   "f": 9.451
+  },
+  {
+   "p": "coração",
+   "i": 9.451,
+   "f": 9.906
+  },
+  {
+   "p": "partido,",
+   "i": 9.906,
+   "f": 10.36
+  },
+  {
+   "p": "e",
+   "i": 10.79,
+   "f": 10.994
+  },
+  {
+   "p": "salva",
+   "i": 10.994,
+   "f": 11.349
+  },
+  {
+   "p": "os",
+   "i": 11.349,
+   "f": 11.553
+  },
+  {
+   "p": "aflitos",
+   "i": 11.553,
+   "f": 12.059
+  },
+  {
+   "p": "de",
+   "i": 12.059,
+   "f": 12.263
+  },
+  {
+   "p": "espírito.",
+   "i": 12.263,
+   "f": 12.92
+  },
+  {
+   "p": "Ele",
+   "i": 13.75,
+   "f": 13.99
+  },
+  {
+   "p": "está",
+   "i": 13.99,
+   "f": 14.229
+  },
+  {
+   "p": "perto",
+   "i": 14.229,
+   "f": 14.469
+  },
+  {
+   "p": "agora.",
+   "i": 14.469,
+   "f": 14.81,
+   "j": true
+  },
+  {
+   "p": "Do",
+   "i": 15.61,
+   "f": 15.859
+  },
+  {
+   "p": "seu",
+   "i": 15.859,
+   "f": 16.107
+  },
+  {
+   "p": "lado.",
+   "i": 16.107,
+   "f": 16.54
+  },
+  {
+   "p": "Senhor,",
+   "i": 17.4,
+   "f": 17.97
+  },
+  {
+   "p": "cuida",
+   "i": 18.37,
+   "f": 18.722
+  },
+  {
+   "p": "do",
+   "i": 18.722,
+   "f": 18.924
+  },
+  {
+   "p": "meu",
+   "i": 18.924,
+   "f": 19.126
+  },
+  {
+   "p": "coração",
+   "i": 19.126,
+   "f": 19.627,
+   "j": true
+  },
+  {
+   "p": "esta",
+   "i": 19.627,
+   "f": 19.978,
+   "q": true
+  },
+  {
+   "p": "noite.",
+   "i": 19.978,
+   "f": 20.33
+  },
+  {
+   "p": "Boa",
+   "i": 21.22,
+   "f": 21.454
+  },
+  {
+   "p": "noite.",
+   "i": 21.454,
+   "f": 21.86
+  },
+  {
+   "p": "Se",
+   "i": 22.79,
+   "f": 22.987
+  },
+  {
+   "p": "você",
+   "i": 22.987,
+   "f": 23.331
+  },
+  {
+   "p": "recebe,",
+   "i": 23.331,
+   "f": 23.82
+  },
+  {
+   "p": "escreve",
+   "i": 24.28,
+   "f": 24.644
+  },
+  {
+   "p": "amém.",
+   "i": 24.644,
+   "f": 24.9
+  },
+  {
+   "p": "E",
+   "i": 25.51,
+   "f": 25.657
+  },
+  {
+   "p": "manda",
+   "i": 25.657,
+   "f": 25.913
+  },
+  {
+   "p": "pra",
+   "i": 25.913,
+   "f": 26.061
+  },
+  {
+   "p": "alguém",
+   "i": 26.061,
+   "f": 26.317,
+   "j": true
+  },
+  {
+   "p": "que",
+   "i": 26.317,
+   "f": 26.464,
+   "q": true
+  },
+  {
+   "p": "está",
+   "i": 26.464,
+   "f": 26.72
+  },
+  {
+   "p": "passando",
+   "i": 26.72,
+   "f": 27.085,
+   "j": true
+  },
+  {
+   "p": "por",
+   "i": 27.085,
+   "f": 27.232,
+   "q": true
+  },
+  {
+   "p": "um",
+   "i": 27.232,
+   "f": 27.38
+  },
+  {
+   "p": "momento",
+   "i": 27.38,
+   "f": 27.745
+  },
+  {
+   "p": "difícil.",
+   "i": 27.745,
+   "f": 28.11,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 14,
+  "ate": 31,
+  "referencia": "Salmos 34:18"
+ },
+ "fecho": {
+  "inicio": 28.73,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "O SENHOR está perto daqueles que estão com o coração partido, e salva os aflitos de espírito.",
+   "referencia": "Salmos 34:18"
+  }
+ ],
+ "roteiro": "Se hoje o seu coração ficou apertado... você não está sozinho. A Bíblia diz: O Senhor está perto daqueles que estão com o coração partido, e salva os aflitos de espírito. Ele está perto agora. Do seu lado. Senhor, cuida do meu coração esta noite. Boa noite. Se você recebe, escreve amém. E manda pra alguém que está passando por um momento difícil."
+}

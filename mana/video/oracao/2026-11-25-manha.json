@@ -1,0 +1,383 @@
+{
+ "voz": "oracao/2026-11-25-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 32.96,
+ "clipes": [
+  "oracao/banco-manha/6381035.mp4",
+  "oracao/banco-manha/7220097.mp4",
+  "oracao/banco-manha/5206136.mp4",
+  "oracao/banco-manha/6860999.mp4",
+  "oracao/banco-manha/6860760.mp4",
+  "oracao/banco-manha/16399682.mp4",
+  "oracao/banco-manha/12361537.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.0,
+  11.3,
+  13.9,
+  17.8,
+  22.2,
+  26.4
+ ],
+ "filtros": [
+  "brightness(0.8) saturate(1.1) contrast(1.05)",
+  "brightness(0.8) saturate(1.12) contrast(1.05)",
+  null,
+  "brightness(0.8) saturate(1.12) contrast(1.05)",
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Quarta-feira, 25 de novembro",
+ "palavras": [
+  {
+   "p": "Você",
+   "i": 0.0,
+   "f": 0.348
+  },
+  {
+   "p": "pode",
+   "i": 0.348,
+   "f": 0.696
+  },
+  {
+   "p": "estar",
+   "i": 0.696,
+   "f": 1.044
+  },
+  {
+   "p": "com",
+   "i": 1.044,
+   "f": 1.244,
+   "j": true
+  },
+  {
+   "p": "medo",
+   "i": 1.244,
+   "f": 1.592,
+   "j": true
+  },
+  {
+   "p": "hoje...",
+   "i": 1.592,
+   "f": 1.94,
+   "j": true
+  },
+  {
+   "p": "e",
+   "i": 2.46,
+   "f": 2.704
+  },
+  {
+   "p": "mesmo",
+   "i": 2.704,
+   "f": 3.13
+  },
+  {
+   "p": "assim",
+   "i": 3.13,
+   "f": 3.555
+  },
+  {
+   "p": "confiar.",
+   "i": 3.555,
+   "f": 3.98,
+   "j": true
+  },
+  {
+   "p": "A",
+   "i": 5.32,
+   "f": 5.585
+  },
+  {
+   "p": "Bíblia",
+   "i": 5.585,
+   "f": 6.045
+  },
+  {
+   "p": "diz:",
+   "i": 6.045,
+   "f": 6.31
+  },
+  {
+   "p": "No",
+   "i": 6.85,
+   "f": 7.086
+  },
+  {
+   "p": "dia",
+   "i": 7.086,
+   "f": 7.322
+  },
+  {
+   "p": "em",
+   "i": 7.322,
+   "f": 7.557
+  },
+  {
+   "p": "que",
+   "i": 7.557,
+   "f": 7.793
+  },
+  {
+   "p": "eu",
+   "i": 7.793,
+   "f": 8.029
+  },
+  {
+   "p": "tiver",
+   "i": 8.029,
+   "f": 8.44
+  },
+  {
+   "p": "medo,",
+   "i": 8.44,
+   "f": 8.85
+  },
+  {
+   "p": "eu",
+   "i": 9.28,
+   "f": 9.53
+  },
+  {
+   "p": "confiarei",
+   "i": 9.53,
+   "f": 10.15
+  },
+  {
+   "p": "em",
+   "i": 10.15,
+   "f": 10.4
+  },
+  {
+   "p": "ti.",
+   "i": 10.4,
+   "f": 10.65
+  },
+  {
+   "p": "Medo",
+   "i": 11.99,
+   "f": 12.316
+  },
+  {
+   "p": "não",
+   "i": 12.316,
+   "f": 12.503
+  },
+  {
+   "p": "é",
+   "i": 12.503,
+   "f": 12.69
+  },
+  {
+   "p": "falta",
+   "i": 12.69,
+   "f": 13.016,
+   "j": true
+  },
+  {
+   "p": "de",
+   "i": 13.016,
+   "f": 13.203,
+   "j": true
+  },
+  {
+   "p": "fé.",
+   "i": 13.203,
+   "f": 13.39,
+   "j": true
+  },
+  {
+   "p": "Fé",
+   "i": 14.09,
+   "f": 14.384
+  },
+  {
+   "p": "é",
+   "i": 14.384,
+   "f": 14.677
+  },
+  {
+   "p": "levar",
+   "i": 14.677,
+   "f": 15.188
+  },
+  {
+   "p": "o",
+   "i": 15.188,
+   "f": 15.482,
+   "j": true
+  },
+  {
+   "p": "medo",
+   "i": 15.482,
+   "f": 15.993,
+   "j": true
+  },
+  {
+   "p": "pra",
+   "i": 15.993,
+   "f": 16.286,
+   "q": true
+  },
+  {
+   "p": "Deus.",
+   "i": 16.286,
+   "f": 16.58,
+   "j": true
+  },
+  {
+   "p": "Senhor,",
+   "i": 18.23,
+   "f": 19.03
+  },
+  {
+   "p": "hoje",
+   "i": 19.42,
+   "f": 19.758
+  },
+  {
+   "p": "eu",
+   "i": 19.758,
+   "f": 19.953
+  },
+  {
+   "p": "confio",
+   "i": 19.953,
+   "f": 20.291
+  },
+  {
+   "p": "em",
+   "i": 20.291,
+   "f": 20.486,
+   "j": true
+  },
+  {
+   "p": "ti.",
+   "i": 20.486,
+   "f": 20.68,
+   "j": true
+  },
+  {
+   "p": "Bom",
+   "i": 22.69,
+   "f": 22.965
+  },
+  {
+   "p": "dia.",
+   "i": 22.965,
+   "f": 23.24
+  },
+  {
+   "p": "Se",
+   "i": 23.78,
+   "f": 24.0
+  },
+  {
+   "p": "você",
+   "i": 24.0,
+   "f": 24.384
+  },
+  {
+   "p": "recebe,",
+   "i": 24.384,
+   "f": 24.93
+  },
+  {
+   "p": "escreve",
+   "i": 25.23,
+   "f": 25.677
+  },
+  {
+   "p": "amém.",
+   "i": 25.677,
+   "f": 25.99
+  },
+  {
+   "p": "E",
+   "i": 26.79,
+   "f": 26.936
+  },
+  {
+   "p": "manda",
+   "i": 26.936,
+   "f": 27.191
+  },
+  {
+   "p": "esse",
+   "i": 27.191,
+   "f": 27.445
+  },
+  {
+   "p": "bom",
+   "i": 27.445,
+   "f": 27.592,
+   "j": true
+  },
+  {
+   "p": "dia",
+   "i": 27.592,
+   "f": 27.738,
+   "j": true
+  },
+  {
+   "p": "pra",
+   "i": 27.738,
+   "f": 27.884,
+   "q": true
+  },
+  {
+   "p": "alguém",
+   "i": 27.884,
+   "f": 28.138
+  },
+  {
+   "p": "que",
+   "i": 28.138,
+   "f": 28.285
+  },
+  {
+   "p": "está",
+   "i": 28.285,
+   "f": 28.539,
+   "j": true
+  },
+  {
+   "p": "com",
+   "i": 28.539,
+   "f": 28.685,
+   "j": true
+  },
+  {
+   "p": "medo.",
+   "i": 28.685,
+   "f": 28.94,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 13,
+  "ate": 24,
+  "referencia": "Salmos 56:3"
+ },
+ "fecho": {
+  "inicio": 29.56,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "No dia em que eu tiver medo, eu confiarei em ti.",
+   "referencia": "Salmos 56:3"
+  }
+ ],
+ "roteiro": "Você pode estar com medo hoje... e mesmo assim confiar. A Bíblia diz: No dia em que eu tiver medo, eu confiarei em ti. Medo não é falta de fé. Fé é levar o medo pra Deus. Senhor, hoje eu confio em ti. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que está com medo."
+}

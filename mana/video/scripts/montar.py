@@ -16,7 +16,7 @@ for k, w in enumerate(bw):
     if P[de + k]['p'] != w: P[de + k]['t'] = w   # mostra na tela exatamente o texto do banco
 assert ' '.join(P[de + k].get('t', P[de + k]['p']) for k in range(len(bw))) == banco
 for q in [x for x in quebras.split('|') if x]:
-    i, w = q.split(':'); marca = 'q'
+    i, w = q.split(':', 1); marca = 'q'
     if i.startswith('+'): i, marca = i[1:], 'j'   # +i:palavra cola no bloco anterior
     i = int(i); assert P[i]['p'] == w, (i, P[i]['p'], w); P[i][marca] = True
 fecho = round(P[-1]['f'] + 0.62, 2); total = round(fecho + 3.4, 2)

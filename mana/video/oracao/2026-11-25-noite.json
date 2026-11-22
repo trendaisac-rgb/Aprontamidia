@@ -1,0 +1,350 @@
+{
+ "voz": "oracao/2026-11-25-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 32.26,
+ "clipes": [
+  "oracao/banco-noite/6297714.mp4",
+  "oracao/banco-noite/6184284.mp4",
+  "oracao/banco-noite/28703129.mp4",
+  "oracao/banco-noite/19095583.mp4",
+  "oracao/banco-noite/7593903.mp4",
+  "oracao/banco-noite/20658721.mp4",
+  "oracao/banco-noite/854739.mp4"
+ ],
+ "trocas": [
+  0.0,
+  3.6,
+  8.5,
+  11.5,
+  16.8,
+  21.2,
+  25.3
+ ],
+ "filtros": [
+  "brightness(0.8) saturate(1.1) contrast(1.05)",
+  null,
+  null,
+  null,
+  "brightness(0.75) saturate(1.1) contrast(1.05)",
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Quarta-feira, 25 de novembro",
+ "palavras": [
+  {
+   "p": "Você",
+   "i": 0.0,
+   "f": 0.4
+  },
+  {
+   "p": "aguentou",
+   "i": 0.4,
+   "f": 0.97
+  },
+  {
+   "p": "mais",
+   "i": 0.97,
+   "f": 1.2
+  },
+  {
+   "p": "do",
+   "i": 1.2,
+   "f": 1.43
+  },
+  {
+   "p": "que",
+   "i": 1.43,
+   "f": 1.66
+  },
+  {
+   "p": "imagina",
+   "i": 1.66,
+   "f": 2.4
+  },
+  {
+   "p": "hoje.",
+   "i": 2.4,
+   "f": 2.8,
+   "j": true
+  },
+  {
+   "p": "A",
+   "i": 3.85,
+   "f": 4.08
+  },
+  {
+   "p": "Bíblia",
+   "i": 4.08,
+   "f": 4.48
+  },
+  {
+   "p": "diz:",
+   "i": 4.48,
+   "f": 4.71
+  },
+  {
+   "p": "Deus",
+   "i": 5.31,
+   "f": 5.624
+  },
+  {
+   "p": "é",
+   "i": 5.624,
+   "f": 5.937
+  },
+  {
+   "p": "nosso",
+   "i": 5.937,
+   "f": 6.483
+  },
+  {
+   "p": "refúgio",
+   "i": 6.483,
+   "f": 7.261
+  },
+  {
+   "p": "e",
+   "i": 7.261,
+   "f": 7.574
+  },
+  {
+   "p": "força;",
+   "i": 7.574,
+   "f": 8.12
+  },
+  {
+   "p": "socorro",
+   "i": 8.68,
+   "f": 9.264,
+   "q": true
+  },
+  {
+   "p": "oportuno",
+   "i": 9.264,
+   "f": 10.021
+  },
+  {
+   "p": "nas",
+   "i": 10.021,
+   "f": 10.256
+  },
+  {
+   "p": "angústias.",
+   "i": 10.256,
+   "f": 10.84
+  },
+  {
+   "p": "Hoje",
+   "i": 11.72,
+   "f": 11.98
+  },
+  {
+   "p": "à",
+   "i": 11.98,
+   "f": 12.13
+  },
+  {
+   "p": "noite,",
+   "i": 12.13,
+   "f": 12.39
+  },
+  {
+   "p": "ele",
+   "i": 12.77,
+   "f": 13.081
+  },
+  {
+   "p": "é",
+   "i": 13.081,
+   "f": 13.259
+  },
+  {
+   "p": "o",
+   "i": 13.259,
+   "f": 13.438
+  },
+  {
+   "p": "seu",
+   "i": 13.438,
+   "f": 13.616,
+   "j": true
+  },
+  {
+   "p": "lugar",
+   "i": 13.616,
+   "f": 13.927,
+   "j": true
+  },
+  {
+   "p": "seguro.",
+   "i": 13.927,
+   "f": 14.37,
+   "j": true
+  },
+  {
+   "p": "Descansa",
+   "i": 15.11,
+   "f": 15.58
+  },
+  {
+   "p": "nele.",
+   "i": 15.58,
+   "f": 15.91
+  },
+  {
+   "p": "Senhor,",
+   "i": 17.21,
+   "f": 17.66
+  },
+  {
+   "p": "eu",
+   "i": 18.33,
+   "f": 18.522
+  },
+  {
+   "p": "me",
+   "i": 18.522,
+   "f": 18.713
+  },
+  {
+   "p": "escondo",
+   "i": 18.713,
+   "f": 19.189
+  },
+  {
+   "p": "em",
+   "i": 19.189,
+   "f": 19.381
+  },
+  {
+   "p": "ti",
+   "i": 19.381,
+   "f": 19.573
+  },
+  {
+   "p": "esta",
+   "i": 19.573,
+   "f": 19.906
+  },
+  {
+   "p": "noite.",
+   "i": 19.906,
+   "f": 20.24,
+   "j": true
+  },
+  {
+   "p": "Boa",
+   "i": 21.43,
+   "f": 21.631
+  },
+  {
+   "p": "noite.",
+   "i": 21.631,
+   "f": 21.98
+  },
+  {
+   "p": "Se",
+   "i": 23.0,
+   "f": 23.227
+  },
+  {
+   "p": "você",
+   "i": 23.227,
+   "f": 23.621
+  },
+  {
+   "p": "recebe,",
+   "i": 23.621,
+   "f": 24.183
+  },
+  {
+   "p": "escreve",
+   "i": 24.183,
+   "f": 24.746
+  },
+  {
+   "p": "amém.",
+   "i": 24.746,
+   "f": 25.14
+  },
+  {
+   "p": "E",
+   "i": 25.53,
+   "f": 25.708
+  },
+  {
+   "p": "manda",
+   "i": 25.708,
+   "f": 26.019
+  },
+  {
+   "p": "pra",
+   "i": 26.019,
+   "f": 26.198
+  },
+  {
+   "p": "alguém",
+   "i": 26.198,
+   "f": 26.508,
+   "j": true
+  },
+  {
+   "p": "que",
+   "i": 26.508,
+   "f": 26.687,
+   "q": true
+  },
+  {
+   "p": "precisa",
+   "i": 26.687,
+   "f": 27.13
+  },
+  {
+   "p": "de",
+   "i": 27.13,
+   "f": 27.308
+  },
+  {
+   "p": "um",
+   "i": 27.308,
+   "f": 27.486,
+   "j": true
+  },
+  {
+   "p": "lugar",
+   "i": 27.486,
+   "f": 27.797,
+   "j": true
+  },
+  {
+   "p": "seguro.",
+   "i": 27.797,
+   "f": 28.24,
+   "j": true
+  }
+ ],
+ "versiculo": {
+  "de": 10,
+  "ate": 20,
+  "referencia": "Salmos 46:1"
+ },
+ "fecho": {
+  "inicio": 28.86,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Deus é nosso refúgio e força; socorro oportuno nas angústias.",
+   "referencia": "Salmos 46:1"
+  }
+ ],
+ "roteiro": "Você aguentou mais do que imagina hoje. A Bíblia diz: Deus é nosso refúgio e força; socorro oportuno nas angústias. Hoje à noite, ele é o seu lugar seguro. Descansa nele. Senhor, eu me escondo em ti esta noite. Boa noite. Se você recebe, escreve amém. E manda pra alguém que precisa de um lugar seguro."
+}
