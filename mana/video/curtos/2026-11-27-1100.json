@@ -1,0 +1,37 @@
+{
+ "imagem": "oracao/banco-manha/34689939.mp4",
+ "ritmo": 0.69,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 30,
+ "duracao": 14.21,
+ "gancho": {
+  "tela": "Respira. *Aquieta* o coração.",
+  "inicio": -1.0,
+  "fim": 1.8
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Tu, porém, ó minha alma,",
+    "inicio": 2.8
+   },
+   {
+    "texto": "aquieta-te em Deus;",
+    "inicio": 4.3
+   },
+   {
+    "texto": "porque ele é minha esperança.",
+    "inicio": 5.6
+   }
+  ],
+  "inicio": 2.8,
+  "referencia": "Salmos 62:5",
+  "refInicio": 7.61
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 10.41
+ },
+ "arroba": "@mana.biblia.app"
+}

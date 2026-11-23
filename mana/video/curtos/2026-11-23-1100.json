@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/11272939.mp4",
+ "ritmo": 0.652,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 0,
+ "duracao": 15.04,
+ "gancho": {
+  "tela": "Pra quem já está *cansado* hoje",
+  "inicio": -1.0,
+  "fim": 1.93
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Vinde a mim todos vós que estais cansados e sobrecarregados,",
+    "inicio": 2.93
+   },
+   {
+    "texto": "e eu vos farei descansar.",
+    "inicio": 6.68
+   }
+  ],
+  "inicio": 2.93,
+  "referencia": "Mateus 11:28",
+  "refInicio": 8.44
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 11.24
+ },
+ "arroba": "@mana.biblia.app"
+}

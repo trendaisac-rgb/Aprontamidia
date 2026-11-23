@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/14453759.mp4",
+ "ritmo": 0.657,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 60,
+ "duracao": 14.91,
+ "gancho": {
+  "tela": "Ainda dá pra ter *paz* hoje",
+  "inicio": -1.0,
+  "fim": 1.8
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Tu guardarás em completa paz aquele que tem firme entendimento,",
+    "inicio": 2.8
+   },
+   {
+    "texto": "pois ele confia em ti.",
+    "inicio": 6.74
+   }
+  ],
+  "inicio": 2.8,
+  "referencia": "Isaías 26:3",
+  "refInicio": 8.31
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 11.11
+ },
+ "arroba": "@mana.biblia.app"
+}

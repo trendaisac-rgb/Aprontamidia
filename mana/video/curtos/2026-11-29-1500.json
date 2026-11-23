@@ -1,0 +1,49 @@
+{
+ "imagem": "oracao/banco-manha/14476180.mp4",
+ "ritmo": 0.527,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 130,
+ "duracao": 18.61,
+ "gancho": {
+  "tela": "Uma *paz* que o mundo não dá",
+  "inicio": -1.0,
+  "fim": 1.8
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "A paz vos deixo,",
+    "inicio": 2.8
+   },
+   {
+    "texto": "minha paz vos dou;",
+    "inicio": 4.1
+   },
+   {
+    "texto": "vou dá-la a vós,",
+    "inicio": 5.4
+   },
+   {
+    "texto": "não como o mundo a dá.",
+    "inicio": 6.7
+   },
+   {
+    "texto": "Não se perturbe vosso coração,",
+    "inicio": 8.07
+   },
+   {
+    "texto": "nem se atemorize.",
+    "inicio": 9.95
+   }
+  ],
+  "inicio": 2.8,
+  "referencia": "João 14:27",
+  "refInicio": 11.45
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 14.81
+ },
+ "arroba": "@mana.biblia.app"
+}

@@ -1,0 +1,41 @@
+{
+ "imagem": "oracao/banco-manha/12157798.mp4",
+ "ritmo": 0.582,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 70,
+ "duracao": 16.84,
+ "gancho": {
+  "tela": "Do que você está com *medo*?",
+  "inicio": -1.0,
+  "fim": 1.8
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "O SENHOR é minha luz e minha salvação;",
+    "inicio": 2.8
+   },
+   {
+    "texto": "a quem temerei?",
+    "inicio": 5.17
+   },
+   {
+    "texto": "O SENHOR é a força da minha vida;",
+    "inicio": 6.47
+   },
+   {
+    "texto": "de quem terei medo?",
+    "inicio": 8.54
+   }
+  ],
+  "inicio": 2.8,
+  "referencia": "Salmos 27:1",
+  "refInicio": 10.04
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 13.04
+ },
+ "arroba": "@mana.biblia.app"
+}

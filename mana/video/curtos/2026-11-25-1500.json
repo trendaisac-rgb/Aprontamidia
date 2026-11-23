@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/13265115.mp4",
+ "ritmo": 0.624,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 100,
+ "duracao": 15.71,
+ "gancho": {
+  "tela": "Ele está *mais perto* do que você pensa",
+  "inicio": -1.0,
+  "fim": 2.47
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "O SENHOR está perto de todos os que o chamam;",
+    "inicio": 3.47
+   },
+   {
+    "texto": "de todos os que clamam a ele sinceramente.",
+    "inicio": 6.28
+   }
+  ],
+  "inicio": 3.47,
+  "referencia": "Salmos 145:18",
+  "refInicio": 9.11
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 11.91
+ },
+ "arroba": "@mana.biblia.app"
+}

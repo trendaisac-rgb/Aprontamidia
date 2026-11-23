@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/14280154.mp4",
+ "ritmo": 0.608,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 20,
+ "duracao": 16.13,
+ "gancho": {
+  "tela": "Quando a cabeça não *para* de pensar",
+  "inicio": -1.0,
+  "fim": 2.27
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Quando minhas preocupações se multiplicavam dentro de mim,",
+    "inicio": 3.27
+   },
+   {
+    "texto": "teus consolos confortaram a minha alma.",
+    "inicio": 6.89
+   }
+  ],
+  "inicio": 3.27,
+  "referencia": "Salmos 94:19",
+  "refInicio": 9.53
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 12.33
+ },
+ "arroba": "@mana.biblia.app"
+}

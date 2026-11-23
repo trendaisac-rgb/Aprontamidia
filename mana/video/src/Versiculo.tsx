@@ -5,7 +5,7 @@ import '@fontsource/newsreader/400-italic.css';
 import '@fontsource/newsreader/500-italic.css';
 import '@fontsource/inter/500.css';
 import {
-  AbsoluteFill, Audio, Img, continueRender, delayRender, interpolate, random, staticFile,
+  AbsoluteFill, Audio, Img, OffthreadVideo, continueRender, delayRender, interpolate, random, staticFile,
   useCurrentFrame, useVideoConfig, Easing,
 } from 'remotion';
 
@@ -14,9 +14,14 @@ import {
 
 export type Trecho = { texto: string; inicio: number };
 export type PropsVersiculo = {
+  /** foto (.jpg/.png) ou clipe (.mp4, sem som), sempre em public/ */
   imagem: string;
+  /** velocidade do clipe: abaixo de 1 deixa em câmera lenta e estica o clipe pelo vídeo todo */
+  ritmo?: number;
   voz: string | null;
   trilha: string | null;
+  /** de onde a trilha começa, em segundos */
+  trilhaInicio?: number;
   duracao: number;
   gancho: { tela: string; inicio: number; fim: number };
   versiculo: { frases: Trecho[]; inicio: number; referencia: string; refInicio: number };
@@ -62,19 +67,20 @@ const ComDestaque: React.FC<{ texto: string }> = ({ texto }) => (
   </>
 );
 
-const Fundo: React.FC<{ imagem: string; t: number; total: number }> = ({ imagem, t, total }) => {
-  const zoom = interpolate(t, [0, total], [1.04, 1.16]);
-  const y = interpolate(t, [0, total], [0, -36]);
+const Fundo: React.FC<{ imagem: string; ritmo: number; t: number; total: number }> = ({ imagem, ritmo, t, total }) => {
+  const video = /\.mp4$/i.test(imagem);
+  const zoom = video ? interpolate(t, [0, total], [1.0, 1.06]) : interpolate(t, [0, total], [1.04, 1.16]);
+  const y = video ? 0 : interpolate(t, [0, total], [0, -36]);
+  const estilo: React.CSSProperties = {
+    width: '100%', height: '100%', objectFit: 'cover',
+    transform: `scale(${zoom}) translateY(${y}px)`,
+    filter: 'brightness(0.8) saturate(0.92)',
+  };
   return (
     <AbsoluteFill style={{ overflow: 'hidden', backgroundColor: '#0d0b09' }}>
-      <Img
-        src={staticFile(imagem)}
-        style={{
-          width: '100%', height: '100%', objectFit: 'cover',
-          transform: `scale(${zoom}) translateY(${y}px)`,
-          filter: 'brightness(0.8) saturate(0.92)',
-        }}
-      />
+      {video
+        ? <OffthreadVideo src={staticFile(imagem)} muted playbackRate={ritmo} style={estilo} />
+        : <Img src={staticFile(imagem)} style={estilo} />}
       {/* escurece em cima e embaixo para o texto ler bem, sem matar a foto */}
       <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(12,9,6,0.62) 0%, rgba(12,9,6,0.34) 38%, rgba(12,9,6,0.40) 62%, rgba(12,9,6,0.74) 100%)' }} />
       <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.45) 100%)' }} />
@@ -147,7 +153,7 @@ export const Versiculo: React.FC<PropsVersiculo> = (p) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#0d0b09' }}>
-      <Fundo imagem={p.imagem} t={t} total={total} />
+      <Fundo imagem={p.imagem} ritmo={p.ritmo ?? 1} t={t} total={total} />
       <Luz t={t} total={total} />
       <Poeira t={t} />
 
@@ -213,7 +219,7 @@ export const Versiculo: React.FC<PropsVersiculo> = (p) => {
       <AbsoluteFill style={{ backgroundColor: '#000', opacity: finalEscuro }} />
 
       {p.voz && <Audio src={staticFile(p.voz)} />}
-      {p.trilha && <Audio src={staticFile(p.trilha)} volume={volumeTrilha} />}
+      {p.trilha && <Audio src={staticFile(p.trilha)} volume={volumeTrilha} startFrom={Math.round((p.trilhaInicio ?? 0) * fps)} />}
     </AbsoluteFill>
   );
 };

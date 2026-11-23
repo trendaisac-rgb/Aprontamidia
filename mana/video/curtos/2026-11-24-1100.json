@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/12361537.mp4",
+ "ritmo": 0.758,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 40,
+ "duracao": 12.93,
+ "gancho": {
+  "tela": "Você não precisa lutar *sozinho* hoje",
+  "inicio": -1.0,
+  "fim": 2.33
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "O SENHOR lutará por vós,",
+    "inicio": 3.33
+   },
+   {
+    "texto": "e vós ficai quietos.",
+    "inicio": 4.83
+   }
+  ],
+  "inicio": 3.33,
+  "referencia": "Êxodo 14:14",
+  "refInicio": 6.33
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 9.13
+ },
+ "arroba": "@mana.biblia.app"
+}

@@ -1,0 +1,37 @@
+{
+ "imagem": "oracao/banco-manha/15365448.mp4",
+ "ritmo": 0.569,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 80,
+ "duracao": 17.21,
+ "gancho": {
+  "tela": "O que está *pesando* em você agora?",
+  "inicio": -1.0,
+  "fim": 2.2
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Entrega tuas preocupações ao SENHOR,",
+    "inicio": 3.2
+   },
+   {
+    "texto": "e ele te sustentará;",
+    "inicio": 5.45
+   },
+   {
+    "texto": "ele não permitirá que o justo fique caído para sempre.",
+    "inicio": 6.75
+   }
+  ],
+  "inicio": 3.2,
+  "referencia": "Salmos 55:22",
+  "refInicio": 10.32
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 13.41
+ },
+ "arroba": "@mana.biblia.app"
+}

@@ -1,0 +1,41 @@
+{
+ "imagem": "oracao/banco-manha/15499818.mp4",
+ "ritmo": 0.491,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 120,
+ "duracao": 19.94,
+ "gancho": {
+  "tela": "Ontem foi difícil? *Hoje* é novo.",
+  "inicio": -1.0,
+  "fim": 2.07
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "É pelas bondades do SENHOR que não somos consumidos,",
+    "inicio": 3.07
+   },
+   {
+    "texto": "porque suas misericórdias não têm fim.",
+    "inicio": 6.32
+   },
+   {
+    "texto": "Elas são novas a cada manhã;",
+    "inicio": 8.7
+   },
+   {
+    "texto": "grande é a tua fidelidade.",
+    "inicio": 10.45
+   }
+  ],
+  "inicio": 3.07,
+  "referencia": "Lamentações 3:22-23",
+  "refInicio": 12.27
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 16.14
+ },
+ "arroba": "@mana.biblia.app"
+}

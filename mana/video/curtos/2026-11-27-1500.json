@@ -1,0 +1,37 @@
+{
+ "imagem": "oracao/banco-manha/27223230.mp4",
+ "ritmo": 0.626,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 50,
+ "duracao": 15.65,
+ "gancho": {
+  "tela": "Pra não ser *abalado* hoje",
+  "inicio": -1.0,
+  "fim": 1.8
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "Ponho ao SENHOR continuamente diante de mim;",
+    "inicio": 2.8
+   },
+   {
+    "texto": "porque ele está à minha direita;",
+    "inicio": 5.55
+   },
+   {
+    "texto": "nunca serei abalado.",
+    "inicio": 7.55
+   }
+  ],
+  "inicio": 2.8,
+  "referencia": "Salmos 16:8",
+  "refInicio": 9.05
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 11.85
+ },
+ "arroba": "@mana.biblia.app"
+}

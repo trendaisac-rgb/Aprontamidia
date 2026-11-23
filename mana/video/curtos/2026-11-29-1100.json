@@ -1,0 +1,33 @@
+{
+ "imagem": "oracao/banco-manha/12071862.mp4",
+ "ritmo": 0.721,
+ "voz": null,
+ "trilha": "oracao/trilhas/148.mp3",
+ "trilhaInicio": 110,
+ "duracao": 13.6,
+ "gancho": {
+  "tela": "No dia *difícil*, chama por ele",
+  "inicio": -1.0,
+  "fim": 1.93
+ },
+ "versiculo": {
+  "frases": [
+   {
+    "texto": "No dia de minha angústia clamarei a ti,",
+    "inicio": 2.93
+   },
+   {
+    "texto": "pois tu me responderás.",
+    "inicio": 5.37
+   }
+  ],
+  "inicio": 2.93,
+  "referencia": "Salmos 86:7",
+  "refInicio": 7.0
+ },
+ "fecho": {
+  "tela": "A Bíblia no seu feed. *Grátis para ler* na App Store e no Google Play.",
+  "inicio": 9.8
+ },
+ "arroba": "@mana.biblia.app"
+}
