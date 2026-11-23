@@ -1,0 +1,22 @@
+[
+ {"nome":"T-20261123-1230","hora":"2026-11-23T12:30:00","titulo":"Ansiedade apertou no meio do dia?",
+  "descricao":"Filipenses 4:6-7 e 1 Pedro 5:7\nSiga @mana.biblia.app pra ler um versículo por dia.\n#versiculododia #biblia #ansiedade #fe #deus #jesus",
+  "alt":["Capa: Ansiedade apertou no meio do dia? Paulo escreveu isso preso, sem saber se ia sair vivo. E mesmo assim falou de paz.","Filipenses 4:6-7 na Bíblia Livre, num cartão do Maná.","Ele não manda fingir que está tudo bem. Manda levar tudo pra Deus, do jeito que está. Uma frase já serve: Senhor, isso aqui está pesado.","1 Pedro 5:7 na Bíblia Livre, no feed do Maná num celular.","Maná. Salva pra ler na próxima vez que o peito apertar. A Bíblia no seu feed. Grátis para ler na App Store e no Google Play. @mana.biblia.app"],
+  "slides":[
+   {"m":"capa","t":"Ansiedade *apertou* no meio do dia?","s":"Paulo escreveu isso preso, sem saber se ia sair vivo. E mesmo assim falou de paz.","e":"Filipenses 4"},
+   {"m":"versiculo","ref":"PHP.4.6-7"},
+   {"m":"texto","t":"Ele não manda fingir que está tudo bem. Manda levar *tudo* pra Deus, do jeito que está.","s":"Uma frase já serve: Senhor, isso aqui está pesado."},
+   {"m":"app","ref":"1PE.5.7"},
+   {"m":"final","t":"Salva pra ler na próxima vez que o peito apertar.","s":"A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."}
+  ]},
+ {"nome":"T-20261123-1730","hora":"2026-11-23T17:30:00","titulo":"Fim de tarde e você está sem força?",
+  "descricao":"Salmos 73:26 e 73:23\nSiga @mana.biblia.app pra ler um versículo por dia.\n#versiculododia #biblia #salmos #fe #deus #jesus",
+  "alt":["Capa: Fim de tarde e você está sem força? Asafe quase desistiu. No Salmo 73 ele conta o que segurou ele de pé.","Salmos 73:26 na Bíblia Livre, num cartão do Maná.","Ele admite que o corpo e o coração falharam. E não para aí: diz quem fica quando a força acaba. Não precisa estar forte pra ser sustentado.","Salmos 73:23 na Bíblia Livre, no feed do Maná num celular.","Maná. Manda pra alguém que está terminando o dia no limite. A Bíblia no seu feed. Grátis para ler na App Store e no Google Play. @mana.biblia.app"],
+  "slides":[
+   {"m":"capa","t":"Fim de tarde e você está *sem força*?","s":"Asafe quase desistiu. No Salmo 73 ele conta o que segurou ele de pé.","e":"Salmos 73"},
+   {"m":"versiculo","ref":"PSA.73.26"},
+   {"m":"texto","t":"Ele admite que o corpo e o coração falharam. E não para aí: diz quem fica *quando a força acaba*.","s":"Não precisa estar forte pra ser sustentado."},
+   {"m":"app","ref":"PSA.73.23"},
+   {"m":"final","t":"Manda pra alguém que está terminando o dia no limite.","s":"A Bíblia no seu feed. Grátis para ler na App Store e no Google Play."}
+  ]}
+]
