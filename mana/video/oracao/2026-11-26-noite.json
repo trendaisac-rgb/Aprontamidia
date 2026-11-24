@@ -1,0 +1,374 @@
+{
+ "voz": "oracao/2026-11-26-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 35.89,
+ "clipes": [
+  "oracao/banco-noite/6598883.mp4",
+  "oracao/banco-noite/12191404.mp4",
+  "oracao/banco-noite/6718232.mp4",
+  "oracao/banco-noite/7131684.mp4",
+  "oracao/banco-noite/15634329.mp4",
+  "oracao/banco-noite/7593903.mp4",
+  "oracao/banco-noite/13096328.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.7,
+  9.8,
+  14.69,
+  20.02,
+  24.48,
+  30.04
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Quinta-feira, 26 de novembro",
+ "palavras": [
+  {
+   "p": "Antes",
+   "i": 0.0,
+   "f": 0.466
+  },
+  {
+   "p": "de",
+   "i": 0.466,
+   "f": 0.734
+  },
+  {
+   "p": "deitar...",
+   "i": 0.734,
+   "f": 1.201
+  },
+  {
+   "p": "entrega",
+   "i": 1.861,
+   "f": 2.351
+  },
+  {
+   "p": "o",
+   "i": 2.351,
+   "f": 2.549
+  },
+  {
+   "p": "dia",
+   "i": 2.549,
+   "f": 2.746
+  },
+  {
+   "p": "pra",
+   "i": 2.746,
+   "f": 2.944
+  },
+  {
+   "p": "ele.",
+   "i": 2.944,
+   "f": 3.288
+  },
+  {
+   "p": "A",
+   "i": 4.113,
+   "f": 4.432
+  },
+  {
+   "p": "Bíblia",
+   "i": 4.432,
+   "f": 4.988
+  },
+  {
+   "p": "diz:",
+   "i": 4.988,
+   "f": 5.308
+  },
+  {
+   "p": "Eu",
+   "i": 5.854,
+   "f": 6.114
+  },
+  {
+   "p": "deitarei,",
+   "i": 6.114,
+   "f": 6.759
+  },
+  {
+   "p": "e",
+   "i": 7.155,
+   "f": 7.402
+  },
+  {
+   "p": "dormirei",
+   "i": 7.402,
+   "f": 8.017
+  },
+  {
+   "p": "em",
+   "i": 8.017,
+   "f": 8.265
+  },
+  {
+   "p": "paz;",
+   "i": 8.265,
+   "f": 8.512
+  },
+  {
+   "p": "porque",
+   "i": 9.092,
+   "f": 9.373,
+   "q": true
+  },
+  {
+   "p": "só",
+   "i": 9.373,
+   "f": 9.535
+  },
+  {
+   "p": "tu,",
+   "i": 9.535,
+   "f": 9.697
+  },
+  {
+   "p": "Senhor,",
+   "i": 9.897,
+   "f": 10.768,
+   "t": "SENHOR,"
+  },
+  {
+   "p": "me",
+   "i": 11.165,
+   "f": 11.413
+  },
+  {
+   "p": "fazes",
+   "i": 11.413,
+   "f": 11.844
+  },
+  {
+   "p": "descansar",
+   "i": 11.844,
+   "f": 12.459
+  },
+  {
+   "p": "seguro.",
+   "i": 12.459,
+   "f": 13.074
+  },
+  {
+   "p": "O",
+   "i": 13.948,
+   "f": 14.185
+  },
+  {
+   "p": "que",
+   "i": 14.185,
+   "f": 14.423
+  },
+  {
+   "p": "ficou",
+   "i": 14.423,
+   "f": 14.837
+  },
+  {
+   "p": "sem",
+   "i": 14.837,
+   "f": 15.075
+  },
+  {
+   "p": "resolver",
+   "i": 15.075,
+   "f": 15.664
+  },
+  {
+   "p": "hoje...",
+   "i": 15.664,
+   "f": 16.078
+  },
+  {
+   "p": "fica",
+   "i": 16.504,
+   "f": 16.84
+  },
+  {
+   "p": "com",
+   "i": 16.84,
+   "f": 17.033
+  },
+  {
+   "p": "ele",
+   "i": 17.033,
+   "f": 17.369
+  },
+  {
+   "p": "esta",
+   "i": 17.369,
+   "f": 17.704
+  },
+  {
+   "p": "noite.",
+   "i": 17.704,
+   "f": 18.04
+  },
+  {
+   "p": "Senhor,",
+   "i": 19.118,
+   "f": 19.66
+  },
+  {
+   "p": "eu",
+   "i": 20.173,
+   "f": 20.418
+  },
+  {
+   "p": "vou",
+   "i": 20.418,
+   "f": 20.663
+  },
+  {
+   "p": "deitar",
+   "i": 20.663,
+   "f": 21.09
+  },
+  {
+   "p": "em",
+   "i": 21.09,
+   "f": 21.335
+  },
+  {
+   "p": "paz,",
+   "i": 21.335,
+   "f": 21.58
+  },
+  {
+   "p": "porque",
+   "i": 22.082,
+   "f": 22.489
+  },
+  {
+   "p": "tu",
+   "i": 22.489,
+   "f": 22.723
+  },
+  {
+   "p": "cuidas",
+   "i": 22.723,
+   "f": 23.13
+  },
+  {
+   "p": "de",
+   "i": 23.13,
+   "f": 23.364
+  },
+  {
+   "p": "mim.",
+   "i": 23.364,
+   "f": 23.598
+  },
+  {
+   "p": "Boa",
+   "i": 24.632,
+   "f": 24.898
+  },
+  {
+   "p": "noite.",
+   "i": 24.898,
+   "f": 25.36
+  },
+  {
+   "p": "Se",
+   "i": 26.194,
+   "f": 26.436
+  },
+  {
+   "p": "você",
+   "i": 26.436,
+   "f": 26.857
+  },
+  {
+   "p": "recebe,",
+   "i": 26.857,
+   "f": 27.457
+  },
+  {
+   "p": "escreve",
+   "i": 27.725,
+   "f": 28.369
+  },
+  {
+   "p": "amém.",
+   "i": 28.369,
+   "f": 28.822
+  },
+  {
+   "p": "E",
+   "i": 29.516,
+   "f": 29.695
+  },
+  {
+   "p": "manda",
+   "i": 29.695,
+   "f": 30.006
+  },
+  {
+   "p": "pra",
+   "i": 30.006,
+   "f": 30.185
+  },
+  {
+   "p": "alguém",
+   "i": 30.185,
+   "f": 30.497
+  },
+  {
+   "p": "que",
+   "i": 30.497,
+   "f": 30.675
+  },
+  {
+   "p": "precisa",
+   "i": 30.675,
+   "f": 31.12
+  },
+  {
+   "p": "descansar",
+   "i": 31.12,
+   "f": 31.564
+  },
+  {
+   "p": "hoje.",
+   "i": 31.564,
+   "f": 31.875
+  }
+ ],
+ "versiculo": {
+  "de": 11,
+  "ate": 25,
+  "referencia": "Salmos 4:8"
+ },
+ "fecho": {
+  "inicio": 32.49,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro.",
+   "referencia": "Salmos 4:8"
+  }
+ ],
+ "roteiro": "Antes de deitar... entrega o dia pra ele. A Bíblia diz: Eu deitarei, e dormirei em paz; porque só tu, Senhor, me fazes descansar seguro. O que ficou sem resolver hoje... fica com ele esta noite. Senhor, eu vou deitar em paz, porque tu cuidas de mim. Boa noite. Se você recebe, escreve amém. E manda pra alguém que precisa descansar hoje.",
+ "gancho": {
+  "palavras": 8
+ }
+}

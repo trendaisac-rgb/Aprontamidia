@@ -1,0 +1,428 @@
+{
+ "voz": "oracao/2026-11-27-noite/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 39.76,
+ "clipes": [
+  "oracao/banco-noite/8343577.mp4",
+  "oracao/banco-noite/16839840.mp4",
+  "oracao/banco-noite/37446304.mp4",
+  "oracao/banco-noite/6184284.mp4",
+  "oracao/banco-noite/10489477.mp4",
+  "oracao/banco-noite/20393311.mp4",
+  "oracao/banco-noite/19675280.mp4",
+  "oracao/banco-noite/13096328.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.96,
+  9.4,
+  13.78,
+  19.36,
+  24.99,
+  30.19,
+  34.92
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Boa noite · Sexta-feira, 27 de novembro",
+ "palavras": [
+  {
+   "p": "Essa",
+   "i": 0.0,
+   "f": 0.5
+  },
+  {
+   "p": "bênção",
+   "i": 0.5,
+   "f": 0.999
+  },
+  {
+   "p": "foi",
+   "i": 0.999,
+   "f": 1.287
+  },
+  {
+   "p": "o",
+   "i": 1.287,
+   "f": 1.574
+  },
+  {
+   "p": "próprio",
+   "i": 1.574,
+   "f": 2.073
+  },
+  {
+   "p": "Deus",
+   "i": 2.073,
+   "f": 2.361
+  },
+  {
+   "p": "que",
+   "i": 2.361,
+   "f": 2.648
+  },
+  {
+   "p": "ensinou.",
+   "i": 2.648,
+   "f": 3.36
+  },
+  {
+   "p": "Recebe",
+   "i": 3.95,
+   "f": 4.44
+  },
+  {
+   "p": "agora:",
+   "i": 4.44,
+   "f": 4.93
+  },
+  {
+   "p": "O",
+   "i": 6.11,
+   "f": 6.374
+  },
+  {
+   "p": "Senhor",
+   "i": 6.374,
+   "f": 6.833,
+   "t": "SENHOR"
+  },
+  {
+   "p": "te",
+   "i": 6.833,
+   "f": 7.097
+  },
+  {
+   "p": "abençoe,",
+   "i": 7.097,
+   "f": 7.753
+  },
+  {
+   "p": "e",
+   "i": 7.753,
+   "f": 8.017
+  },
+  {
+   "p": "te",
+   "i": 8.017,
+   "f": 8.28
+  },
+  {
+   "p": "guarde:",
+   "i": 8.28,
+   "f": 8.74
+  },
+  {
+   "p": "Faça",
+   "i": 9.5,
+   "f": 10.048
+  },
+  {
+   "p": "resplandecer",
+   "i": 10.048,
+   "f": 11.062
+  },
+  {
+   "p": "o",
+   "i": 11.062,
+   "f": 11.377
+  },
+  {
+   "p": "Senhor",
+   "i": 11.377,
+   "f": 11.925,
+   "t": "SENHOR"
+  },
+  {
+   "p": "seu",
+   "i": 11.925,
+   "f": 12.239
+  },
+  {
+   "p": "rosto",
+   "i": 12.239,
+   "f": 12.787
+  },
+  {
+   "p": "sobre",
+   "i": 12.787,
+   "f": 13.335
+  },
+  {
+   "p": "ti,",
+   "i": 13.335,
+   "f": 13.65
+  },
+  {
+   "p": "e",
+   "i": 13.88,
+   "f": 14.132
+  },
+  {
+   "p": "tenha",
+   "i": 14.132,
+   "f": 14.57
+  },
+  {
+   "p": "de",
+   "i": 14.57,
+   "f": 14.821
+  },
+  {
+   "p": "ti",
+   "i": 14.821,
+   "f": 15.073
+  },
+  {
+   "p": "misericórdia:",
+   "i": 15.073,
+   "f": 16.07
+  },
+  {
+   "p": "O",
+   "i": 16.88,
+   "f": 17.107
+  },
+  {
+   "p": "Senhor",
+   "i": 17.107,
+   "f": 17.502,
+   "t": "SENHOR"
+  },
+  {
+   "p": "levante",
+   "i": 17.502,
+   "f": 18.065
+  },
+  {
+   "p": "a",
+   "i": 18.065,
+   "f": 18.291
+  },
+  {
+   "p": "ti",
+   "i": 18.291,
+   "f": 18.518
+  },
+  {
+   "p": "seu",
+   "i": 18.518,
+   "f": 18.745
+  },
+  {
+   "p": "rosto,",
+   "i": 18.745,
+   "f": 19.14
+  },
+  {
+   "p": "e",
+   "i": 19.46,
+   "f": 19.696
+  },
+  {
+   "p": "ponha",
+   "i": 19.696,
+   "f": 20.107
+  },
+  {
+   "p": "em",
+   "i": 20.107,
+   "f": 20.344
+  },
+  {
+   "p": "ti",
+   "i": 20.344,
+   "f": 20.58
+  },
+  {
+   "p": "paz.",
+   "i": 20.9,
+   "f": 21.43
+  },
+  {
+   "p": "Recebe",
+   "i": 22.37,
+   "f": 22.861
+  },
+  {
+   "p": "pra",
+   "i": 22.861,
+   "f": 23.058
+  },
+  {
+   "p": "você",
+   "i": 23.058,
+   "f": 23.403
+  },
+  {
+   "p": "e",
+   "i": 23.403,
+   "f": 23.6
+  },
+  {
+   "p": "pra",
+   "i": 23.6,
+   "f": 23.798
+  },
+  {
+   "p": "sua",
+   "i": 23.798,
+   "f": 23.996
+  },
+  {
+   "p": "casa.",
+   "i": 23.996,
+   "f": 24.34
+  },
+  {
+   "p": "Senhor,",
+   "i": 25.14,
+   "f": 25.61
+  },
+  {
+   "p": "guarda",
+   "i": 25.82,
+   "f": 26.115
+  },
+  {
+   "p": "a",
+   "i": 26.115,
+   "f": 26.284
+  },
+  {
+   "p": "minha",
+   "i": 26.284,
+   "f": 26.579
+  },
+  {
+   "p": "família",
+   "i": 26.579,
+   "f": 27.0
+  },
+  {
+   "p": "esta",
+   "i": 27.0,
+   "f": 27.295
+  },
+  {
+   "p": "noite.",
+   "i": 27.295,
+   "f": 27.59
+  },
+  {
+   "p": "Boa",
+   "i": 28.85,
+   "f": 29.124
+  },
+  {
+   "p": "noite.",
+   "i": 29.124,
+   "f": 29.6
+  },
+  {
+   "p": "Se",
+   "i": 30.34,
+   "f": 30.547
+  },
+  {
+   "p": "você",
+   "i": 30.547,
+   "f": 30.907
+  },
+  {
+   "p": "recebe,",
+   "i": 30.907,
+   "f": 31.42
+  },
+  {
+   "p": "escreve",
+   "i": 31.75,
+   "f": 32.28
+  },
+  {
+   "p": "amém.",
+   "i": 32.55,
+   "f": 33.3
+  },
+  {
+   "p": "E",
+   "i": 33.72,
+   "f": 33.87
+  },
+  {
+   "p": "manda",
+   "i": 33.87,
+   "f": 34.132
+  },
+  {
+   "p": "essa",
+   "i": 34.132,
+   "f": 34.393
+  },
+  {
+   "p": "bênção",
+   "i": 34.393,
+   "f": 34.655
+  },
+  {
+   "p": "pra",
+   "i": 34.655,
+   "f": 34.805
+  },
+  {
+   "p": "alguém",
+   "i": 34.805,
+   "f": 35.067
+  },
+  {
+   "p": "que",
+   "i": 35.067,
+   "f": 35.217
+  },
+  {
+   "p": "você",
+   "i": 35.217,
+   "f": 35.478
+  },
+  {
+   "p": "ama.",
+   "i": 35.478,
+   "f": 35.74
+  }
+ ],
+ "versiculo": {
+  "de": 10,
+  "ate": 42,
+  "referencia": "Números 6:24-26"
+ },
+ "fecho": {
+  "inicio": 36.36,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "O SENHOR te abençoe, e te guarde: Faça resplandecer o SENHOR seu rosto sobre ti, e tenha de ti misericórdia: O SENHOR levante a ti seu rosto, e ponha em ti paz.",
+   "referencia": "Números 6:24-26"
+  }
+ ],
+ "roteiro": "Essa bênção foi o próprio Deus que ensinou. Recebe agora: O Senhor te abençoe, e te guarde: Faça resplandecer o Senhor seu rosto sobre ti, e tenha de ti misericórdia: O Senhor levante a ti seu rosto, e ponha em ti paz. Recebe pra você e pra sua casa. Senhor, guarda a minha família esta noite. Boa noite. Se você recebe, escreve amém. E manda essa bênção pra alguém que você ama.",
+ "gancho": {
+  "palavras": 8
+ }
+}

@@ -1,0 +1,391 @@
+{
+ "voz": "oracao/2026-11-26-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 35.07,
+ "clipes": [
+  "oracao/banco-manha/8233932.mp4",
+  "oracao/banco-manha/12530632.mp4",
+  "oracao/banco-manha/6860760.mp4",
+  "oracao/banco-manha/17062436.mp4",
+  "oracao/banco-manha/6693824.mp4",
+  "oracao/banco-manha/7592045.mp4",
+  "oracao/banco-manha/15725823.mp4",
+  "oracao/banco-manha/8298066.mp4"
+ ],
+ "trocas": [
+  0.0,
+  3.8,
+  9.4,
+  14.68,
+  19.68,
+  23.79,
+  27.27,
+  30.64
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Quinta-feira, 26 de novembro",
+ "palavras": [
+  {
+   "p": "Antes",
+   "i": 0.0,
+   "f": 0.414
+  },
+  {
+   "p": "de",
+   "i": 0.414,
+   "f": 0.651
+  },
+  {
+   "p": "qualquer",
+   "i": 0.651,
+   "f": 1.065
+  },
+  {
+   "p": "coisa",
+   "i": 1.065,
+   "f": 1.479
+  },
+  {
+   "p": "hoje...",
+   "i": 1.479,
+   "f": 1.893
+  },
+  {
+   "p": "fala",
+   "i": 2.34,
+   "f": 2.73
+  },
+  {
+   "p": "com",
+   "i": 2.73,
+   "f": 2.955
+  },
+  {
+   "p": "Deus.",
+   "i": 2.955,
+   "f": 3.179
+  },
+  {
+   "p": "Davi",
+   "i": 3.951,
+   "f": 4.328
+  },
+  {
+   "p": "fazia",
+   "i": 4.328,
+   "f": 4.705
+  },
+  {
+   "p": "assim:",
+   "i": 4.705,
+   "f": 5.082
+  },
+  {
+   "p": "Senhor,",
+   "i": 5.868,
+   "f": 6.451,
+   "t": "SENHOR,"
+  },
+  {
+   "p": "pela",
+   "i": 6.894,
+   "f": 7.3
+  },
+  {
+   "p": "manhã",
+   "i": 7.3,
+   "f": 7.706
+  },
+  {
+   "p": "ouvirás",
+   "i": 7.706,
+   "f": 8.285
+  },
+  {
+   "p": "minha",
+   "i": 8.285,
+   "f": 8.691
+  },
+  {
+   "p": "voz;",
+   "i": 8.691,
+   "f": 8.924
+  },
+  {
+   "p": "pela",
+   "i": 9.547,
+   "f": 9.92
+  },
+  {
+   "p": "manhã",
+   "i": 9.92,
+   "f": 10.294
+  },
+  {
+   "p": "apresentarei",
+   "i": 10.294,
+   "f": 11.145
+  },
+  {
+   "p": "meu",
+   "i": 11.145,
+   "f": 11.359
+  },
+  {
+   "p": "clamor",
+   "i": 11.359,
+   "f": 11.733
+  },
+  {
+   "p": "a",
+   "i": 11.733,
+   "f": 11.948
+  },
+  {
+   "p": "ti,",
+   "i": 11.948,
+   "f": 12.162
+  },
+  {
+   "p": "e",
+   "i": 12.398,
+   "f": 12.576
+  },
+  {
+   "p": "ficarei",
+   "i": 12.576,
+   "f": 13.019
+  },
+  {
+   "p": "esperando.",
+   "i": 13.019,
+   "f": 13.594
+  },
+  {
+   "p": "Conta",
+   "i": 14.826,
+   "f": 15.096
+  },
+  {
+   "p": "pra",
+   "i": 15.096,
+   "f": 15.251
+  },
+  {
+   "p": "ele",
+   "i": 15.251,
+   "f": 15.522
+  },
+  {
+   "p": "o",
+   "i": 15.522,
+   "f": 15.677
+  },
+  {
+   "p": "que",
+   "i": 15.677,
+   "f": 15.833
+  },
+  {
+   "p": "te",
+   "i": 15.833,
+   "f": 15.988
+  },
+  {
+   "p": "preocupa.",
+   "i": 15.988,
+   "f": 16.374
+  },
+  {
+   "p": "E",
+   "i": 17.003,
+   "f": 17.158
+  },
+  {
+   "p": "fica",
+   "i": 17.158,
+   "f": 17.428
+  },
+  {
+   "p": "esperando",
+   "i": 17.428,
+   "f": 17.928
+  },
+  {
+   "p": "a",
+   "i": 17.928,
+   "f": 18.083
+  },
+  {
+   "p": "resposta.",
+   "i": 18.083,
+   "f": 18.468
+  },
+  {
+   "p": "Senhor,",
+   "i": 19.826,
+   "f": 20.308
+  },
+  {
+   "p": "a",
+   "i": 20.922,
+   "f": 21.098
+  },
+  {
+   "p": "minha",
+   "i": 21.098,
+   "f": 21.403
+  },
+  {
+   "p": "primeira",
+   "i": 21.403,
+   "f": 21.837
+  },
+  {
+   "p": "palavra",
+   "i": 21.837,
+   "f": 22.272
+  },
+  {
+   "p": "hoje",
+   "i": 22.272,
+   "f": 22.577
+  },
+  {
+   "p": "é",
+   "i": 22.577,
+   "f": 22.752
+  },
+  {
+   "p": "pra",
+   "i": 22.752,
+   "f": 22.927
+  },
+  {
+   "p": "ti.",
+   "i": 22.927,
+   "f": 23.103
+  },
+  {
+   "p": "Bom",
+   "i": 23.94,
+   "f": 24.269
+  },
+  {
+   "p": "dia.",
+   "i": 24.269,
+   "f": 24.598
+  },
+  {
+   "p": "Se",
+   "i": 25.98,
+   "f": 26.161
+  },
+  {
+   "p": "você",
+   "i": 26.161,
+   "f": 26.476
+  },
+  {
+   "p": "recebe,",
+   "i": 26.476,
+   "f": 26.925
+  },
+  {
+   "p": "escreve",
+   "i": 27.417,
+   "f": 27.987
+  },
+  {
+   "p": "amém.",
+   "i": 27.987,
+   "f": 28.387
+  },
+  {
+   "p": "E",
+   "i": 29.006,
+   "f": 29.155
+  },
+  {
+   "p": "manda",
+   "i": 29.155,
+   "f": 29.414
+  },
+  {
+   "p": "esse",
+   "i": 29.414,
+   "f": 29.674
+  },
+  {
+   "p": "bom",
+   "i": 29.674,
+   "f": 29.823
+  },
+  {
+   "p": "dia",
+   "i": 29.823,
+   "f": 29.972
+  },
+  {
+   "p": "pra",
+   "i": 29.972,
+   "f": 30.122
+  },
+  {
+   "p": "alguém",
+   "i": 30.122,
+   "f": 30.381
+  },
+  {
+   "p": "que",
+   "i": 30.381,
+   "f": 30.531
+  },
+  {
+   "p": "você",
+   "i": 30.531,
+   "f": 30.79
+  },
+  {
+   "p": "ama.",
+   "i": 30.79,
+   "f": 31.05
+  }
+ ],
+ "versiculo": {
+  "de": 11,
+  "ate": 27,
+  "referencia": "Salmos 5:3"
+ },
+ "fecho": {
+  "inicio": 31.67,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "SENHOR, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando.",
+   "referencia": "Salmos 5:3"
+  }
+ ],
+ "roteiro": "Antes de qualquer coisa hoje... fala com Deus. Davi fazia assim: Senhor, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando. Conta pra ele o que te preocupa. E fica esperando a resposta. Senhor, a minha primeira palavra hoje é pra ti. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que você ama.",
+ "gancho": {
+  "palavras": 8
+ }
+}

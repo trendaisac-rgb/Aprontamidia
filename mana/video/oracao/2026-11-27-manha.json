@@ -1,0 +1,420 @@
+{
+ "voz": "oracao/2026-11-27-manha/voz.wav",
+ "trilha": "oracao/trilhas/148.mp3",
+ "volumeTrilha": 0.16,
+ "trilhaInicio": 20,
+ "duracao": 39.54,
+ "clipes": [
+  "oracao/banco-manha/12814510.mp4",
+  "oracao/banco-manha/6646056.mp4",
+  "oracao/banco-manha/39191733.mp4",
+  "oracao/banco-manha/18675414.mp4",
+  "oracao/banco-manha/19445119.mp4",
+  "oracao/banco-manha/5974539.mp4",
+  "oracao/banco-manha/7220097.mp4",
+  "oracao/banco-manha/10069259.mp4"
+ ],
+ "trocas": [
+  0.0,
+  5.52,
+  9.52,
+  14.77,
+  19.61,
+  24.56,
+  29.04,
+  33.84
+ ],
+ "filtros": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "abertura": {
+  "titulo": "",
+  "dia": "",
+  "ate": 0
+ },
+ "etiqueta": "Bom dia · Sexta-feira, 27 de novembro",
+ "palavras": [
+  {
+   "p": "Não",
+   "i": 0.0,
+   "f": 0.257
+  },
+  {
+   "p": "sabe",
+   "i": 0.257,
+   "f": 0.703
+  },
+  {
+   "p": "que",
+   "i": 0.703,
+   "f": 0.96
+  },
+  {
+   "p": "caminho",
+   "i": 0.96,
+   "f": 1.597
+  },
+  {
+   "p": "seguir",
+   "i": 1.597,
+   "f": 2.043
+  },
+  {
+   "p": "hoje?",
+   "i": 2.043,
+   "f": 2.49
+  },
+  {
+   "p": "Ora",
+   "i": 3.35,
+   "f": 3.683
+  },
+  {
+   "p": "como",
+   "i": 3.683,
+   "f": 4.015
+  },
+  {
+   "p": "Davi",
+   "i": 4.015,
+   "f": 4.347
+  },
+  {
+   "p": "orou:",
+   "i": 4.347,
+   "f": 4.68
+  },
+  {
+   "p": "De",
+   "i": 5.67,
+   "f": 5.905
+  },
+  {
+   "p": "madrugada",
+   "i": 5.905,
+   "f": 6.664
+  },
+  {
+   "p": "faze",
+   "i": 6.664,
+   "f": 7.074
+  },
+  {
+   "p": "com",
+   "i": 7.074,
+   "f": 7.309
+  },
+  {
+   "p": "que",
+   "i": 7.309,
+   "f": 7.545
+  },
+  {
+   "p": "eu",
+   "i": 7.545,
+   "f": 7.78
+  },
+  {
+   "p": "ouça",
+   "i": 7.78,
+   "f": 8.19
+  },
+  {
+   "p": "tua",
+   "i": 8.19,
+   "f": 8.426
+  },
+  {
+   "p": "bondade,",
+   "i": 8.426,
+   "f": 9.01
+  },
+  {
+   "p": "porque",
+   "i": 9.62,
+   "f": 10.074
+  },
+  {
+   "p": "em",
+   "i": 10.074,
+   "f": 10.335
+  },
+  {
+   "p": "ti",
+   "i": 10.335,
+   "f": 10.596
+  },
+  {
+   "p": "confio;",
+   "i": 10.596,
+   "f": 11.05
+  },
+  {
+   "p": "faze-me",
+   "i": 11.88,
+   "f": 12.381
+  },
+  {
+   "p": "saber",
+   "i": 12.381,
+   "f": 12.732
+  },
+  {
+   "p": "o",
+   "i": 12.732,
+   "f": 12.934
+  },
+  {
+   "p": "caminho",
+   "i": 12.934,
+   "f": 13.435
+  },
+  {
+   "p": "que",
+   "i": 13.435,
+   "f": 13.637
+  },
+  {
+   "p": "devo",
+   "i": 13.637,
+   "f": 13.989
+  },
+  {
+   "p": "seguir,",
+   "i": 13.989,
+   "f": 14.34
+  },
+  {
+   "p": "porque",
+   "i": 14.87,
+   "f": 15.191
+  },
+  {
+   "p": "a",
+   "i": 15.191,
+   "f": 15.376
+  },
+  {
+   "p": "ti",
+   "i": 15.376,
+   "f": 15.56
+  },
+  {
+   "p": "levanto",
+   "i": 15.56,
+   "f": 16.018
+  },
+  {
+   "p": "minha",
+   "i": 16.018,
+   "f": 16.339
+  },
+  {
+   "p": "alma.",
+   "i": 16.339,
+   "f": 16.66
+  },
+  {
+   "p": "Você",
+   "i": 17.84,
+   "f": 18.184
+  },
+  {
+   "p": "não",
+   "i": 18.184,
+   "f": 18.382
+  },
+  {
+   "p": "precisa",
+   "i": 18.382,
+   "f": 18.873
+  },
+  {
+   "p": "enxergar",
+   "i": 18.873,
+   "f": 19.364
+  },
+  {
+   "p": "o",
+   "i": 19.364,
+   "f": 19.561
+  },
+  {
+   "p": "dia",
+   "i": 19.561,
+   "f": 19.759
+  },
+  {
+   "p": "inteiro.",
+   "i": 19.759,
+   "f": 20.25
+  },
+  {
+   "p": "Só",
+   "i": 21.01,
+   "f": 21.249
+  },
+  {
+   "p": "o",
+   "i": 21.249,
+   "f": 21.489
+  },
+  {
+   "p": "próximo",
+   "i": 21.489,
+   "f": 22.083
+  },
+  {
+   "p": "passo.",
+   "i": 22.083,
+   "f": 22.5
+  },
+  {
+   "p": "Senhor,",
+   "i": 23.57,
+   "f": 24.11
+  },
+  {
+   "p": "me",
+   "i": 24.71,
+   "f": 24.915
+  },
+  {
+   "p": "mostra",
+   "i": 24.915,
+   "f": 25.271
+  },
+  {
+   "p": "o",
+   "i": 25.271,
+   "f": 25.476
+  },
+  {
+   "p": "caminho",
+   "i": 25.476,
+   "f": 25.984
+  },
+  {
+   "p": "hoje.",
+   "i": 25.984,
+   "f": 26.34
+  },
+  {
+   "p": "Bom",
+   "i": 27.59,
+   "f": 28.1
+  },
+  {
+   "p": "dia.",
+   "i": 28.1,
+   "f": 28.61
+  },
+  {
+   "p": "Se",
+   "i": 29.19,
+   "f": 29.399
+  },
+  {
+   "p": "você",
+   "i": 29.399,
+   "f": 29.762
+  },
+  {
+   "p": "recebe,",
+   "i": 29.762,
+   "f": 30.28
+  },
+  {
+   "p": "escreve",
+   "i": 30.69,
+   "f": 31.366
+  },
+  {
+   "p": "amém.",
+   "i": 31.366,
+   "f": 31.84
+  },
+  {
+   "p": "E",
+   "i": 32.68,
+   "f": 32.855
+  },
+  {
+   "p": "manda",
+   "i": 32.855,
+   "f": 33.161
+  },
+  {
+   "p": "esse",
+   "i": 33.161,
+   "f": 33.466
+  },
+  {
+   "p": "bom",
+   "i": 33.466,
+   "f": 33.642
+  },
+  {
+   "p": "dia",
+   "i": 33.642,
+   "f": 33.817
+  },
+  {
+   "p": "pra",
+   "i": 33.817,
+   "f": 33.993
+  },
+  {
+   "p": "alguém",
+   "i": 33.993,
+   "f": 34.298
+  },
+  {
+   "p": "que",
+   "i": 34.298,
+   "f": 34.474
+  },
+  {
+   "p": "precisa",
+   "i": 34.474,
+   "f": 34.909
+  },
+  {
+   "p": "de",
+   "i": 34.909,
+   "f": 35.085
+  },
+  {
+   "p": "direção.",
+   "i": 35.085,
+   "f": 35.52
+  }
+ ],
+ "versiculo": {
+  "de": 10,
+  "ate": 36,
+  "referencia": "Salmos 143:8"
+ },
+ "fecho": {
+  "inicio": 36.14,
+  "sub": "A Bíblia no seu feed. Grátis para ler na App Store e no Google Play.",
+  "arroba": "@mana.biblia.app"
+ },
+ "conferir": [
+  {
+   "cita": "De madrugada faze com que eu ouça tua bondade, porque em ti confio; faze-me saber o caminho que devo seguir, porque a ti levanto minha alma.",
+   "referencia": "Salmos 143:8"
+  }
+ ],
+ "roteiro": "Não sabe que caminho seguir hoje? Ora como Davi orou: De madrugada faze com que eu ouça tua bondade, porque em ti confio; faze-me saber o caminho que devo seguir, porque a ti levanto minha alma. Você não precisa enxergar o dia inteiro. Só o próximo passo. Senhor, me mostra o caminho hoje. Bom dia. Se você recebe, escreve amém. E manda esse bom dia pra alguém que precisa de direção.",
+ "gancho": {
+  "palavras": 6
+ }
+}
