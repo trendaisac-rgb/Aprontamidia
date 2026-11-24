@@ -25,10 +25,10 @@
  "filtros": [
   null,
   null,
+  "brightness(0.6) saturate(1.05) contrast(1.06)",
+  "brightness(0.62) saturate(1.05) contrast(1.06)",
   null,
-  null,
-  null,
-  null,
+  "brightness(0.72) saturate(1.05) contrast(1.05)",
   null
  ],
  "abertura": {
