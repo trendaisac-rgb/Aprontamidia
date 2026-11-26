@@ -21,3 +21,9 @@ Os 4 de sempre continuam: 06:00 oração narrada, 07:10 carrossel, 19:30 mensage
 - Se funcionar: manter 8 por dia e abrir uma segunda conta temática.
 - Se o total subir pouco e a média por post despencar: volta para 4 e o foco vai para gancho e formato.
 - Ler também: novos seguidores por dia e qual formato puxou mais (vídeo curto, carrossel, narrado).
+
+## Resultado (lido em 26/11, 08:40)
+- 23/11, até as 12h30: funcionou. Carrossel extra de Filipenses 4 fez 432 views e o vídeo curto de Mateus 11:28 fez 238 (antes, 70 a 160 por post). O dia fechou com 847 views na conta.
+- A partir do post das 15h de 23/11 (o quinto do dia), TODO post novo ficou entre 0 e 9 views, inclusive os narrados e os carrosséis de sempre. São uns 20 seguidos. Leitura: o TikTok segurou a distribuição da conta por frequência alta (conta pequena, 8 por dia pela API).
+- Decisão em 26/11: os 16 extras de 26 a 29/11 viraram rascunho no Metricool (nada apagado). O TikTok volta pros 4 de sempre. Se em 2 ou 3 dias os posts novos continuarem perto de zero, baixar pra 2 por dia até voltar.
+- Aprendizado: em conta nova e pequena, subir de 4 pra 8 posts por dia de uma vez derruba o alcance em menos de 1 dia. Volume tem que subir aos poucos (1 post a mais por vez, esperando 3 a 4 dias), ou ir pra conta nova separada.
